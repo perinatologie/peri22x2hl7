@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Kernset met meerling -->
+<resource type="hub/dossier">
+    <sections>
+        <section type="client" id="1" createStamp="2016-12-01">
+            <values>
+                <value concept="peri22-dataelement-10030" label="BSN" value="900000004"/>
+                <value concept="peri22-dataelement-10040" label="Geboortedatum" value="1974-04-03"/>
+                <value concept="peri22-dataelement-10400" label="Etniciteit" value="12" displayValue="Kaukasisch"/>
+                <value concept="peri22-dataelement-10300" label="Adres" value="Rietveldlaan"/>
+                <value concept="peri22-dataelement-10304" label="Postcode" value="6708AA"/>
+            </values>
+        </section>
+        <section type="intake" id="2" createStamp="2016-01-05" effectStamp="2016-01-05">
+            <values>
+                <value concept="peri22-dataelement-20010" label="Graviditeit" value="3"/>
+                <value concept="peri22-dataelement-20290" label="Start datum dossier" value="2016-01-05"/>
+                <value concept="peri22-dataelement-20340" label="Datum eind dossier" value="2016-08-10"/>
+                <value concept="peri22-dataelement-20355" label="Eindverantwoordelijk in welke periode?" value="2"/>
+                <value concept="peri22-dataelement-20212" label="Lengte" value="171"/>
+                <value concept="peri22-dataelement-82020" label="Onder behandeling geweest?" value="TRUE"/>
+                <value concept="peri22-dataelement-10805" label="Bloed Trans" value="FALSE"/>
+                <value concept="peri22-dataelement-80939" label="Operaties" value="TRUE"/>
+                <value concept="peri22-dataelement-80818" label="Operatie" value="12658000" displayValue="Operation on female genital organs (procedure)"/>
+                <value concept="peri22-dataelement-80675" label="Besnijdenis" value="FALSE"/>
+                <value concept="peri22-dataelement-20305" label="Concl. Risicostatus" value="1" displayValue="1e lijn (VIL A)"/>
+                <value concept="peri22-dataelement-20261" label="Voorgenomen plaats baring" value="169813005" displayValue="Home birth (finding)"/>
+                <value concept="peri22-dataelement-82102" label="Drugsgebruik" value="TRUE"/>
+            </values>
+        </section>
+        <section type="consult" id="3" createStamp="2016-07-01" effectStamp="2016-07-01">
+            <values>
+                <value concept="peri22-dataelement-80737" label="Datum" value="2016-07-01"/>
+                <value concept="peri22-dataelement-80738" label="Zwangerschapsduur" value="240"/>
+                <value concept="peri22-dataelement-20211" label="Gewicht" value="78"/>
+                <value concept="peri22-dataelement-80746" label="Leven voelen" value="289431008" displayValue="Fetal movements present (finding)"/>
+            </values>
+        </section>
+        <section type="verwijzing" id="4" effectStamp="2016-06-01">
+            <values/>
+        </section>
+        <section type="counseling" id="5">
+            <values/>
+        </section>
+        <section type="baring" id="6">
+            <values>
+                <value concept="peri22-dataelement-20261" label="Voorgenomen locatie baring" value="23" displayValue="Geboortecentrum"/>
+                <value concept="peri22-dataelement-20530" label="Risicostatus voor baring" value="1" displayValue="1e lijn (VIL A)"/>
+                <value concept="peri22-dataelement-80619" label="Gebroken vliezen" value="2016-08-06"/>
+                <!-- ook hier values per kind obv repeat attribuut -->
+                <value concept="peri22-dataelement-82090" label="Pijnbestrijding?" repeat="1" value="True"/>
+                <value concept="peri22-dataelement-82092" label="Methode pijnbestrijding" repeat="1" value="231249005" displayValue="Local anesthetic intrathecal block (procedure)" group="1"/>
+                <value concept="peri22-dataelement-82097" label="Periode pijnbestrijding" repeat="1" value="Uitdr" displayValue="tijdens uitdrijving" group="1"/>
+                <value concept="peri22-dataelement-82092" label="Methode pijnbestrijding" repeat="1" value="50697003" displayValue="General anesthesia (procedure)" group="2"/>
+                <value concept="peri22-dataelement-82097" label="Periode pijnbestrijding" repeat="1" value="Sectio" displayValue="tijdens sectio" group="2"/>
+                <value concept="peri22-dataelement-82090" label="Pijnbestrijding?" repeat="2" value="True"/>
+                <value concept="peri22-dataelement-82092" label="Methode pijnbestrijding" repeat="2" value="50697003" displayValue="General anesthesia (procedure)" group="3"/>
+                <value concept="peri22-dataelement-82097" label="Periode pijnbestrijding" repeat="2" value="Sectio" displayValue="tijdens sectio" group="3"/>
+                <value concept="peri22-dataelement-80694" label="Bevallingsdatum" repeat="1" value="1234567888" />
+                <value concept="peri22-dataelement-80694" label="Bevallingsdatum" repeat="2" value="1234567999" />
+                <value concept="peri22-dataelement-20560" label="Hulp Baring"  repeat="1" value="236966000" displayValue="Cervical ripening with Prostaglandin E2 (procedure)"/>
+                <value concept="peri22-dataelement-20560" label="Hulp Baring"  repeat="2" value="408818004" displayValue="Induction of labour by artificial rupture of membranes (procedure)" />
+                <value concept="peri22-dataelement-40020" label="Type uitkomst" value="1" displayValue="partus"/>
+                <value concept="peri22-dataelement-40020" label="Type uitkomst" value="1" displayValue="partus"/>
+            </values>
+        </section>
+        <section type="kind" id="7">
+            <values>
+                <value concept="peri22-dataelement-40010" label="BSN Kind" value=""/>
+                <value concept="peri22-dataelement-40050" label="Geboortedatum" value="2018-03-06"/>
+                <value concept="peri22-dataelement-40060" label="Geboortegewicht" value="4500"/>
+                <value concept="peri22-dataelement-40080" label="Congenitale afwijkingen" value="FALSE"/>
+                <value concept="peri22-dataelement-40110" label="Chromosomale afwijkingen" value="FALSE"/>
+                <value concept="peri22-dataelement-82334" label="Overige problematiek" value="FALSE"/>
+                <value concept="peri22-dataelement-40240" label="Interventies" value="32189006" displayValue="Pubiotomy (procedure)"/>
+                <value concept="peri22-dataelement-40071" label="Apgar 5 min" value=""/>
+            </values>
+        </section>
+        <section type="kraambed" id="8">
+            <values>
+                <value concept="peri22-dataelement-70030" label="Voeding" value="1" displayValue="borstvoeding"/>
+            </values>
+        </section>
+        <section type="zorginstelling" id="9">
+            <values>
+                <value concept="peri22-dataelement-10023" label="LVR-id" value="1234"/>
+            </values>
+        </section>
+    </sections>
+</resource>
