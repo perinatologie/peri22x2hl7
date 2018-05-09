@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:saxon="http://saxon.sf.net/"
+                        xmlns:schold="http://www.ascc.net/xml/schematron"
+                        xmlns:iso="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:hl7="urn:hl7-org:v3"
+                        xmlns:cda="urn:hl7-org:v3"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:peri="urn:nictiz-nl:v3/peri"
+                        xmlns:decor="http://art-decor.org/ns/decor"
+                        xmlns:sdtc="urn:hl7-org:sdtc"
+                        xmlns:nfu="urn:urn:nictiz-nl:v3/nfu"
+                        xmlns:pharm="urn:ihe:pharm:medication"
+                        title=" Schematron file for REPC_IN004014NL - Kernset aanleverbericht "
+                        schemaVersion=""><!--   
+		   
+		   
+		 -->
+   <svrl:ns-prefix-in-attribute-values uri="urn:hl7-org:v3" prefix="hl7"/>
+   <svrl:ns-prefix-in-attribute-values uri="urn:hl7-org:v3" prefix="cda"/>
+   <svrl:ns-prefix-in-attribute-values uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
+   <svrl:ns-prefix-in-attribute-values uri="http://www.w3.org/2001/XMLSchema" prefix="xs"/>
+   <svrl:ns-prefix-in-attribute-values uri="urn:nictiz-nl:v3/peri" prefix="peri"/>
+   <svrl:ns-prefix-in-attribute-values uri="http://art-decor.org/ns/decor" prefix="decor"/>
+   <svrl:ns-prefix-in-attribute-values uri="urn:hl7-org:sdtc" prefix="sdtc"/>
+   <svrl:ns-prefix-in-attribute-values uri="http://www.w3.org/XML/1998/namespace" prefix="xml"/>
+   <svrl:ns-prefix-in-attribute-values uri="urn:urn:nictiz-nl:v3/nfu" prefix="nfu"/>
+   <svrl:ns-prefix-in-attribute-values uri="urn:ihe:pharm:medication" prefix="pharm"/>
+   <svrl:active-pattern document="file:///C:/Users/Marc/Dropbox/Development/peri22x2hl7/hl7/voorbeeld-kernset-1.xml"/>
+   <svrl:active-pattern document="file:///C:/Users/Marc/Dropbox/Development/peri22x2hl7/hl7/voorbeeld-kernset-1.xml"
+                        id="template-2.16.840.1.113883.2.4.6.10.90.73-2014-10-20T000000"
+                        name="Aanleverbericht Kernset PRN"/>
+   <svrl:failed-assert test="@xsi:type"
+                       see="http://decor.nictiz.nl/perinatologie/peri20-html-20180320T180627/tmp-2.16.840.1.113883.2.4.6.10.90.900928-2014-11-18T000000.html"
+                       role="error"
+                       location="/*:REPC_IN004014NL[namespace-uri()='urn:hl7-org:v3'][1]/*:ControlActProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject[namespace-uri()='urn:hl7-org:v3'][1]/*:registrationProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject2[namespace-uri()='urn:hl7-org:v3'][1]/*:CareProvisionEvent[namespace-uri()='urn:hl7-org:v3'][1]/*:pertinentInformation3[namespace-uri()='urn:hl7-org:v3'][11]/*:organizer[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]">
+      <svrl:text>(EDDdefinitive): attribute @xsi:type MOET aanwezig zijn.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert test="@xsi:type"
+                       see="http://decor.nictiz.nl/perinatologie/peri20-html-20180320T180627/tmp-2.16.840.1.113883.2.4.6.10.90.900928-2014-11-18T000000.html"
+                       role="error"
+                       location="/*:REPC_IN004014NL[namespace-uri()='urn:hl7-org:v3'][1]/*:ControlActProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject[namespace-uri()='urn:hl7-org:v3'][1]/*:registrationProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject2[namespace-uri()='urn:hl7-org:v3'][1]/*:CareProvisionEvent[namespace-uri()='urn:hl7-org:v3'][1]/*:pertinentInformation3[namespace-uri()='urn:hl7-org:v3'][12]/*:organizer[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]">
+      <svrl:text>(EDDdefinitive): attribute @xsi:type MOET aanwezig zijn.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert test="@xsi:type"
+                       see="http://decor.nictiz.nl/perinatologie/peri20-html-20180320T180627/tmp-2.16.840.1.113883.2.4.6.10.90.900928-2014-11-18T000000.html"
+                       role="error"
+                       location="/*:REPC_IN004014NL[namespace-uri()='urn:hl7-org:v3'][1]/*:ControlActProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject[namespace-uri()='urn:hl7-org:v3'][1]/*:registrationProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject2[namespace-uri()='urn:hl7-org:v3'][1]/*:CareProvisionEvent[namespace-uri()='urn:hl7-org:v3'][1]/*:pertinentInformation3[namespace-uri()='urn:hl7-org:v3'][15]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]">
+      <svrl:text>(EDDdefinitive): attribute @xsi:type MOET aanwezig zijn.</svrl:text>
+   </svrl:failed-assert>
+   <svrl:failed-assert test="@nullFlavor or ($xsiLocalName='TS' and $xsiLocalNS='urn:hl7-org:v3')"
+                       see="http://decor.nictiz.nl/perinatologie/peri20-html-20180320T180627/tmp-2.16.840.1.113883.2.4.6.10.90.900261-2009-10-01T000000.html"
+                       role="error"
+                       location="/*:REPC_IN004014NL[namespace-uri()='urn:hl7-org:v3'][1]/*:ControlActProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject[namespace-uri()='urn:hl7-org:v3'][1]/*:registrationProcess[namespace-uri()='urn:hl7-org:v3'][1]/*:subject2[namespace-uri()='urn:hl7-org:v3'][1]/*:CareProvisionEvent[namespace-uri()='urn:hl7-org:v3'][1]/*:pertinentInformation3[namespace-uri()='urn:hl7-org:v3'][21]/*:organizer[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][11]/*:procedure[namespace-uri()='urn:hl7-org:v3'][1]/*:outboundRelationship[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]">
+      <svrl:text>(Tijdstipactiefmeepersen): indien er een @xsi:type instructie aanwezig is MOET deze de waarde "TS" bevatten, gevonden "{}:"</svrl:text>
+   </svrl:failed-assert>
+   <svrl:active-pattern document="file:///C:/Users/Marc/Dropbox/Development/peri22x2hl7/hl7/voorbeeld-kernset-1.xml"
+                        id="template-2.16.840.1.113883.2.4.6.10.90.73-2014-10-20T000000-closed"
+                        name="Aanleverbericht Kernset PRN"/>
+</svrl:schematron-output>
