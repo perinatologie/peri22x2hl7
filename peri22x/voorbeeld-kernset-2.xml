@@ -9,7 +9,6 @@
                 <value concept="peri22-dataelement-10030" label="BSN" value="900000004"/>
                 <value concept="peri22-dataelement-10040" label="Geboortedatum" value="1974-04-03"/>
                 <value concept="peri22-dataelement-10400" label="Etniciteit" value="12" displayValue="Kaukasisch"/>
-                <value concept="peri22-dataelement-10300" label="Adres" value="Rietveldlaan"/>
                 <value concept="peri22-dataelement-10304" label="Postcode" value="6708AA"/>
             </values>
         </section>
@@ -20,10 +19,6 @@
                 <value concept="peri22-dataelement-20340" label="Datum eind dossier" value="2016-08-10"/>
                 <value concept="peri22-dataelement-20355" label="Eindverantwoordelijk in welke periode?" value="4"/>
                 <value concept="peri22-dataelement-20212" label="Lengte" value="171"/>
-                <value concept="peri22-dataelement-82020" label="Onder behandeling geweest?" value="TRUE"/>
-                <value concept="peri22-dataelement-10805" label="Bloed Trans" value="FALSE"/>
-                <value concept="peri22-dataelement-80939" label="Operaties" value="TRUE"/>
-                <value concept="peri22-dataelement-80818" label="Operatie" value="12658000" displayValue="Operation on female genital organs (procedure)"/>
                 <value concept="peri22-dataelement-80675" label="Besnijdenis" value="FALSE"/>
                 <value concept="peri22-dataelement-20305" label="Concl. Risicostatus" value="1" displayValue="1e lijn (VIL A)"/>
                 <value concept="peri22-dataelement-20261" label="Voorgenomen plaats baring" value="169813005" displayValue="Home birth (finding)"/>
@@ -47,22 +42,9 @@
         <section type="baring" id="6">
             <values>
                 <value concept="peri22-dataelement-20530" label="Risicostatus voor baring" value="1" displayValue="1e lijn (VIL A)"/>
-                <value concept="peri22-dataelement-80619" label="Gebroken vliezen" value="2016-08-06"/>
                 <value concept="peri22-dataelement-20590" label="Tijdstip start actieve fase" value="" displayValue="-"/>
-                <value concept="peri22-dataelement-82090" label="Pijnbestrijding?" value="True"/>
-                <value concept="peri22-dataelement-82092" label="Methode pijnbestrijding" value="231249005"
-                    displayValue="Local anesthetic intrathecal block (procedure)" group="1"/>
-                <value concept="peri22-dataelement-82097" label="Periode pijnbestrijding" value="Uitdr" displayValue="tijdens uitdrijving" group="1"/>
                 <value concept="peri22-dataelement-20560" label="Hulp Baring" value="236966000"
                     displayValue="Cervical ripening with Prostaglandin E2 (procedure)"/>
-                <value concept="peri22-dataelement-80626" label="Type partus" value="200149009" displayValue="Delivery by emergency cesarean section (finding)"/>
-                <value concept="peri22-dataelement-40225" label="Beslismoment sectio caesarea" value="3" displayValue="tijdens uitdrijving besloten"/>
-                <value concept="peri22-dataelement-30030" label="Actief meepersen" value="" displayValue="-"/>
-                <value concept="peri22-dataelement-40140" label="Ligging geboorte" value="70028003" displayValue="Vertex presentation (finding)"/>
-                <value concept="peri22-dataelement-40003" label="Plaats van geboorte kind" value="40" displayValue="Onderweg"/>
-                <value concept="peri22-dataelement-40150" label="Rol aanpakker kind" value="11" displayValue="1e lijns verloskundige"/>
-                <value concept="peri22-dataelement-30050" label="Episiotomie als interventie baring" value="TRUE"/>
-                <value concept="peri22-dataelement-30055" label="Locatie episiotomie" value="2" displayValue="mediane episiotomie"/>
                 <value concept="peri22-dataelement-80673" label="Conditieperineum" value="289854007" displayValue="Perineum intact  (finding)"/>
                 <value concept="peri22-dataelement-20640" label="Bloedverlies (ml)" value="75"/>
                 <value concept="peri22-dataelement-20620" label="Medicatie na" value="FALSE"/>

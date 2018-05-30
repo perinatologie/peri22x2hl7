@@ -1,73 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   Onderstaande voorbeeld bericht bevat een representatief goed gevuld
-   dossier.
-
-   Bij aanlevering zijn voor de `value` elementen slechts het `concept`
-   en `value` attribuut vereist. Het `label` en `displayValue` worden
-   automatisch ingevuld obv het concept en value. In onderstaande
-   voorbeeld zijn de optionele `label` en `displayValue` attributen wel
-   aanwezig ter verduidelijking.
-
-   Het resource `type` geeft aan welke sections er verwacht kunnen worden.
+    Kernset 2.2
 -->
 <resource type="hub/dossier">
     <sections>
-        <!--
-
-      Alle values bevinden zich in een section.
-
-      Attributen:
-
-      * type: Verplicht, bepaalt welke values (obv concept) er in deze section verwacht worden
-      * uuid: Optioneel, uuid van section verwijzing in bron-systeem tbv o.a. ontdubbelen
-      * createStamp: Optioneel, wanneer is dit record aangemaakt
-      * updateStamp: Optioneel, wanneer is dit record voor het laatst gewijzigd
-      * effectStamp: Optioneel, op welke datum heeft deze section betrekking. Bij
-           section van type "consult" is dit bv de consult-datum.
-
-      Alle stamps zijn zgn. unix timestamps, totaal aantal seconden sinds 1-1-1970
-    -->
         <section type="client" id="1" createStamp="2016-12-01">
             <values>
-                <!--
-          Alle `value` elementen voor deze section
-
-          Attributen:
-
-          * concept: Verplicht, unieke identifier voor het concept, gedocumenteerd in de een van
-            de realm datasets, en via viewer beschikbaar op o.a. https://dataset.perinatologie.nl
-          * value: Verplicht, de code (igv concept type codelist) of directe waarde.
-          * label: Optioneel, indien leeg wordt deze automatisch bepaald obv concept
-          * displayValue: Optioneel, indien leeg wordt deze automatisch bepaald obv concept en value,
-            igv een concept type `code` zal hier bv de leesbare tekst label voor de code staan.
-        -->
                 <value concept="peri22-dataelement-10030" label="BSN" value="900000004"/>
-                <!--
-          Datum values worden tbv sorteren in reverse-notatie ingevuld als
-          als YYYYMMDD igv tijd worden hier HHMM aan toegevoegd.
-        -->
                 <value concept="peri22-dataelement-10040" label="Geboortedatum" value="1974-04-03"/>
                 <value concept="peri22-dataelement-10400" label="Etniciteit" value="12" displayValue="Kaukasisch"/>
-                <value concept="peri22-dataelement-10300" label="Adres" value="Rietveldlaan"/>
                 <value concept="peri22-dataelement-10304" label="Postcode" value="6708AA"/>
             </values>
         </section>
         <section type="intake" id="2" createStamp="2016-01-05" effectStamp="2016-01-05">
             <values>
                 <value concept="peri22-dataelement-20010" label="Graviditeit" value="3"/>
+                <value concept="peri22-dataelement-20150" label="Pariteit" value="2"/>
+                <value concept="peri22-dataelement-82160" label="Definitieve a terme datum" value="2016-08-03"/>
                 <value concept="peri22-dataelement-20290" label="Start datum dossier" value="2016-01-05"/>
                 <value concept="peri22-dataelement-20340" label="Datum eind dossier" value="2016-08-10"/>
                 <value concept="peri22-dataelement-20355" label="Eindverantwoordelijk in welke periode?" value="2"/>
                 <value concept="peri22-dataelement-20212" label="Lengte" value="171"/>
-                <value concept="peri22-dataelement-82020" label="Onder behandeling geweest?" value="TRUE"/>
-                <value concept="peri22-dataelement-10805" label="Bloed Trans" value="FALSE"/>
-                <value concept="peri22-dataelement-80939" label="Operaties" value="TRUE"/>
-                <value concept="peri22-dataelement-80818" label="Operatie" value="12658000" displayValue="Operation on female genital organs (procedure)"/>
+                <!-- Zit ook al in anamnese algemeen -->
+                <!--<value concept="peri22-dataelement-80939" label="Operaties" value="TRUE"/>-->
                 <value concept="peri22-dataelement-80675" label="Besnijdenis" value="FALSE"/>
                 <value concept="peri22-dataelement-20305" label="Concl. Risicostatus" value="1" displayValue="1e lijn (VIL A)"/>
                 <value concept="peri22-dataelement-20261" label="Voorgenomen plaats baring" value="169813005" displayValue="Home birth (finding)"/>
                 <value concept="peri22-dataelement-82102" label="Drugsgebruik" value="TRUE"/>
+                <!--<value concept="peri22-dataelement-80747" label="Alcoholgebruik" value="FALSE"/>-->
+            </values>
+        </section>
+        <section type="anamneseAlgemeen" id="10" createStamp="2016-01-05" effectStamp="2016-01-05">
+            <values>
+                <value concept="peri22-dataelement-82020" label="Onder behandeling geweest?" value="TRUE"/>
+                <value concept="peri22-dataelement-10805" label="Bloed Trans" value="FALSE"/>
+                <value concept="peri22-dataelement-80939" label="Operaties" value="TRUE"/>
+                <value concept="peri22-dataelement-80818" label="Operatie" value="12658000" displayValue="Operation on female genital organs (procedure)"/>
             </values>
         </section>
         <section type="consult" id="3" createStamp="2016-07-01" effectStamp="2016-07-01">
@@ -78,31 +46,23 @@
                 <value concept="peri22-dataelement-80746" label="Leven voelen" value="289431008" displayValue="Fetal movements present (finding)"/>
             </values>
         </section>
-        <section type="verwijzing" id="4" effectStamp="2016-06-01">
-            <values/>
-        </section>
-        <section type="counseling" id="5">
-            <values/>
-        </section>
+        <sectionType type="diagnose" id="11" createStamp="2016-07-01" effectStamp="2016-07-15">
+            <value concept="peri22-dataelement-82270" label="Bloedverlies?" value="TRUE"/>
+            <value concept="peri22-dataelement-82273" label="Infectie" value="307534009"/>
+            <value concept="peri22-dataelement-82274" label="Hyperemesis gravidarum?" value="FALSE"/>
+            <value concept="peri22-dataelement-82275" label="Hypertensieve aandoening" value="48194001"/>
+            <value concept="peri22-dataelement-82277" label="Diabetes gravidarum met insuline?" value="FALSE"/>
+            <value concept="peri22-dataelement-82289" label="Abruptio placentae?" value="TRUE"/>
+        </sectionType>
+        <sectionType type="zwangerschap" createStamp="2016-07-01" effectStamp="2016-08-15">
+            <value concept="peri22-dataelement-82208" label="Pathologie vrouw?" value="TRUE"/>
+            <value concept="peri22-dataelement-82209" label="Pathologie vrouw" value="385494008"/>
+            <value concept="peri22-dataelement-80625" label="Wijze einde zwangerschap" value="1"/>
+        </sectionType>
         <section type="baring" id="6">
             <values>
                 <value concept="peri22-dataelement-20530" label="Risicostatus voor baring" value="1" displayValue="1e lijn (VIL A)"/>
-                <value concept="peri22-dataelement-80619" label="Gebroken vliezen" value="2016-08-06"/>
-                <value concept="peri22-dataelement-20590" label="Tijdstip start actieve fase" value="" displayValue="-"/>
-                <value concept="peri22-dataelement-82090" label="Pijnbestrijding?" value="True"/>
-                <value concept="peri22-dataelement-82092" label="Methode pijnbestrijding" value="231249005"
-                    displayValue="Local anesthetic intrathecal block (procedure)" group="1"/>
-                <value concept="peri22-dataelement-82097" label="Periode pijnbestrijding" value="Uitdr" displayValue="tijdens uitdrijving" group="1"/>
-                <value concept="peri22-dataelement-20560" label="Hulp Baring" value="236966000"
-                    displayValue="Cervical ripening with Prostaglandin E2 (procedure)"/>
-                <value concept="peri22-dataelement-80626" label="Type partus" value="200149009" displayValue="Delivery by emergency cesarean section (finding)"/>
-                <value concept="peri22-dataelement-40225" label="Beslismoment sectio caesarea" value="3" displayValue="tijdens uitdrijving besloten"/>
-                <value concept="peri22-dataelement-30030" label="Actief meepersen" value="" displayValue="-"/>
-                <value concept="peri22-dataelement-40140" label="Ligging geboorte" value="70028003" displayValue="Vertex presentation (finding)"/>
-                <value concept="peri22-dataelement-40003" label="Plaats van geboorte kind" value="40" displayValue="Onderweg"/>
-                <value concept="peri22-dataelement-40150" label="Rol aanpakker kind" value="11" displayValue="1e lijns verloskundige"/>
-                <value concept="peri22-dataelement-30050" label="Episiotomie als interventie baring" value="TRUE"/>
-                <value concept="peri22-dataelement-30055" label="Locatie episiotomie" value="2" displayValue="mediane episiotomie"/>
+                <value concept="peri22-dataelement-82290" label="PROM?" value="TRUE"/>
                 <value concept="peri22-dataelement-80673" label="Conditieperineum" value="289854007" displayValue="Perineum intact  (finding)"/>
                 <value concept="peri22-dataelement-20640" label="Bloedverlies (ml)" value="75"/>
                 <value concept="peri22-dataelement-20620" label="Medicatie na" value="FALSE"/>
@@ -128,7 +88,6 @@
                 <value concept="peri22-dataelement-70030" label="Voeding" value="1" displayValue="borstvoeding"/>
             </values>
         </section>
-        <!-- Toegevoegd, MdG -->
         <section type="zorginstelling" id="9">
             <values>
                 <value concept="peri22-dataelement-10023" label="LVR-id" value="1234"/>

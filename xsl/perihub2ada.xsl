@@ -56,12 +56,69 @@
                         </xsl:call-template>
                     </xsl:for-each>
                 </xsl:when>
-                <xsl:when test="@shortName='kindspecifieke_gegevens_vorige_uitkomsten'">
+                <xsl:when test="@shortName='vorige_uitkomst_per_kind'">
                     <xsl:for-each select="$items//values[@repeat]">
                         <xsl:call-template name="conceptGroup">
                             <xsl:with-param name="items" select="."/>
                             <xsl:with-param name="concept" select="$concept"/> 
                         </xsl:call-template>
+                    </xsl:for-each>
+                    <xsl:if test="not($items//values[@repeat])">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/> 
+                        </xsl:call-template>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:when test="@shortName='uitkomst_per_kind'">
+                    <xsl:for-each select="$items//section[@type='kind']//values[@repeat]">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/> 
+                        </xsl:call-template>
+                    </xsl:for-each>
+                    <!-- peri22x baring heeft gegevens van PWD bevalling en PWD uitkomst_per_kind,
+                        dus altijd de non-repeating gegevens oppakken -->
+                    <xsl:for-each select="$items//section[@type='kind']//values[not(@repeat)]">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/> 
+                        </xsl:call-template>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:when test="@shortName='kindspecifieke_gegevens'">
+                    <xsl:for-each select="$items//section[@type='kraambed']//values[@repeat]">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/> 
+                        </xsl:call-template>
+                    </xsl:for-each>
+                    <xsl:for-each select="$items//section[@type='kraambed']//values[not(@repeat)]">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="$items"/>
+                            <xsl:with-param name="concept" select="$concept"/> 
+                        </xsl:call-template>
+                    </xsl:for-each>
+                </xsl:when>
+                <!-- Dit is een gegeven uit 'baring' en dus pootentieel per kind in peri22xx. In PWD is dit een gegeven per zwangerschap, en dus niet per kind.
+                    Uitgangspunt: als direct na interventie de indicatie komt, horen die bij elkaar.
+                -->
+                <xsl:when test="@shortName='interventies_begin_baring_groep'">
+                    <xsl:variable name="conceptInterventie" select=".//concept[@shortName='interventie_begin_baring']"/>
+                    <xsl:variable name="conceptIndicatie" select=".//concept[@shortName='indicatie_interventie_begin_baring']"/>
+                    <xsl:for-each select="$items//value[@concept='peri22-dataelement-20560']">
+                        <interventies_begin_baring_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20555">
+                            <xsl:call-template name="conceptItem">
+                                <xsl:with-param name="items" select="."/>
+                                <xsl:with-param name="concept" select="$conceptInterventie"/>
+                            </xsl:call-template>
+                            <xsl:if test="./following-sibling::value[@concept='peri22-dataelement-20570']">
+                                <xsl:call-template name="conceptItem">
+                                    <xsl:with-param name="items" select="./following-sibling::*"/>
+                                    <xsl:with-param name="concept" select="$conceptIndicatie"/>
+                                </xsl:call-template>
+                            </xsl:if>
+                        </interventies_begin_baring_groep>
                     </xsl:for-each>
                 </xsl:when>
                 <xsl:otherwise>
@@ -74,6 +131,7 @@
         </xsl:if>
         <xsl:if test="@type='item'">
             <xsl:call-template name="conceptItem">
+                <xsl:with-param name="concept" select="."/>
                 <xsl:with-param name="items" select="$items"/>
             </xsl:call-template>
         </xsl:if>
@@ -103,7 +161,7 @@
         <xsl:param name="items"/>
         <xsl:if test="$items//section[@type='consult']">
             <xsl:variable name="concept" select="."/>
-            <xsl:call-template name="processValue">
+            <xsl:call-template name="conceptItem">
                 <xsl:with-param name="concept" select="$concept"/>
                 <xsl:with-param name="items" select="$items//section[@type='consult']//value[@concept='peri22-dataelement-80738']"/>
             </xsl:call-template>
@@ -111,18 +169,9 @@
     </xsl:template>
 
     <xsl:template name="conceptItem">
-        <xsl:param name="items"/>
-        <xsl:variable name="concept" select="."/>
-        <xsl:call-template name="processValue">
-            <xsl:with-param name="concept" select="$concept"/>
-            <xsl:with-param name="items" select="$items"/>
-        </xsl:call-template>
-    </xsl:template>
-
-    <xsl:template name="processValue">
         <xsl:param name="concept"/>
         <xsl:param name="items"/>
-        <xsl:param name="values" select="$items//value[@concept = $concept/@iddisplay]"/>
+        <xsl:param name="values" select="$items/descendant-or-self::value[@concept = $concept/@iddisplay]"/>
         <xsl:variable name="datatype" select="$concept/valueDomain/@type"/>
         <xsl:for-each select="$values">
             <xsl:variable name="inValue" select="@value/string()"/>
