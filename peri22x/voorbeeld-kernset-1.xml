@@ -46,19 +46,19 @@
                 <value concept="peri22-dataelement-80746" label="Leven voelen" value="289431008" displayValue="Fetal movements present (finding)"/>
             </values>
         </section>
-        <sectionType type="diagnose" id="11" createStamp="2016-07-01" effectStamp="2016-07-15">
+        <section type="diagnose" id="11" createStamp="2016-07-01" effectStamp="2016-07-15">
             <value concept="peri22-dataelement-82270" label="Bloedverlies?" value="TRUE"/>
             <value concept="peri22-dataelement-82273" label="Infectie" value="307534009"/>
             <value concept="peri22-dataelement-82274" label="Hyperemesis gravidarum?" value="FALSE"/>
             <value concept="peri22-dataelement-82275" label="Hypertensieve aandoening" value="48194001"/>
             <value concept="peri22-dataelement-82277" label="Diabetes gravidarum met insuline?" value="FALSE"/>
             <value concept="peri22-dataelement-82289" label="Abruptio placentae?" value="TRUE"/>
-        </sectionType>
-        <sectionType type="zwangerschap" createStamp="2016-07-01" effectStamp="2016-08-15">
+        </section>
+        <section type="zwangerschap" createStamp="2016-07-01" effectStamp="2016-08-15">
             <value concept="peri22-dataelement-82208" label="Pathologie vrouw?" value="TRUE"/>
             <value concept="peri22-dataelement-82209" label="Pathologie vrouw" value="385494008"/>
             <value concept="peri22-dataelement-80625" label="Wijze einde zwangerschap" value="1"/>
-        </sectionType>
+        </section>
         <section type="baring" id="6">
             <values>
                 <value concept="peri22-dataelement-20530" label="Risicostatus voor baring" value="1" displayValue="1e lijn (VIL A)"/>
