@@ -56,7 +56,7 @@
                 <value concept="peri22-dataelement-82289" label="Abruptio placentae?" value="TRUE"/>
             </values>
         </section>
-        <section type="zwangerschap" id="zw" createStamp="2016-07-01" effectStamp="2016-08-15">
+        <section type="zwangerschap" id="13" createStamp="2016-07-01" effectStamp="2016-08-15">
             <values>
                 <value concept="peri22-dataelement-82208" label="Pathologie vrouw?" value="TRUE"/>
                 <value concept="peri22-dataelement-82209" label="Pathologie vrouw" value="385494008"/>
