@@ -16,7 +16,7 @@
       </section>
       <section type="anamnese"
                id="oa1"
-               effectiveStamp="2016-02-01"
+               createStamp="2016-02-01"
                label="Obstetrische anamnese">
          <values>
             <value concept="peri22-dataelement-80623" value="1"/>
@@ -30,14 +30,16 @@
                    value="301775005"
                    displayValue="Infection of uterus (disorder)"/>
             <value concept="peri22-dataelement-82322" value="FALSE"/>
-            <value concept="peri22-dataelement-80702" value="2013-01-15"/>
-            <value concept="peri22-dataelement-80624" value="48782003"/>
-            <value concept="peri22-dataelement-80997" value="FALSE"/>
+         </values>
+         <values repeat="1">
+            <value concept="peri22-dataelement-80702" repeat="1" value="2013-01-15"/>
+            <value concept="peri22-dataelement-80624" repeat="1" value="48782003"/>
+            <value concept="peri22-dataelement-80997" repeat="1" value="FALSE"/>
          </values>
       </section>
       <section type="anamnese"
                id="oa2"
-               effectiveStamp="2016-02-01"
+               createStamp="2016-02-01"
                label="Obstetrische anamnese">
          <values>
             <value concept="peri22-dataelement-80623" value="1"/>
@@ -145,12 +147,6 @@
                    displayValue="Fetal movements present (finding)"/>
          </values>
       </section>
-      <section type="verwijzing" id="4" effectStamp="2016-06-01">
-         <values/>
-      </section>
-      <section type="counseling" id="5">
-         <values/>
-      </section>
       <section type="baring" id="6">
          <values>
             <value concept="peri22-dataelement-20530"
@@ -186,33 +182,48 @@
          </values>
       </section>
       <section type="kind" id="7">
-         <values>
-            <value concept="peri22-dataelement-40010" label="BSN Kind" value=""/>
+         <values/>
+         <values repeat="1">
+            <value concept="peri22-dataelement-40010"
+                   repeat="1"
+                   label="BSN Kind"
+                   value=""/>
             <value concept="peri22-dataelement-40050"
+                   repeat="1"
                    label="Geboortedatum"
                    value="2018-03-06"/>
             <value concept="peri22-dataelement-40060"
+                   repeat="1"
                    label="Geboortegewicht"
                    value="4500"/>
             <value concept="peri22-dataelement-40080"
+                   repeat="1"
                    label="Congenitale afwijkingen"
                    value="FALSE"/>
             <value concept="peri22-dataelement-40110"
+                   repeat="1"
                    label="Chromosomale afwijkingen"
                    value="FALSE"/>
             <value concept="peri22-dataelement-82334"
+                   repeat="1"
                    label="Overige problematiek"
                    value="FALSE"/>
             <value concept="peri22-dataelement-40240"
+                   repeat="1"
                    label="Interventies"
                    value="32189006"
                    displayValue="Pubiotomy (procedure)"/>
-            <value concept="peri22-dataelement-40071" label="Apgar 5 min" value=""/>
+            <value concept="peri22-dataelement-40071"
+                   repeat="1"
+                   label="Apgar 5 min"
+                   value=""/>
          </values>
       </section>
       <section type="kraambed" id="8">
-         <values>
+         <values/>
+         <values repeat="1">
             <value concept="peri22-dataelement-70030"
+                   repeat="1"
                    label="Voeding"
                    value="1"
                    displayValue="borstvoeding"/>

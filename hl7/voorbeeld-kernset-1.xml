@@ -269,6 +269,79 @@
                   </pertinentInformation3>
                   <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                      <organizer classCode="CONTAINER" moodCode="EVN">
+                        <id nullFlavor="NI"/>
+                        <code code="439401001"
+                              codeSystem="2.16.840.1.113883.6.96"
+                              displayName="Diagnosis"/>
+                        <component typeCode="COMP" contextConductionInd="true">
+                           <observation classCode="OBS" moodCode="EVN">
+                              <code code="131148009"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Bloedverlies"/>
+                              <value xsi:type="BL" value="true"/>
+                           </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                           <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                              <code code="40733004"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Infectie"/>
+                              <value xsi:type="CE"
+                                     code="307534009"
+                                     codeSystem="2.16.840.1.113883.6.96"
+                                     displayName="Urinary tract infection in pregnancy (disorder)"/>
+                           </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                           <observation classCode="OBS" moodCode="EVN">
+                              <code code="14094001"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Hyperemesis gravidarum"/>
+                              <value xsi:type="BL" value="false"/>
+                           </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                           <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                              <code code="38341003"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Hypertensieve aandoening"/>
+                              <value xsi:type="CE"
+                                     code="48194001"
+                                     codeSystem="2.16.840.1.113883.6.96"
+                                     displayName="Pregnancy-induced hypertension (disorder)"/>
+                           </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                           <observation classCode="OBS" moodCode="EVN">
+                              <code code="46894009"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Diabetes gravidarum met insuline"/>
+                              <value xsi:type="BL" value="false"/>
+                           </observation>
+                        </component>
+                        <component typeCode="COMP" contextConductionInd="true">
+                           <observation classCode="OBS" moodCode="EVN">
+                              <code code="415105001"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Abruptio placentae"/>
+                              <value xsi:type="BL" value="true"/>
+                           </observation>
+                        </component>
+                     </organizer>
+                  </pertinentInformation3>
+                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                     <observation classCode="OBS" moodCode="EVN">
+                        <code code="EindeZw"
+                              codeSystem="2.16.840.1.113883.2.4.4.13"
+                              displayName="Wijze einde zwangerschap"/>
+                        <value xsi:type="CE"
+                               code="1"
+                               codeSystem="2.16.840.1.113883.2.4.4.13.46"
+                               displayName="Partus"/>
+                     </observation>
+                  </pertinentInformation3>
+                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                     <organizer classCode="CONTAINER" moodCode="EVN">
                         <code code="236973005"
                               codeSystem="2.16.840.1.113883.6.96"
                               displayName="Delivery procedure"/>
@@ -396,6 +469,17 @@
                         <code code="133906008"
                               codeSystem="2.16.840.1.113883.6.96"
                               displayName="Postpartum care (regime/therapy)"/>
+                        <component typeCode="COMP" contextConductionInd="true">
+                           <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                              <code code="362973001"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Diagnose postpartum"/>
+                              <value xsi:type="CE"
+                                     code="385494008"
+                                     codeSystem="2.16.840.1.113883.6.96"
+                                     displayName="Hematoma (disorder)"/>
+                           </observation>
+                        </component>
                      </organizer>
                   </pertinentInformation3>
                </CareProvisionEvent>

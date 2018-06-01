@@ -62,12 +62,6 @@
                    displayValue="Fetal movements present (finding)"/>
          </values>
       </section>
-      <section type="verwijzing" id="4" effectStamp="2016-06-01">
-         <values/>
-      </section>
-      <section type="counseling" id="5">
-         <values/>
-      </section>
       <section type="baring" id="6">
          <values>
             <value concept="peri22-dataelement-20530"
@@ -103,42 +97,62 @@
          </values>
       </section>
       <section type="kind" id="7">
-         <values>
-            <value concept="peri22-dataelement-40010" label="BSN Kind" value=""/>
+         <values/>
+         <values repeat="1">
+            <value concept="peri22-dataelement-40010"
+                   repeat="1"
+                   label="BSN Kind"
+                   value=""/>
             <value concept="peri22-dataelement-40050"
+                   repeat="1"
                    label="Geboortedatum"
                    value="2018-01-01"/>
             <value concept="peri22-dataelement-40060"
+                   repeat="1"
                    label="Geboortegewicht"
                    value="3500"/>
-            <value concept="peri22-dataelement-40280" label="Overleden" value="TRUE"/>
+            <value concept="peri22-dataelement-40280"
+                   repeat="1"
+                   label="Overleden"
+                   value="TRUE"/>
             <value concept="peri22-dataelement-40300"
+                   repeat="1"
                    label="Datum Overleden"
                    value=""
                    displayValue="-"/>
             <value concept="peri22-dataelement-40290"
+                   repeat="1"
                    label="Fase perinatale sterfte"
                    value="237361005"
                    displayValue="Antepartum fetal death (event)"/>
             <value concept="peri22-dataelement-40080"
+                   repeat="1"
                    label="Congenitale afwijkingen"
                    value="FALSE"/>
             <value concept="peri22-dataelement-40110"
+                   repeat="1"
                    label="Chromosomale afwijkingen"
                    value="FALSE"/>
             <value concept="peri22-dataelement-82334"
+                   repeat="1"
                    label="Overige problematiek"
                    value="FALSE"/>
             <value concept="peri22-dataelement-40240"
+                   repeat="1"
                    label="Interventies"
                    value="32189006"
                    displayValue="Pubiotomy (procedure)"/>
-            <value concept="peri22-dataelement-40071" label="Apgar 5 min" value=""/>
+            <value concept="peri22-dataelement-40071"
+                   repeat="1"
+                   label="Apgar 5 min"
+                   value=""/>
          </values>
       </section>
       <section type="kraambed" id="8">
-         <values>
+         <values/>
+         <values repeat="1">
             <value concept="peri22-dataelement-70030"
+                   repeat="1"
                    label="Voeding"
                    value="1"
                    displayValue="borstvoeding"/>

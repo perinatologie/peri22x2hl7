@@ -73,7 +73,25 @@
                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20211"
                           unit="kg"/>
       </prenatale_controle>
+      <diagnose conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82268">
+         <bloedverliesq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82270"/>
+         <infectie code="307534009"
+                   codeSystem="2.16.840.1.113883.6.96"
+                   displayName="Urinary tract infection in pregnancy (disorder)"
+                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82273"/>
+         <hyperemesis_gravidarumq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82274"/>
+         <hypertensieve_aandoening code="48194001"
+                                   codeSystem="2.16.840.1.113883.6.96"
+                                   displayName="Pregnancy-induced hypertension (disorder)"
+                                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82275"/>
+         <diabetes_gravidarum_met_insulineq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82277"/>
+         <abruptio_placentaeq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82289"/>
+      </diagnose>
       <maternale_sterfteq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20670"/>
+      <wijze_einde_zwangerschap code="1"
+                                codeSystem="2.16.840.1.113883.2.4.4.13.46"
+                                displayName="Partus"
+                                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80625"/>
    </zwangerschap>
    <bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.6">
       <diagnose_bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82291">
@@ -126,6 +144,21 @@
       </baring>
    </uitkomst_per_kind>
    <postnatale_fase conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.16">
+      <diagnose_postpartum conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82297">
+         <pathologie_vrouwq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82208"/>
+         <pathologie_vrouw code="385494008"
+                           codeSystem="2.16.840.1.113883.6.96"
+                           displayName="Hematoma (disorder)"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82209"/>
+      </diagnose_postpartum>
+      <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
+         <voeding_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70009">
+            <substantie_voeding_kind code="1"
+                                     codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
+                                     displayName="Borstvoeding"
+                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70030"/>
+         </voeding_kind_groep>
+      </kindspecifieke_gegevens>
       <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
          <voeding_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70009">
             <substantie_voeding_kind code="1"

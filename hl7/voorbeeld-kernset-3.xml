@@ -264,6 +264,38 @@
                               <code code="236973005"
                                     codeSystem="2.16.840.1.113883.6.96"
                                     displayName="Delivery procedure (procedure)"/>
+                              <outboundRelationship typeCode="COMP">
+                                 <procedure classCode="PROC" moodCode="EVN">
+                                    <id nullFlavor="NI"/>
+                                    <code code="Baring" codeSystem="2.16.840.1.113883.2.4.3.22.1.3"/>
+                                    <subject typeCode="SBJ">
+                                       <personalRelationship classCode="PRS">
+                                          <code code="CHILD" codeSystem="2.16.840.1.113883.5.111"/>
+                                          <relationshipHolder classCode="PSN" determinerCode="INSTANCE">
+                                             <birthTime value="20130115000000"/>
+                                          </relationshipHolder>
+                                       </personalRelationship>
+                                    </subject>
+                                    <outboundRelationship typeCode="COMP">
+                                       <observation classCode="OBS" moodCode="EVN">
+                                          <code code="364336006"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="Type partus"/>
+                                          <value xsi:type="CE"
+                                                 code="48782003"
+                                                 codeSystem="2.16.840.1.113883.6.96"
+                                                 displayName="Delivery normal (finding)"/>
+                                       </observation>
+                                    </outboundRelationship>
+                                    <outboundRelationship typeCode="COMP">
+                                       <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                                          <code code="443341004"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="Congenitale afwijking"/>
+                                       </observation>
+                                    </outboundRelationship>
+                                 </procedure>
+                              </outboundRelationship>
                            </procedure>
                         </component>
                      </organizer>
