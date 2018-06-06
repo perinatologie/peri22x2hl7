@@ -110,7 +110,7 @@
          </values>
       </section>
       <section type="zwangerschap"
-               id="zw"
+               id="13"
                createStamp="2016-07-01"
                effectStamp="2016-08-15">
          <values>
@@ -162,7 +162,7 @@
             <value concept="peri22-dataelement-40050"
                    repeat="1"
                    label="Geboortedatum"
-                   value="2018-03-06"/>
+                   value="2016-04-06"/>
             <value concept="peri22-dataelement-40060"
                    repeat="1"
                    label="Geboortegewicht"
@@ -188,6 +188,10 @@
                    repeat="1"
                    label="Apgar 5 min"
                    value=""/>
+            <value concept="peri22-dataelement-30030"
+                   repeat="1"
+                   label="Tijdstip actief meepersen"
+                   value="2016-04-06T12:39"/>
          </values>
       </section>
       <section type="kraambed" id="8">

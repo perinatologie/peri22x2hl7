@@ -122,9 +122,13 @@
       <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
          <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
             <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007"/>
-            <geboortedatum value="2018-03-06T00:00:00"
+            <geboortedatum value="2016-04-06T00:00:00"
                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
          </demografische_gegevens>
+         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71">
+            <tijdstip_actief_meepersen value="2016-04-06T12:39:00"
+                                       conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.30030"/>
+         </kindspecifieke_maternale_gegevens>
          <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72">
             <overige_interventies code="32189006"
                                   codeSystem="2.16.840.1.113883.6.96"
