@@ -191,7 +191,7 @@
             <value concept="peri22-dataelement-30030"
                    repeat="1"
                    label="Tijdstip actief meepersen"
-                   value="2016-04-06T12:39"/>
+                   value="2016-04-06 12:39"/>
          </values>
       </section>
       <section type="kraambed" id="8">

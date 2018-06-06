@@ -427,7 +427,7 @@
                                     <code code="PRN530401"
                                           codeSystem="2.16.840.1.113883.2.4.3.22.1.1"
                                           displayName="Tijdstip actief meepersen"/>
-                                    <value xsi:type="TS" value="20160406123900"/>
+                                    <value xsi:type="TS" value="2016-04-06T12:39"/>
                                  </observation>
                               </outboundRelationship>
                               <outboundRelationship typeCode="COMP">

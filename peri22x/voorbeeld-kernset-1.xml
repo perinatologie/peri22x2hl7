@@ -85,7 +85,7 @@
                 <value concept="peri22-dataelement-82334" repeat="1" label="Overige problematiek" value="FALSE"/>
                 <value concept="peri22-dataelement-40240" repeat="1" label="Interventies" value="32189006" displayValue="Pubiotomy (procedure)"/>
                 <value concept="peri22-dataelement-40071" repeat="1" label="Apgar 5 min" value=""/>
-                <value concept="peri22-dataelement-30030" repeat="1" label="Tijdstip actief meepersen" value="2016-04-06T12:39"/>
+                <value concept="peri22-dataelement-30030" repeat="1" label="Tijdstip actief meepersen" value="2016-04-06 12:39"/>
             </values>
         </section>
         <section type="kraambed" id="8">
