@@ -40,6 +40,12 @@ Gebruik:
 Transform -t -s:.\ada\ -xsl:..\Geboortezorg\Publicaties\20180320\peri\2_2\kernset_aanleverbericht\wrapper\kernset_aanleverbericht_wrapper.xsl -o:.\hl7\
 ```
 om te converteren, pas indien nodig het pad aan naar de lokale locatie van de xsl.
+## HL7 naar HTML
+Voer hl72html.xsl uit op een HL7 bestand. In de standaard directory layout zal:
+```
+Transform -t -s:.\hl7 -xsl:.\xsl\hl72html.xsl -o:.\html\
+```
+alles converteren naar het HTML (voor .NET, zie Java commando voor andere omgevingen). 
 ## Validatie
 Validatie gebruikt de SVRL versie van de schematrons die Nictiz publiceert op http://decor.nictiz.nl/perinatologie/. 
 Voor deze conversie is de versie van 20-3-2018 gebruikt. Download de XML en extraheer. Deze bevat de nodige materialen.
