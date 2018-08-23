@@ -59,6 +59,9 @@
                 <xsl:value-of select="text()"/>
             </xsl:otherwise>
         </xsl:choose>
+        <xsl:if test=".//@unit">
+            <xsl:value-of select="concat(' ', .//@unit/string())"/>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template name="getNegationInd">
