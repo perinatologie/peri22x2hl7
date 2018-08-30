@@ -21,11 +21,17 @@ Conversies gebeuren met Saxon HE. Zie:
 https://www.art-decor.org/mediawiki/index.php?title=Schematron-validation
 voor een beschrijving.
 ## Preprocessing
-Voer preprocess-perihub.xsl uit op een peri22x bestand. In de standaard directory layout zal:
+Voer preprocess-perihub.xsl uit op een peri22x bestand. In de standaard directory layout zal onderstaande commando alles converteren naar het preprocessed formaat (voor .NET, zie Java commando voor andere omgevingen).
+
 ```
 Transform -t -s:.\peri22x -xsl:.\xsl\preprocess-perihub.xsl -o:.\peri22xpre\
 ```
-alles converteren naar het preprocessed formaat (voor .NET, zie Java commando voor andere omgevingen). 
+
+Of vanuit Linux/Mac OS command-line:
+
+```
+saxon -t -s:peri22x/voorbeeld-kernset-1.xml -xsl:xsl/preprocess-perihub.xsl  -o:peri22xpre/voorbeeld-kernset-1.xml
+```
 ## peri22x naar ADA
 Dito preprocessed naar ADA:
 ```
