@@ -100,7 +100,7 @@
                         </xsl:call-template>
                     </xsl:for-each>
                 </xsl:when>
-                <!-- Dit is een gegeven uit 'baring' en dus pootentieel per kind in peri22xx. In PWD is dit een gegeven per zwangerschap, en dus niet per kind.
+                <!-- Dit is een gegeven uit 'baring' en dus potentieel per kind in peri22xx. In PWD is dit een gegeven per zwangerschap, en dus niet per kind.
                     Uitgangspunt: als direct na interventie de indicatie komt, horen die bij elkaar.
                 -->
                 <xsl:when test="@shortName='interventies_begin_baring_groep'">
@@ -198,6 +198,18 @@
                         <!-- Datetime compleet maken wanneer alleen datum gegeven wordt -->
                         <xsl:when test="$datatype = 'datetime' and string-length($inValue) = 10">
                             <xsl:value-of select="concat($inValue, 'T00:00:00')"/>
+                        </xsl:when>
+                        <!-- Datetime compleet maken als wel langer dan 10 -->
+                        <xsl:when test="$datatype = 'datetime' and string-length($inValue) > 10">
+                            <xsl:variable name="tempTime" select="concat(substring($inValue, 1, 10), 'T', substring($inValue, 12, string-length($inValue)))"/>
+                            <xsl:choose>
+                                <xsl:when test="string-length($tempTime) = 16">
+                                    <xsl:value-of select="concat($tempTime, ':00')"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="$tempTime"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:when>
                         <!-- Normaliseer hoofdlettergebruik van booleans -->
                         <xsl:when test="$datatype = 'boolean' and lower-case($inValue) = 'true'">true</xsl:when>

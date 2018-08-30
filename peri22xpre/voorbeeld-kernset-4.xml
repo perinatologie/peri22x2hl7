@@ -64,6 +64,10 @@
                    label="Risicostatus voor baring"
                    value="1"
                    displayValue="1e lijn (VIL A)"/>
+            <value concept="peri22-dataelement-20570"
+                   label="Indicatie Baring"
+                   value="3"
+                   displayValue="niet levensbedreigend"/>
             <value concept="peri22-dataelement-20560"
                    label="Hulp Baring"
                    value="236966000"
@@ -72,13 +76,6 @@
                    label="Hulp Baring"
                    value="408818004"
                    displayValue="Induction of labour by artificial rupture of membranes (procedure)"/>
-         </values>
-         <values repeat="1">
-            <value concept="peri22-dataelement-20570"
-                   label="Indicatie Baring"
-                   repeat="1"
-                   value="3"
-                   displayValue="niet levensbedreigend"/>
          </values>
       </section>
       <section type="kind" id="7">

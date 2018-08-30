@@ -130,5 +130,13 @@
                                      conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70030"/>
          </voeding_kind_groep>
       </kindspecifieke_gegevens>
+      <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
+         <voeding_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70009">
+            <substantie_voeding_kind code="1"
+                                     codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
+                                     displayName="Borstvoeding"
+                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70030"/>
+         </voeding_kind_groep>
+      </kindspecifieke_gegevens>
    </postnatale_fase>
 </kernset_aanleverbericht>

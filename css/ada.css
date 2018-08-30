@@ -1,0 +1,213 @@
+/* Using .orbeon.ada makes ada css take precedence over Orbeon css in bootstrap.css
+    Consider using the Orbeon facilities for overriding css */
+.orbeon.ada :focus {
+    outline : none;
+}
+.orbeon.ada .content {
+    width : auto;
+    background-color : #ffffff;
+    margin-left : 0px;
+    margin-right : 0px;
+    margin-top : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top : 10px;
+    border-top : 1px solid #d7b0c6;
+}
+.orbeon.ada .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #f6f3ee;
+}
+.orbeon.ada .logoarea {
+    font-size : 12px;
+    width : 100%;
+    float : left;
+}
+.orbeon.ada .logo {
+    float : right;
+    margin : 0 0 0 0;
+    background : #ffffff url(logo.png) no-repeat;
+    width : 349px;
+    height : 76px;
+    padding : 0;
+}
+.orbeon.ada body,
+form,
+table,
+tr,
+td,
+p, div {
+    font-family : "Verdana", "Arial", sans-serif;
+    font-size : 12px;
+    font-weight : normal;
+    color : #333333;
+}
+th{
+    font-family : "Verdana", "Arial", sans-serif;
+    font-size : 12px;
+    background: #ece9e4;
+    color:#E16E22;
+    font-weight: bold;
+}
+div.concept-group-content, div.concept-group-header
+{
+    border: solid black 1px;
+    padding: 3px;
+}
+div.concept-item, div.concept-group-header
+{
+    display: table;
+    width: 100%;
+}
+div.concept-item-cell
+{
+    display: table-cell;
+    width: 80%;
+}
+div.concept-item-name
+{
+    display: table-cell;
+    width: 20%;
+    font-weight: bold;
+}
+.orbeon.ada h1, h2, h3, h4 {
+    font-family : "Verdana", "Arial", sans-serif;
+    font-weight : bold;
+    margin-left : 0px;
+    margin-right : 0px;
+    color : #e16e22;
+}
+.orbeon.ada h1 {
+    font-size : 20px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+.orbeon.ada h2 {
+    font-size : 18px;
+    margin-top : 4px;
+    margin-bottom : 8px;
+    width : auto;
+}
+.orbeon.ada h2.toggler {
+    background-image: url(trClosed.gif);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left : 20px;
+    font-family : sans-serif;
+}
+.orbeon.ada h2.toggler:hover {
+    cursor : pointer;
+    /*        color : #e16e22;*/
+}
+.orbeon.ada h3 {
+    font-size : 16px;
+    margin-top : 2px;
+    margin-bottom : 4px;
+    width : auto;
+    /*    border-top : 1px solid #d7b0c6;*/
+}
+.orbeon.ada h4 {
+    font-size : 14px;
+    margin-top : 2px;
+    margin-bottom : 4px;
+    width : auto;
+    /*    border-top : 1px solid #d7b0c6;*/
+}
+.orbeon.ada a:link {
+    color:inherit;
+}
+.orbeon.ada a:visited {
+    color:inherit;
+}
+.orbeon.ada a:hover {
+    color : red;
+}
+.orbeon.ada a:active {
+    color : #e16e22;
+}
+.orbeon.ada div {
+    margin-left : 0px;
+    margin-right : 0px;
+    margin-top : 0px;
+    margin-bottom : 4px;
+    text-align : left;
+    vertical-align : top;
+}
+.orbeon.ada label.xforms-label { 
+    display: -moz-inline-box; 
+    display: inline-block; 
+    width: 30%; 
+    min-width: 14em;
+}
+.orbeon.ada .xforms-input input { 
+    width: 14em; 
+    margin-bottom: 2px; 
+} 
+.orbeon.ada .adaGroup {
+    border: 1px solid; 
+    margin:0.2em; 
+    border-radius: 5px; 
+    border-color: grey;
+}
+.orbeon.ada .adaRow {
+    border: 1px dashed; 
+    margin:0.2em; 
+    padding:0.2em; 
+    border-radius: 5px; 
+    border-color: grey;
+}
+.orbeon.ada .adaSingle {
+    padding:0.2em; 
+    border-radius: 5px; 
+    border-color: grey;
+}
+.orbeon.ada table {
+    border: 1px solid; 
+    border-collapse: collapse; 
+    border-radius: 5px; 
+    border-color: grey;
+}
+.orbeon.ada td {
+    border: 1px solid; 
+    border-color: grey; 
+    border-radius: 5px;
+}
+span.adaUnit select {
+    width: 6em;
+}
+@media print {
+    .orbeon.ada button, input[type='button'] {
+        display: none;
+    }    
+    table#toprow {
+        display: none;
+    }
+    span.xforms-deselected {
+        display: none;
+    }
+    span.xforms-selected {
+        display: inline-block;
+    }
+    div.concept-item-cell, div.concept-item-name {
+        font-family : "Times New Roman", Georgia, serif;
+        font-size : 12px;
+    }    
+    .orbeon.ada h1 {
+        color: black;
+        font-size : 16px;
+    }
+    .orbeon.ada h2 {
+        color: black;
+        font-size : 14px;
+    }
+    .orbeon.ada h3 {
+        color: black;
+        font-size : 12px;
+    }
+    .orbeon.ada h4 {
+        color: black;
+        font-size : 10px;
+    }
+}

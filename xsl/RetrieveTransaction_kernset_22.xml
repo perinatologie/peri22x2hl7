@@ -1,3 +1,4 @@
+<!--  MDG: patches met de hand voor @xpath def a terme datum en wijz einde zwangersch. -->
 <dataset id="2.16.840.1.113883.2.4.3.11.60.90.77.1.5" statusCode="final" effectiveDate="2013-09-10T00:00:00" versionLabel="22" transactionId="2.16.840.1.113883.2.4.3.11.60.90.77.4.2410" transactionEffectiveDate="2014-10-20T00:00:00" templateId="2.16.840.1.113883.2.4.6.10.90.73" templateEffectiveDate="2014-10-20T00:00:00" shortName="kernset_aanleverbericht" iddisplay="peri-transaction-2410"><!--
  This is a view of the transaction view of Kernset aanleverbericht containing DECOR specifications for a transaction or dataset in a single, hierarchical view. 
  All inheritances are resolved, for transactions the dataset is filtered for those concepts occurring in the transaction.
@@ -5015,7 +5016,7 @@ graviditeit. </span>
                 <data type="prnKSmapping" label="PRN kernset mapping" datatype="text">3.4.01.01 </data>
                 <data type="prn13mapping" label="PRN dataset 1.3 mapping" datatype="text">3.4.01.01 </data>
             </community>
-            <implementation shortName="definitieve_a_terme_datum" message="Warning: More than one xpath, unable to calculate">
+            <implementation shortName="definitieve_a_terme_datum" message="Warning: More than one xpath, unable to calculate" xpath="//hl7:observation[hl7:code/@code='EDDDef']">
                 <xpath>/hl7:REPC_IN004014NL/hl7:ControlActProcess/hl7:subject[hl7:registrationProcess[hl7:code[(@code='900000' and @codeSystem='2.16.840.1.113883.2.4.15.4')]]]/hl7:registrationProcess/hl7:subject2/hl7:CareProvisionEvent/hl7:pertinentInformation3[hl7:organizer/hl7:code/@code='248983002'][hl7:organizer[hl7:code[(@code='248983002' and @codeSystem='2.16.840.1.113883.6.96')]]]/hl7:organizer/hl7:component[hl7:observation[hl7:code[(@code='EDDDef' and @codeSystem='2.16.840.1.113883.2.4.4.13')]]]/hl7:observation/hl7:value</xpath>
                 <xpath>/hl7:REPC_IN004014NL/hl7:ControlActProcess/hl7:subject[hl7:registrationProcess[hl7:code[(@code='900000' and @codeSystem='2.16.840.1.113883.2.4.15.4')]]]/hl7:registrationProcess/hl7:subject2/hl7:CareProvisionEvent/hl7:pertinentInformation3[hl7:observation[hl7:code[(@code='EDDDef' and @codeSystem='2.16.840.1.113883.2.4.4.13')]]]/hl7:observation/hl7:value</xpath>
             </implementation>
@@ -5818,7 +5819,7 @@ graviditeit. </span>
                 <data type="prn13mapping" label="PRN dataset 1.3 mapping" datatype="text">8.1.03<br clear="none" />
                 </data>
             </community>
-            <implementation shortName="wijze_einde_zwangerschap" message="Warning: More than one xpath, unable to calculate">
+            <implementation shortName="wijze_einde_zwangerschap" message="Warning: More than one xpath, unable to calculate" xpath="hl7:observation[hl7:code/@code='EindeZw']">
                 <xpath>/hl7:REPC_IN004014NL/hl7:ControlActProcess/hl7:subject[hl7:registrationProcess[hl7:code[(@code='900000' and @codeSystem='2.16.840.1.113883.2.4.15.4')]]]/hl7:registrationProcess/hl7:subject2/hl7:CareProvisionEvent/hl7:pertinentInformation3[hl7:organizer/hl7:code/@code='248983002'][hl7:organizer[hl7:code[(@code='248983002' and @codeSystem='2.16.840.1.113883.6.96')]]]/hl7:organizer/hl7:component[hl7:observation[hl7:code[(@code='EindeZw' and @codeSystem='2.16.840.1.113883.2.4.4.13')]]]/hl7:observation/hl7:value</xpath>
                 <xpath>/hl7:REPC_IN004014NL/hl7:ControlActProcess/hl7:subject[hl7:registrationProcess[hl7:code[(@code='900000' and @codeSystem='2.16.840.1.113883.2.4.15.4')]]]/hl7:registrationProcess/hl7:subject2/hl7:CareProvisionEvent/hl7:pertinentInformation3[hl7:observation[hl7:code[(@code='EindeZw' and @codeSystem='2.16.840.1.113883.2.4.4.13')]]]/hl7:observation/hl7:value</xpath>
             </implementation>

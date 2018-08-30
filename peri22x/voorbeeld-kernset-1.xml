@@ -77,19 +77,20 @@
         </section>
         <section type="kind" id="7">
             <values>
-                <value concept="peri22-dataelement-40010" label="BSN Kind" value=""/>
-                <value concept="peri22-dataelement-40050" label="Geboortedatum" value="2018-03-06"/>
-                <value concept="peri22-dataelement-40060" label="Geboortegewicht" value="4500"/>
-                <value concept="peri22-dataelement-40080" label="Congenitale afwijkingen" value="FALSE"/>
-                <value concept="peri22-dataelement-40110" label="Chromosomale afwijkingen" value="FALSE"/>
-                <value concept="peri22-dataelement-82334" label="Overige problematiek" value="FALSE"/>
-                <value concept="peri22-dataelement-40240" label="Interventies" value="32189006" displayValue="Pubiotomy (procedure)"/>
-                <value concept="peri22-dataelement-40071" label="Apgar 5 min" value=""/>
+                <value concept="peri22-dataelement-40010" repeat="1" label="BSN Kind" value=""/>
+                <value concept="peri22-dataelement-40050" repeat="1" label="Geboortedatum" value="2016-04-06"/>
+                <value concept="peri22-dataelement-40060" repeat="1" label="Geboortegewicht" value="4500"/>
+                <value concept="peri22-dataelement-40080" repeat="1" label="Congenitale afwijkingen" value="FALSE"/>
+                <value concept="peri22-dataelement-40110" repeat="1" label="Chromosomale afwijkingen" value="FALSE"/>
+                <value concept="peri22-dataelement-82334" repeat="1" label="Overige problematiek" value="FALSE"/>
+                <value concept="peri22-dataelement-40240" repeat="1" label="Interventies" value="32189006" displayValue="Pubiotomy (procedure)"/>
+                <value concept="peri22-dataelement-40071" repeat="1" label="Apgar 5 min" value=""/>
+                <value concept="peri22-dataelement-30030" repeat="1" label="Tijdstip actief meepersen" value="2016-04-06 12:39"/>
             </values>
         </section>
         <section type="kraambed" id="8">
             <values>
-                <value concept="peri22-dataelement-70030" label="Voeding" value="1" displayValue="borstvoeding"/>
+                <value concept="peri22-dataelement-70030" repeat="1" label="Voeding" value="1" displayValue="borstvoeding"/>
             </values>
         </section>
         <section type="zorginstelling" id="9">
