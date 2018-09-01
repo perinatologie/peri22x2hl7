@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:hl7="urn:hl7-org:v3" version="3.0">
-    <xsl:output indent="true" method="html"/>
+    <xsl:output indent="yes" method="html"/>
     <xsl:include href="add-hl7concepts.xsl"/>
     <xsl:template match="/">
         <html>
