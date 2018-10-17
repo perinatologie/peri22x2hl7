@@ -41,7 +41,7 @@
                     </xsl:for-each>
                 </xsl:when>
                 <xsl:when test="@shortName='prenatale_controle'">
-                    <xsl:for-each select="$items//section[@type='consult']">
+                    <xsl:for-each select="($items//section[@type='consult'], $items//section[@type='intake'])">
                         <xsl:call-template name="conceptGroup">
                             <xsl:with-param name="items" select="."/>
                             <xsl:with-param name="concept" select="$concept"/> 

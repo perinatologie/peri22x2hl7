@@ -28,9 +28,9 @@
          <postcode value="6708AA"
                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10304"/>
       </adres>
-      <etniciteit code="12"
+      <etniciteit code="11"
                   codeSystem="2.16.840.1.113883.2.4.4.13.28"
-                  displayName="Kaukasisch"
+                  displayName="Meervoudige afkomst / Overig"
                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10400"/>
       <anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80811">
          <onder_behandeling_geweestq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82020"/>
@@ -73,6 +73,13 @@
                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20211"
                           unit="kg"/>
       </prenatale_controle>
+      <prenatale_controle conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80732">
+         <alcoholgebruik code="FALSE"
+                         codeSystem=""
+                         displayName=""
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80747"/>
+         <drugsgebruikq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82102"/>
+      </prenatale_controle>
       <diagnose conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82268">
          <bloedverliesq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82270"/>
          <infectie code="307534009"
@@ -101,6 +108,7 @@
                                 codeSystem="2.16.840.1.113883.2.4.3.22.1.2.25"
                                 displayName="1e lijn (VIL A)"
                                 conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20530"/>
+      <bijstimulatie_toegediendq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20616"/>
       <medicatie_nageboortetijdperk_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20619">
          <medicatie_nageboortetijdperkq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20620"/>
       </medicatie_nageboortetijdperk_groep>
@@ -121,7 +129,10 @@
    <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
       <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
          <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
-            <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007"/>
+            <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007">
+               <bsn_kind value="123321123"
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40010"/>
+            </identificaties_kind>
             <geboortedatum value="2016-04-06T00:00:00"
                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
          </demografische_gegevens>
@@ -130,6 +141,7 @@
                                        conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.30030"/>
          </kindspecifieke_maternale_gegevens>
          <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72">
+            <apgarscore_na_5_min value="8" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40071"/>
             <overige_interventies code="32189006"
                                   codeSystem="2.16.840.1.113883.6.96"
                                   displayName="Pubiotomy (procedure)"

@@ -9,7 +9,7 @@
                    value="1974-04-03"/>
             <value concept="peri22-dataelement-10400"
                    label="Etniciteit"
-                   value="12"
+                   value="11"
                    displayValue="Kaukasisch"/>
             <value concept="peri22-dataelement-10304" label="Postcode" value="6708AA"/>
          </values>
@@ -48,6 +48,9 @@
             <value concept="peri22-dataelement-82102"
                    label="Drugsgebruik"
                    value="TRUE"/>
+            <value concept="peri22-dataelement-80747"
+                   label="Alcoholgebruik"
+                   value="FALSE"/>
          </values>
       </section>
       <section type="anamneseAlgemeen"
@@ -149,7 +152,9 @@
             <value concept="peri22-dataelement-20670"
                    label="Maternale sterfte"
                    value="FALSE"/>
-            <value concept="peri22-dataelement-20616" label="Bijstimulatie" value=""/>
+            <value concept="peri22-dataelement-20616"
+                   label="Bijstimulatie"
+                   value="TRUE"/>
          </values>
       </section>
       <section type="kind" id="7">
@@ -158,7 +163,7 @@
             <value concept="peri22-dataelement-40010"
                    repeat="1"
                    label="BSN Kind"
-                   value=""/>
+                   value="123321123"/>
             <value concept="peri22-dataelement-40050"
                    repeat="1"
                    label="Geboortedatum"
@@ -187,7 +192,7 @@
             <value concept="peri22-dataelement-40071"
                    repeat="1"
                    label="Apgar 5 min"
-                   value=""/>
+                   value="8"/>
             <value concept="peri22-dataelement-30030"
                    repeat="1"
                    label="Tijdstip actief meepersen"

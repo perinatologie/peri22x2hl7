@@ -8,7 +8,7 @@
             <values>
                 <value concept="peri22-dataelement-10030" label="BSN" value="900000004"/>
                 <value concept="peri22-dataelement-10040" label="Geboortedatum" value="1974-04-03"/>
-                <value concept="peri22-dataelement-10400" label="Etniciteit" value="12" displayValue="Kaukasisch"/>
+                <value concept="peri22-dataelement-10400" label="Etniciteit" value="11" displayValue="Kaukasisch"/>
                 <value concept="peri22-dataelement-10304" label="Postcode" value="6708AA"/>
             </values>
         </section>
@@ -21,13 +21,11 @@
                 <value concept="peri22-dataelement-20340" label="Datum eind dossier" value="2016-08-10"/>
                 <value concept="peri22-dataelement-20355" label="Eindverantwoordelijk in welke periode?" value="2"/>
                 <value concept="peri22-dataelement-20212" label="Lengte" value="171"/>
-                <!-- Zit ook al in anamnese algemeen -->
-                <!--<value concept="peri22-dataelement-80939" label="Operaties" value="TRUE"/>-->
                 <value concept="peri22-dataelement-80675" label="Besnijdenis" value="FALSE"/>
                 <value concept="peri22-dataelement-20305" label="Concl. Risicostatus" value="1" displayValue="1e lijn (VIL A)"/>
                 <value concept="peri22-dataelement-20261" label="Voorgenomen plaats baring" value="169813005" displayValue="Home birth (finding)"/>
                 <value concept="peri22-dataelement-82102" label="Drugsgebruik" value="TRUE"/>
-                <!--<value concept="peri22-dataelement-80747" label="Alcoholgebruik" value="FALSE"/>-->
+                <value concept="peri22-dataelement-80747" label="Alcoholgebruik" value="FALSE"/>
             </values>
         </section>
         <section type="anamneseAlgemeen" id="10" createStamp="2016-01-05" effectStamp="2016-01-05">
@@ -72,24 +70,25 @@
                 <value concept="peri22-dataelement-20620" label="Medicatie na" value="FALSE"/>
                 <value concept="peri22-dataelement-20630" label="Geboorte placenta" value="0" displayValue="spontaan"/>
                 <value concept="peri22-dataelement-20670" label="Maternale sterfte" value="FALSE"/>
-                <value concept="peri22-dataelement-20616" label="Bijstimulatie" value=""/>
+                <value concept="peri22-dataelement-20616" label="Bijstimulatie" value="TRUE"/>
             </values>
         </section>
         <section type="kind" id="7">
             <values>
-                <value concept="peri22-dataelement-40010" repeat="1" label="BSN Kind" value=""/>
+                <value concept="peri22-dataelement-40010" repeat="1" label="BSN Kind" value="123321123"/>
                 <value concept="peri22-dataelement-40050" repeat="1" label="Geboortedatum" value="2016-04-06"/>
                 <value concept="peri22-dataelement-40060" repeat="1" label="Geboortegewicht" value="4500"/>
                 <value concept="peri22-dataelement-40080" repeat="1" label="Congenitale afwijkingen" value="FALSE"/>
                 <value concept="peri22-dataelement-40110" repeat="1" label="Chromosomale afwijkingen" value="FALSE"/>
                 <value concept="peri22-dataelement-82334" repeat="1" label="Overige problematiek" value="FALSE"/>
                 <value concept="peri22-dataelement-40240" repeat="1" label="Interventies" value="32189006" displayValue="Pubiotomy (procedure)"/>
-                <value concept="peri22-dataelement-40071" repeat="1" label="Apgar 5 min" value=""/>
+                <value concept="peri22-dataelement-40071" repeat="1" label="Apgar 5 min" value="8"/>
                 <value concept="peri22-dataelement-30030" repeat="1" label="Tijdstip actief meepersen" value="2016-04-06 12:39"/>
             </values>
         </section>
         <section type="kraambed" id="8">
             <values>
+                <!-- dubbel in HL7 -->
                 <value concept="peri22-dataelement-70030" repeat="1" label="Voeding" value="1" displayValue="borstvoeding"/>
             </values>
         </section>

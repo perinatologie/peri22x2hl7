@@ -10,7 +10,7 @@
         <xsl:element name="xsl:stylesheet">
             <xsl:namespace name="hl7">urn:hl7-org:v3</xsl:namespace>
             <xsl:attribute name="version">3.0</xsl:attribute>
-            <xsl:comment>Gegenereerd met meat-hl72html.xsl</xsl:comment>
+            <xsl:comment>Gegenereerd met meta-hl72html.xsl</xsl:comment>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
@@ -26,18 +26,9 @@
                     <xsl:copy-of select="name/text()"/>
                 </div>
                 <div class="concept-item-cell">
-                    <xsl:choose>
-                        <xsl:when test="ends-with(name/string(), '?')">
-                            <xsl:element name="xsl:call-template">
-                                <xsl:attribute name="name">getNegationInd</xsl:attribute>
-                            </xsl:element>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:element name="xsl:call-template">
-                                <xsl:attribute name="name">getValue</xsl:attribute>
-                            </xsl:element>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                    <xsl:element name="xsl:call-template">
+                        <xsl:attribute name="name">getValue</xsl:attribute>
+                    </xsl:element>
                 </div>
             </div>
         </xsl:element>

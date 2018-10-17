@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:hl7="urn:hl7-org:v3"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                version="3.0"><!--Gegenereerd met meat-hl72html.xsl-->
+                version="3.0"><!--Gegenereerd met meta-hl72html.xsl-->
    <xsl:template match="/hl7:REPC_IN004014NL/hl7:ControlActProcess/hl7:subject[hl7:registrationProcess[hl7:code[(@code='900000' and @codeSystem='2.16.840.1.113883.2.4.15.4')]]]/hl7:registrationProcess/hl7:subject2/hl7:CareProvisionEvent/hl7:effectiveTime/hl7:low">
       <div class="concept-item">
          <div class="concept-item-name">Datum start zorgverantwoordelijkheid</div>
@@ -22,7 +22,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Eindverantwoordelijk in welke perinatale periode?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -54,7 +54,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Is er sprake van 'overdracht aan'?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -150,7 +150,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Onder behandeling (geweest)?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -158,7 +158,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Auto-immuun aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -174,7 +174,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Cardiovasculaire aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -190,7 +190,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Urogenitale aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -206,7 +206,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Oncologische aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -222,7 +222,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Schildklier aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -238,7 +238,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Diabetes mellitus?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -246,7 +246,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Neurologische aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -262,7 +262,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Infectieziekte?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -278,7 +278,7 @@
       <div class="concept-item">
          <div class="concept-item-name">MDL aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -294,7 +294,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Anemie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -310,7 +310,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Longaandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -326,7 +326,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Gynaecologische aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -342,7 +342,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Orthopedische afwijking?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -358,7 +358,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Bloedtransfusie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -366,7 +366,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Transfusiereactie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -374,7 +374,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Operatie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -390,7 +390,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Stollingsprobleem?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -406,7 +406,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Psychiatrie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -414,7 +414,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Overige aandoening?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -438,7 +438,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Vrouwelijke genitale verminking?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -478,7 +478,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Bloedverlies?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -486,7 +486,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Cervixinsufficiëntie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -502,7 +502,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Hyperemesis gravidarum?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -518,7 +518,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Zwangerschapscholestase?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -526,7 +526,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Diabetes gravidarum met insuline?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -542,7 +542,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Dreigende partus immaturus?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -550,7 +550,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Dreigende partus prematurus?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -558,7 +558,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Abruptio placentae?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -566,7 +566,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Irregulaire antistoffen?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -622,7 +622,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Congenitale afwijkingen?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -630,7 +630,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Chromosomale afwijkingen?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -650,14 +650,7 @@
          </div>
       </div>
    </xsl:template>
-   <xsl:template match="//hl7:observation[hl7:code/@code='EDDDef']">
-      <div class="concept-item">
-         <div class="concept-item-name">Definitieve à terme datum</div>
-         <div class="concept-item-cell">
-            <xsl:call-template name="getValue"/>
-         </div>
-      </div>
-   </xsl:template>
+   <!--Geen Xpath voor Definitieve à terme datum-->
    <xsl:template match="/hl7:REPC_IN004014NL/hl7:ControlActProcess/hl7:subject[hl7:registrationProcess[hl7:code[(@code='900000' and @codeSystem='2.16.840.1.113883.2.4.15.4')]]]/hl7:registrationProcess/hl7:subject2/hl7:CareProvisionEvent/hl7:pertinentInformation3[hl7:organizer[hl7:code[@code='Voornemen']]]/hl7:organizer/hl7:component[hl7:observation[hl7:code[(@code='PRN4209' and @codeSystem='2.16.840.1.113883.2.4.3.22.1.3')]]]/hl7:observation/hl7:value">
       <div class="concept-item">
          <div class="concept-item-name">Voorgenomen plaats baring tijdens zwangerschap (type locatie)</div>
@@ -710,7 +703,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Drugsgebruik?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -750,7 +743,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Bloedverlies?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -758,7 +751,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Partiële mola?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -766,7 +759,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Cervixinsufficiëntie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -782,7 +775,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Hyperemesis gravidarum?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -798,7 +791,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Zwangerschapscholestase?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -806,7 +799,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Diabetes gravidarum met insuline?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -822,7 +815,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Dreigende partus immaturus?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -830,7 +823,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Dreigende partus prematurus?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -838,7 +831,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Abruptio placentae?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -854,11 +847,11 @@
       <div class="concept-item">
          <div class="concept-item-name">Maternale sterfte?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
-   <xsl:template match="hl7:observation[hl7:code/@code='EindeZw']">
+   <xsl:template match="/hl7:REPC_IN004014NL/hl7:ControlActProcess/hl7:subject[hl7:registrationProcess[hl7:code[(@code='900000' and @codeSystem='2.16.840.1.113883.2.4.15.4')]]]/hl7:registrationProcess/hl7:subject2/hl7:CareProvisionEvent/hl7:pertinentInformation3[hl7:observation[hl7:code[(@code='EindeZw' and @codeSystem='2.16.840.1.113883.2.4.4.13')]]]/hl7:observation/hl7:value">
       <div class="concept-item">
          <div class="concept-item-name">Wijze einde zwangerschap</div>
          <div class="concept-item-cell">
@@ -878,7 +871,7 @@
       <div class="concept-item">
          <div class="concept-item-name">PPROM?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -886,7 +879,7 @@
       <div class="concept-item">
          <div class="concept-item-name">PROM?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -894,7 +887,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Koorts?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -902,7 +895,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Niet vorderende ontsluiting?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -910,7 +903,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Niet vorderende uitdrijving?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -918,7 +911,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Verdenking foetale nood?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -926,7 +919,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Vastzittende placenta?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -982,7 +975,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Bijstimulatie toegediend?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -990,7 +983,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Medicatie nageboortetijdperk?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1078,7 +1071,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Perinatale sterfte?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1126,7 +1119,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Episiotomie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1142,7 +1135,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Ruggeprik gewenst, niet gekregen?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1150,7 +1143,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Pijnbestrijding?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1190,7 +1183,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Sedatie?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1246,7 +1239,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Succes vaginale kunstverlossing?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1286,7 +1279,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Congenitale afwijkingen?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1302,7 +1295,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Chromosomale afwijkingen?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1318,7 +1311,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Problematiek kind?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1334,7 +1327,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Kinderarts betrokken?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1374,7 +1367,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Irregulaire antistoffen?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
@@ -1398,7 +1391,7 @@
       <div class="concept-item">
          <div class="concept-item-name">Pathologie vrouw?</div>
          <div class="concept-item-cell">
-            <xsl:call-template name="getNegationInd"/>
+            <xsl:call-template name="getValue"/>
          </div>
       </div>
    </xsl:template>
