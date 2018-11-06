@@ -180,6 +180,100 @@
                 <xsl:attribute name="conceptId" select="$concept/@id"/>
             </xsl:element>
         </xsl:if>
+        <!-- nullFlavor voor anamnese als vraag? ja is maar geen element met code wordt meegegeven -->
+        <xsl:choose>
+            <!-- Als autoimmuun_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82220'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80905'][@value='true']">
+                    <autoimmuun_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als cardiovasculaire_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80906'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-82216'][@value='true']">
+                    <cardiovasculaire_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als urogenitale_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82267'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80907'][@value='true']">
+                    <urogenitale_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als oncologische_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82221'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80908'][@value='true']">
+                    <oncologische_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als schildklier_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80909'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-82217'][@value='true']">
+                    <schildklier_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als neurologische_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80912'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-82218'][@value='true']">
+                    <neurologische_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als infectieziekteq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82210'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80913'][@value='true']">
+                    <infectieziekte code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als mdl_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82219'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80914'][@value='true']">
+                    <mdl_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als anemieq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82222'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80915'][@value='true']">
+                    <anemie code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als longaandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82266'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80916'][@value='true']">
+                    <longaandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als gynaecologische_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80917'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-82211'][@value='true']">
+                    <gynaecologische_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als orthopedische_afwijkingq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80918'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-82213'][@value='true']">
+                    <orthopedische_afwijking code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als operatieq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80818'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80939'][@value='true']">
+                    <type_operatie code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als stollingsprobleemq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80817'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-80940'][@value='true']">
+                    <type_stollingsprobleem code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+            <!-- Als overige_aandoeningq  = 'true' en geen concept, dan NI genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80919'">
+                <xsl:if test="count($values) = 0 and $items/descendant-or-self::value[@concept='peri22-dataelement-82212'][@value='true']">
+                    <overige_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
+                </xsl:if>
+            </xsl:when>
+        </xsl:choose>
+        
         <xsl:for-each select="$values">
             <xsl:variable name="inValue" select="@value/string()"/>
             <xsl:variable name="outCode">
