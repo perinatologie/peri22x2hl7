@@ -215,9 +215,9 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:when>
-                        <!-- Normaliseer hoofdlettergebruik van booleans -->
-                        <xsl:when test="$datatype = 'boolean' and lower-case($inValue) = 'true'">true</xsl:when>
-                        <xsl:when test="$datatype = 'boolean' and lower-case($inValue) = 'false'">false</xsl:when>
+                        <!-- Normaliseer hoofdlettergebruik van booleans, sta ook 1/0 en  ja/nee toe -->
+                        <xsl:when test="$datatype = 'boolean' and (lower-case($inValue) = 'ja' or lower-case($inValue) = 'true' or $inValue = '1')">true</xsl:when>
+                        <xsl:when test="$datatype = 'boolean' and (lower-case($inValue) = 'nee' or lower-case($inValue) = 'false' or $inValue = '0')">false</xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="$inValue"/>
                         </xsl:otherwise>
