@@ -25,9 +25,11 @@
         <section>
             <xsl:copy-of select="$section/@*"/>
             <!-- Eerst de values die niet herhalend zijn -->
-            <values>
-                <xsl:copy-of select="$section//value[not(@repeat)]"/>
-            </values>
+            <xsl:if test="$section//value[not(@repeat)]">
+                <values>
+                    <xsl:copy-of select="$section//value[not(@repeat)]"/>
+                </values>
+            </xsl:if>
             <!-- Dan de values die wel herhalend zijn, met een repeat nummer op values element -->
             <xsl:for-each select="$repeats">
                 <xsl:variable name="this-repeat" select="."/>
