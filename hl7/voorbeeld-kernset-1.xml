@@ -5,8 +5,8 @@
                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="urn:hl7-org:v3 file:/C:/SVN/AORTA/trunk/XML/schemas_codeGen/REPC_IN004014NL.xsd">
-   <id extension="20181017115005900000004" root="1.2.3.999"/>
-   <creationTime value="20181017115005"/>
+   <id extension="20181107175217900000004" root="1.2.3.999"/>
+   <creationTime value="20181107175217"/>
    <versionCode code="NICTIZEd2005-Okt"/>
    <interactionId root="2.16.840.1.113883.1.6" extension="REPC_IN004014NL"/>
    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
@@ -144,7 +144,7 @@
                            <observation classCode="OBS" moodCode="EVN">
                               <code code="OnderBehandeling"
                                     displayName="Onder behandeling (geweest)?"
-                                    codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                                    codeSystem="PerinatologyObservations"/>
                               <value xsi:type="BL" value="true"/>
                            </observation>
                         </component>
@@ -273,14 +273,7 @@
                         <code code="18114009"
                               codeSystem="2.16.840.1.113883.6.96"
                               displayName="Prenatale controle"/>
-                        <outboundRelationship typeCode="COMP">
-                           <observation classCode="OBS" moodCode="EVN">
-                              <code code="228309001"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Alcoholgebruik"/>
-                              <value xsi:type="CE" code="FALSE" codeSystem="" displayName=""/>
-                           </observation>
-                        </outboundRelationship>
+                        <effectiveTime nullFlavor="NI"/>
                         <outboundRelationship typeCode="COMP">
                            <observation classCode="OBS" moodCode="EVN">
                               <code code="Drugsgebruik" codeSystem="2.16.840.1.113883.2.4.4.13"/>
@@ -448,7 +441,7 @@
                                           codeSystem="2.16.840.1.113883.5.111"
                                           displayName="Kind"/>
                                     <relationshipHolder classCode="PSN" determinerCode="INSTANCE">
-                                       <id extension="123321123" root="2.16.840.1.113883.2.4.6.3"/>
+                                       <id extension="900000016" root="2.16.840.1.113883.2.4.6.3"/>
                                        <birthTime value="20160406000000"/>
                                     </relationshipHolder>
                                  </personalRelationship>
@@ -514,24 +507,7 @@
                                     <code code="230126006"
                                           codeSystem="2.16.840.1.113883.6.96"
                                           displayName="Voeding kind"/>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
-                                 </supply>
-                              </outboundRelationship>
-                              <!--Item: 70010 - Voeding kind-->
-                              <outboundRelationship typeCode="COMP" contextConductionInd="true">
-                                 <supply classCode="DIET" moodCode="EVN">
-                                    <id nullFlavor="NI"/>
-                                    <code code="230126006"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Voeding kind"/>
+                                    <effectiveTime nullFlavor="NI"/>
                                     <product typeCode="PRD">
                                        <product classCode="ACCESS">
                                           <playingMaterial classCode="MAT" determinerCode="KIND">

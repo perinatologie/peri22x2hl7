@@ -74,10 +74,8 @@
                           unit="kg"/>
       </prenatale_controle>
       <prenatale_controle conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80732">
-         <alcoholgebruik code="FALSE"
-                         codeSystem=""
-                         displayName=""
-                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80747"/>
+         <datum_controle nullFlavor="UNK"
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80737"/>
          <drugsgebruikq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82102"/>
       </prenatale_controle>
       <diagnose conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82268">
@@ -127,10 +125,11 @@
                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80673"/>
    </bevalling>
    <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <rangnummer_kind value="1"/>
       <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
          <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
             <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007">
-               <bsn_kind value="123321123"
+               <bsn_kind value="900000016"
                          conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40010"/>
             </identificaties_kind>
             <geboortedatum value="2016-04-06T00:00:00"
@@ -168,14 +167,7 @@
                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82209"/>
       </diagnose_postpartum>
       <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
-         <voeding_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70009">
-            <substantie_voeding_kind code="1"
-                                     codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                     displayName="Borstvoeding"
-                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70030"/>
-         </voeding_kind_groep>
-      </kindspecifieke_gegevens>
-      <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
+         <rangnummer_kind value="1"/>
          <voeding_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70009">
             <substantie_voeding_kind code="1"
                                      codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"

@@ -5,8 +5,8 @@
                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="urn:hl7-org:v3 file:/C:/SVN/AORTA/trunk/XML/schemas_codeGen/REPC_IN004014NL.xsd">
-   <id extension="20180912152206900000004" root="1.2.3.999"/>
-   <creationTime value="20180912152206"/>
+   <id extension="20181107175221900000004" root="1.2.3.999"/>
+   <creationTime value="20181107175221"/>
    <versionCode code="NICTIZEd2005-Okt"/>
    <interactionId root="2.16.840.1.113883.1.6" extension="REPC_IN004014NL"/>
    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
@@ -195,6 +195,21 @@
                      </procedure>
                   </pertinentInformation3>
                   <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
+                     <procedure classCode="PROC" moodCode="EVN">
+                        <id nullFlavor="NI"/>
+                        <code code="18114009"
+                              codeSystem="2.16.840.1.113883.6.96"
+                              displayName="Prenatale controle"/>
+                        <effectiveTime nullFlavor="NI"/>
+                        <outboundRelationship typeCode="COMP">
+                           <observation classCode="OBS" moodCode="EVN">
+                              <code code="Drugsgebruik" codeSystem="2.16.840.1.113883.2.4.4.13"/>
+                              <value xsi:type="BL" value="true"/>
+                           </observation>
+                        </outboundRelationship>
+                     </procedure>
+                  </pertinentInformation3>
+                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                      <organizer classCode="CONTAINER" moodCode="EVN">
                         <code code="236973005"
                               codeSystem="2.16.840.1.113883.6.96"
@@ -277,51 +292,7 @@
                                     <code code="230126006"
                                           codeSystem="2.16.840.1.113883.6.96"
                                           displayName="Voeding kind"/>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
-                                 </supply>
-                              </outboundRelationship>
-                              <!--Item: 70010 - Voeding kind-->
-                              <outboundRelationship typeCode="COMP" contextConductionInd="true">
-                                 <supply classCode="DIET" moodCode="EVN">
-                                    <id nullFlavor="NI"/>
-                                    <code code="230126006"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Voeding kind"/>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
-                                 </supply>
-                              </outboundRelationship>
-                              <!--Item: 70010 - Voeding kind-->
-                              <outboundRelationship typeCode="COMP" contextConductionInd="true">
-                                 <supply classCode="DIET" moodCode="EVN">
-                                    <id nullFlavor="NI"/>
-                                    <code code="230126006"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Voeding kind"/>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
+                                    <effectiveTime nullFlavor="NI"/>
                                     <product typeCode="PRD">
                                        <product classCode="ACCESS">
                                           <playingMaterial classCode="MAT" determinerCode="KIND">
@@ -399,57 +370,13 @@
                                     <code code="230126006"
                                           codeSystem="2.16.840.1.113883.6.96"
                                           displayName="Voeding kind"/>
+                                    <effectiveTime nullFlavor="NI"/>
                                     <product typeCode="PRD">
                                        <product classCode="ACCESS">
                                           <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
+                                             <code code="2"
                                                    codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
-                                 </supply>
-                              </outboundRelationship>
-                              <!--Item: 70010 - Voeding kind-->
-                              <outboundRelationship typeCode="COMP" contextConductionInd="true">
-                                 <supply classCode="DIET" moodCode="EVN">
-                                    <id nullFlavor="NI"/>
-                                    <code code="230126006"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Voeding kind"/>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
-                                 </supply>
-                              </outboundRelationship>
-                              <!--Item: 70010 - Voeding kind-->
-                              <outboundRelationship typeCode="COMP" contextConductionInd="true">
-                                 <supply classCode="DIET" moodCode="EVN">
-                                    <id nullFlavor="NI"/>
-                                    <code code="230126006"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Voeding kind"/>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
+                                                   displayName="Kunstvoeding"/>
                                           </playingMaterial>
                                        </product>
                                     </product>

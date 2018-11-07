@@ -25,7 +25,7 @@
                 <value concept="peri22-dataelement-20305" label="Concl. Risicostatus" value="1" displayValue="1e lijn (VIL A)"/>
                 <value concept="peri22-dataelement-20261" label="Voorgenomen plaats baring" value="169813005" displayValue="Home birth (finding)"/>
                 <value concept="peri22-dataelement-82102" label="Drugsgebruik" value="TRUE"/>
-                <value concept="peri22-dataelement-80747" label="Alcoholgebruik" value="FALSE"/>
+                <!--<value concept="peri22-dataelement-80747" label="Alcoholgebruik" value="FALSE"/>-->
             </values>
         </section>
         <section type="anamneseAlgemeen" id="10" createStamp="2016-01-05" effectStamp="2016-01-05">
@@ -75,7 +75,7 @@
         </section>
         <section type="kind" id="7">
             <values>
-                <value concept="peri22-dataelement-40010" repeat="1" label="BSN Kind" value="123321123"/>
+                <value concept="peri22-dataelement-40010" repeat="1" label="BSN Kind" value="900000016"/>
                 <value concept="peri22-dataelement-40050" repeat="1" label="Geboortedatum" value="2016-04-06"/>
                 <value concept="peri22-dataelement-40060" repeat="1" label="Geboortegewicht" value="4500"/>
                 <value concept="peri22-dataelement-40080" repeat="1" label="Congenitale afwijkingen" value="FALSE"/>
@@ -88,7 +88,6 @@
         </section>
         <section type="kraambed" id="8">
             <values>
-                <!-- dubbel in HL7 -->
                 <value concept="peri22-dataelement-70030" repeat="1" label="Voeding" value="1" displayValue="borstvoeding"/>
             </values>
         </section>

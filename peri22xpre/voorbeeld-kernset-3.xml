@@ -182,7 +182,6 @@
          </values>
       </section>
       <section type="kind" id="7">
-         <values/>
          <values repeat="1">
             <value concept="peri22-dataelement-40010"
                    repeat="1"
@@ -220,7 +219,6 @@
          </values>
       </section>
       <section type="kraambed" id="8">
-         <values/>
          <values repeat="1">
             <value concept="peri22-dataelement-70030"
                    repeat="1"

@@ -69,6 +69,7 @@
       </diagnose>
       <eerdere_bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.18">
          <vorige_uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.19">
+            <rangnummer_kind value="1"/>
             <vorige_baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80709">
                <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80696">
                   <geboortedatum value="2013-01-15T00:00:00"
@@ -94,6 +95,7 @@
                                  conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82337"/>
       <eerdere_bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.18">
          <vorige_uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.19">
+            <rangnummer_kind value="1"/>
             <vorige_baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80709">
                <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80696">
                   <geboortedatum value="2015-01-15T00:00:00"
@@ -109,6 +111,7 @@
             </vorige_baring>
          </vorige_uitkomst_per_kind>
          <vorige_uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.19">
+            <rangnummer_kind value="2"/>
             <vorige_baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80709">
                <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80696">
                   <geboortedatum value="2015-01-16T00:00:00"
@@ -171,6 +174,11 @@
                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20211"
                           unit="kg"/>
       </prenatale_controle>
+      <prenatale_controle conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80732">
+         <datum_controle nullFlavor="UNK"
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80737"/>
+         <drugsgebruikq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82102"/>
+      </prenatale_controle>
       <maternale_sterfteq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20670"/>
    </zwangerschap>
    <bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.6">
@@ -202,6 +210,7 @@
                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80673"/>
    </bevalling>
    <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <rangnummer_kind value="1"/>
       <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
          <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
             <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007"/>
@@ -228,14 +237,7 @@
    </uitkomst_per_kind>
    <postnatale_fase conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.16">
       <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
-         <voeding_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70009">
-            <substantie_voeding_kind code="1"
-                                     codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                     displayName="Borstvoeding"
-                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70030"/>
-         </voeding_kind_groep>
-      </kindspecifieke_gegevens>
-      <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
+         <rangnummer_kind value="1"/>
          <voeding_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.70009">
             <substantie_voeding_kind code="1"
                                      codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"

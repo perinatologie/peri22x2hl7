@@ -48,9 +48,6 @@
             <value concept="peri22-dataelement-82102"
                    label="Drugsgebruik"
                    value="TRUE"/>
-            <value concept="peri22-dataelement-80747"
-                   label="Alcoholgebruik"
-                   value="FALSE"/>
          </values>
       </section>
       <section type="anamneseAlgemeen"
@@ -158,12 +155,11 @@
          </values>
       </section>
       <section type="kind" id="7">
-         <values/>
          <values repeat="1">
             <value concept="peri22-dataelement-40010"
                    repeat="1"
                    label="BSN Kind"
-                   value="123321123"/>
+                   value="900000016"/>
             <value concept="peri22-dataelement-40050"
                    repeat="1"
                    label="Geboortedatum"
@@ -200,7 +196,6 @@
          </values>
       </section>
       <section type="kraambed" id="8">
-         <values/>
          <values repeat="1">
             <value concept="peri22-dataelement-70030"
                    repeat="1"

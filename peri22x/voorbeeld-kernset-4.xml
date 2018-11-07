@@ -62,7 +62,7 @@
         <section type="kraambed" id="8">
             <values>
                 <value concept="peri22-dataelement-70030" label="Voeding" value="1" displayValue="borstvoeding" repeat="1"/>
-                <value concept="peri22-dataelement-70030" label="Voeding" value="1" displayValue="borstvoeding" repeat="2"/>
+                <value concept="peri22-dataelement-70030" label="Voeding" value="2" displayValue="kunstvoeding" repeat="2"/>
             </values>
         </section>
         <section type="zorginstelling" id="9">

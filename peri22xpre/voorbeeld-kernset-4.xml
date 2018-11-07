@@ -79,7 +79,6 @@
          </values>
       </section>
       <section type="kind" id="7">
-         <values/>
          <values repeat="1">
             <value concept="peri22-dataelement-40010"
                    label="BSN Kind"
@@ -155,7 +154,6 @@
          </values>
       </section>
       <section type="kraambed" id="8">
-         <values/>
          <values repeat="1">
             <value concept="peri22-dataelement-70030"
                    label="Voeding"
@@ -166,8 +164,8 @@
          <values repeat="2">
             <value concept="peri22-dataelement-70030"
                    label="Voeding"
-                   value="1"
-                   displayValue="borstvoeding"
+                   value="2"
+                   displayValue="kunstvoeding"
                    repeat="2"/>
          </values>
       </section>
