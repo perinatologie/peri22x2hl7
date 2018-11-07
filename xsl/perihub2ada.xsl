@@ -146,6 +146,9 @@
         <xsl:if test="$childCount != 0 or $concept/@minimumMultiplicity = '1'">
             <xsl:element name="{$concept/@shortName}">
                 <xsl:attribute name="conceptId" select="$concept/@id"/>
+                <xsl:if test="@repeat">
+                    <rangnummer_kind value="{@repeat}"/>
+                </xsl:if> 
                 <xsl:for-each select="$concept/concept">
                     <xsl:call-template name="concept">
                         <xsl:with-param name="items" select="$items"/>
