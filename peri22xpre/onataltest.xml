@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource type="hub/dossier">
+   <sections>
+      <section type="inzender" id="1" effectStamp="2018-11-21T16:35:31">
+         <values>
+            <value concept="peri22x-praktijk" value="Verloskundigen De Ooievaar"/>
+            <value concept="peri22x-telefoonnummerpraktijk" value="0101010101"/>
+         </values>
+      </section>
+      <section type="client"
+               id="983d8824-0493-4c53-b543-5dc2777e4bbe"
+               effectStamp="2018-11-21T16:35:31">
+         <values>
+            <value concept="peri22-dataelement-10030" value="900000053"/>
+            <value concept="peri22-dataelement-10031" value="2018838"/>
+            <value concept="peri22-dataelement-82360" value="Tineke"/>
+            <value concept="peri22-dataelement-10043" value="Tweetest"/>
+            <value concept="peri22x-vrouw-volledige_achternaam" value="Tweetest"/>
+            <value concept="peri22-dataelement-10040" value="1990-03-01"/>
+            <value concept="peri22x-vrouw-geboorteland" value="NLD"/>
+            <value concept="peri22-dataelement-10400" value="12"/>
+            <value concept="peri22-dataelement-10302" value="0"/>
+            <value concept="peri22-dataelement-10307" value="NLD"/>
+            <value concept="peri22-dataelement-82020" value="TRUE"/>
+         </values>
+      </section>
+      <section type="anamnese"
+               id="0f63f2d4-fc45-4429-9ea3-d4f7ca329a9c-anemnese"
+               effectStamp="2016-11-21T08:00:00">
+         <values>
+            <value concept="peri22-dataelement-82001" value="1"/>
+            <value concept="peri22-dataelement-82002" value="0"/>
+            <value concept="peri22-dataelement-82040" value="2016-06-12"/>
+            <value concept="peri22-dataelement-82040" value="281"/>
+            <value concept="peri22-dataelement-82004" value="2016-06-01T08:00:00"/>
+            <value concept="peri22-dataelement-82005" value="TRUE"/>
+            <value concept="peri22-dataelement-82337" value="2016-06-01"/>
+            <value concept="peri22-dataelement-10598" value="750"/>
+            <value concept="peri22-dataelement-80694" value="2016-06-02"/>
+         </values>
+         <values repeat="1">
+            <value concept="peri22-dataelement-10606" value="7" repeat="1"/>
+         </values>
+      </section>
+      <section type="intake"
+               id="bc8ff605-c7c0-4098-bf5a-9034558de3ba-intake"
+               effectStamp="2017-11-21T08:00:00">
+         <values>
+            <value concept="peri22-dataelement-80627" value="2018168"/>
+            <value concept="peri22-dataelement-20290" value="2017-11-21T08:00:00"/>
+            <value concept="peri22-dataelement-20340" value="2018-11-22T08:00:00"/>
+            <value concept="peri22-dataelement-20010" value="1"/>
+            <value concept="peri22-dataelement-20150" value="1"/>
+            <value concept="peri22-dataelement-80617" value="1"/>
+            <value concept="peri22-dataelement-10800" value="160244002"/>
+            <value concept="peri22-dataelement-80689" value="2017-11-21"/>
+            <value concept="peri22-dataelement-20210" value="69"/>
+            <value concept="peri22-dataelement-20212" value="180"/>
+            <value concept="peri22-dataelement-82216" value="TRUE"/>
+            <value concept="peri22-dataelement-80906" value="698247007"/>
+            <value concept="peri22-dataelement-82218" value="FALSE"/>
+         </values>
+      </section>
+      <section type="consult"
+               id="55b37388-1b24-45d0-8620-e0e8f21b3b0e"
+               effectStamp="2018-11-21T16:41:36">
+         <values>
+            <value concept="peri22-dataelement-80737" value="2018-11-21"/>
+            <value concept="peri22-dataelement-80736" value="Marc de Graauw"/>
+            <value concept="peri22-dataelement-82067" value="11"/>
+            <value concept="peri22-dataelement-80738" value="165"/>
+            <value concept="peri22-dataelement-80746" value="289431008"/>
+            <value concept="peri22-dataelement-80836" value="HPOS"/>
+         </values>
+      </section>
+      <section type="consult"
+               id="d5b720b8-b8e9-4812-a77a-350e44075346"
+               effectStamp="2018-11-26T17:19:00">
+         <values>
+            <value concept="peri22-dataelement-80737" value="2018-11-26"/>
+            <value concept="peri22-dataelement-80736" value="Marc de Graauw"/>
+            <value concept="peri22-dataelement-82067" value="11"/>
+            <value concept="peri22-dataelement-80738" value="170"/>
+         </values>
+      </section>
+      <section type="diagnose"
+               id="55b37388-1b24-45d0-8620-e0e8f21b3b0e-diagnose"
+               effectStamp="2018-11-21T16:41:36">
+         <values>
+            <value concept="peri22-dataelement-82272" value="2018-11-21"/>
+            <value concept="peri22-dataelement-82285" value="165"/>
+            <value concept="peri22-dataelement-82269" value="37849005"/>
+            <value concept="peri22-dataelement-82270" value="FALSE"/>
+            <value concept="peri22-dataelement-82276" value="TRUE"/>
+            <value concept="peri22-dataelement-82278" value="267258002"/>
+         </values>
+      </section>
+      <section type="diagnose"
+               id="d5b720b8-b8e9-4812-a77a-350e44075346-diagnose"
+               effectStamp="2018-11-26T17:19:00">
+         <values>
+            <value concept="peri22-dataelement-82272" value="2018-11-26"/>
+            <value concept="peri22-dataelement-82285" value="170"/>
+            <value concept="peri22-dataelement-82269" value="OTH"/>
+         </values>
+      </section>
+      <section type="verwijzing"
+               id="6a2e5890-6f5b-4d15-87f4-b6fbead74dbe"
+               effectStamp="2017-11-21T08:00:00">
+         <values>
+            <value concept="peri22-dataelement-82013" value="2017-11-21T08:00:00"/>
+            <value concept="peri22-dataelement-20070" value="018168"/>
+         </values>
+      </section>
+      <section type="zwangerschap"
+               id="bc8ff605-c7c0-4098-bf5a-9034558de3ba-zwangerschap"
+               effectStamp="2017-11-21T08:00:00">
+         <values>
+            <value concept="peri22-dataelement-20360" value="TRUE"/>
+            <value concept="peri22-dataelement-20355" value="1"/>
+         </values>
+      </section>
+      <section type="delivery" id="b2d2c9ca-8db8-4f63-b27a-5e2412e29658">
+         <values/>
+      </section>
+      <section type="kind" id="acae6240-68d8-444d-8182-185e75ba3fa1">
+         <values/>
+      </section>
+      <section type="zorgverlener"
+               id="zorgverlener-1ffb0730-02c7-4098-b15d-9896a4d608c1"
+               effectStamp="2017-11-21T08:00:00">
+         <values>
+            <value concept="peri22-dataelement-10004" value="1808"/>
+         </values>
+      </section>
+   </sections>
+</resource>

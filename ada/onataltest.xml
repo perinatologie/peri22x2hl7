@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kernset_aanleverbericht>
+   <zorgverlening conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.4">
+      <datum_start_zorgverantwoordelijkheid value="2017-11-21T08:00:00"
+                                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20290"/>
+      <datum_einde_zorgverantwoordelijkheid value="2018-11-22T08:00:00"
+                                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20340"/>
+      <eindverantwoordelijk_in_welke_perinatale_periodeq code="1"
+                                                         codeSystem="2.16.840.1.113883.2.4.3.22.1.2.20"
+                                                         displayName="start /intake zwangerschapszorg"
+                                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20355"/>
+      <is_er_sprake_van_overdracht_aanq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20360"/>
+   </zorgverlening>
+   <zorgverlenerzorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.1">
+      <zorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10020">
+         <zorginstelling_lvrid nullFlavor="UNK"
+                               conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10023"/>
+      </zorginstelling>
+   </zorgverlenerzorginstelling>
+   <vrouw conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.2">
+      <burgerservicenummer value="900000053"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10030"/>
+      <lokale_persoonsidentificatie value="2018838"
+                                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10031"/>
+      <geboortedatum value="1990-03-01"
+                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10040"/>
+      <etniciteit code="12"
+                  codeSystem="2.16.840.1.113883.2.4.4.13.28"
+                  displayName="Kaukasisch"
+                  conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10400"/>
+      <anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80811">
+         <onder_behandeling_geweestq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82020"/>
+         <algemene_anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80904">
+            <cardiovasculaire_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82216"/>
+            <cardiovasculaire_aandoening code="698247007"
+                                         codeSystem="2.16.840.1.113883.6.96"
+                                         displayName="Cardiac arrhythmia (disorder)"
+                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80906"/>
+            <neurologische_aandoeningq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82218"/>
+         </algemene_anamnese>
+      </anamnese>
+      <lengte_gemeten value="180"
+                      conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20212"
+                      unit="cm"/>
+   </vrouw>
+   <obstetrische_anamnese_gegroepeerd_per_voorgaande_zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.17">
+      <definitieve_a_terme_datum value="2016-06-01"
+                                 conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82337"/>
+      <eerdere_bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.18">
+         <hoeveelheid_bloedverlies value="750"
+                                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10598"
+                                   unit="ml"/>
+         <vorige_uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.19">
+            <rangnummer_kind value="1"/>
+            <vorige_baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80709">
+               <kindspecifieke_gegevens_vorige_uitkomsten conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.21">
+                  <apgarscore_na_5_min value="7" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10606"/>
+               </kindspecifieke_gegevens_vorige_uitkomsten>
+            </vorige_baring>
+         </vorige_uitkomst_per_kind>
+      </eerdere_bevalling>
+   </obstetrische_anamnese_gegroepeerd_per_voorgaande_zwangerschap>
+   <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
+      <graviditeit value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
+      <pariteit_voor_deze_zwangerschap value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20150"/>
+      <prenatale_controle conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80732">
+         <datum_controle value="2018-11-21T00:00:00"
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80737"/>
+         <zwangerschapsduur value="165"
+                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80738"
+                            unit="d"/>
+         <leven_voelen code="289431008"
+                       codeSystem="2.16.840.1.113883.6.96"
+                       displayName="Fetal movements present (finding)"
+                       conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80746"/>
+      </prenatale_controle>
+      <prenatale_controle conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80732">
+         <datum_controle value="2018-11-26T00:00:00"
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80737"/>
+         <zwangerschapsduur value="170"
+                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80738"
+                            unit="d"/>
+      </prenatale_controle>
+      <diagnose conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82268">
+         <datum value="2018-11-21T00:00:00"
+                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82272"/>
+         <zwangerschapsduur value="165"
+                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82285"
+                            unit="d"/>
+         <gynaecologische_aandoening code="37849005"
+                                     codeSystem="2.16.840.1.113883.6.96"
+                                     displayName="Congenital uterine anomaly (disorder)"
+                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82269"/>
+         <bloedverliesq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82270"/>
+         <zwangerschapscholestaseq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82276"/>
+         <afwijkende_groei_foetus code="267258002"
+                                  codeSystem="2.16.840.1.113883.6.96"
+                                  displayName="Small for gestational age fetus (disorder)"
+                                  conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82278"/>
+      </diagnose>
+      <diagnose conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82268">
+         <datum value="2018-11-26T00:00:00"
+                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82272"/>
+         <zwangerschapsduur value="170"
+                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82285"
+                            unit="d"/>
+         <gynaecologische_aandoening code="OTH"
+                                     codeSystem="2.16.840.1.113883.5.1008"
+                                     displayName="Overig"
+                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82269"/>
+      </diagnose>
+   </zwangerschap>
+</kernset_aanleverbericht>

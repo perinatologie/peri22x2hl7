@@ -48,6 +48,17 @@
                         </xsl:call-template>
                     </xsl:for-each>
                 </xsl:when>
+                <xsl:when test="@shortName = 'diagnose'">
+                    <xsl:for-each select="($items//section[@type = 'diagnose'])">
+                        <!-- Alleen diagnose aanmaken als er andere waarden dan datum en duur zwangerschap ingevuld zijn -->
+                        <xsl:if test=".//value[not(@concept='peri22-dataelement-82272') and not(@concept='peri22-dataelement-82285') and not(@value='')]">
+                            <xsl:call-template name="conceptGroup">
+                                <xsl:with-param name="items" select="."/>
+                                <xsl:with-param name="concept" select="$concept"/>
+                            </xsl:call-template>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:when>
                 <xsl:when test="@shortName = 'bevalling'">
                     <xsl:for-each select="$items//section[@type = 'baring']">
                         <xsl:call-template name="conceptGroup">

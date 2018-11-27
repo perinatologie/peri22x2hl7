@@ -80,10 +80,6 @@
       </section>
       <section type="kind" id="7">
          <values repeat="1">
-            <value concept="peri22-dataelement-40010"
-                   label="BSN Kind"
-                   value=""
-                   repeat="1"/>
             <value concept="peri22-dataelement-40050"
                    label="Geboortedatum"
                    value="2018-03-06"
@@ -115,10 +111,6 @@
                    repeat="1"/>
          </values>
          <values repeat="2">
-            <value concept="peri22-dataelement-40010"
-                   label="BSN Kind"
-                   value=""
-                   repeat="2"/>
             <value concept="peri22-dataelement-40050"
                    label="Geboortedatum"
                    value="2018-03-06"

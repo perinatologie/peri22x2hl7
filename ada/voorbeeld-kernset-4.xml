@@ -81,7 +81,6 @@
       <rangnummer_kind value="1"/>
       <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
          <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
-            <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007"/>
             <geboortedatum value="2018-03-06T00:00:00"
                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
          </demografische_gegevens>
@@ -108,7 +107,6 @@
       <rangnummer_kind value="2"/>
       <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
          <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
-            <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007"/>
             <geboortedatum value="2018-03-06T00:00:00"
                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
          </demografische_gegevens>
