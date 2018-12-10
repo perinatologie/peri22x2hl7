@@ -24,6 +24,9 @@
         <!-- Kopieer de section -->
         <section>
             <xsl:copy-of select="$section/@*"/>
+            <xsl:if test="@type='zwangerschap' and @uuid">
+                <value concept='peri22x-dossiernummer' value='{@uuid}'/>
+            </xsl:if>
             <!-- Eerst de values die niet herhalend zijn -->
             <xsl:if test="$section//value[not(@repeat)]">
                 <values>
@@ -53,7 +56,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
+    
     <xsl:template match="@* | node()"/>
 
 </xsl:stylesheet>
