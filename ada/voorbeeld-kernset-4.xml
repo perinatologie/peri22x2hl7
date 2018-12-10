@@ -38,6 +38,7 @@
       <vrouwelijke_genitale_verminkingq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80675"/>
    </vrouw>
    <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
+      <dossiernummer value="44"/>
       <graviditeit value="3" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
       <prenatale_controle conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80732">
          <datum_controle value="2016-07-01T00:00:00"

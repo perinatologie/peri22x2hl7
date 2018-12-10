@@ -19,6 +19,7 @@
                createStamp="2016-01-05"
                effectStamp="2016-01-05">
          <values>
+            <value concept="peri22x-dossiernummer" value="22"/>
             <value concept="peri22-dataelement-20010" label="Graviditeit" value="3"/>
             <value concept="peri22-dataelement-20290"
                    label="Start datum dossier"
@@ -68,10 +69,6 @@
                    label="Risicostatus voor baring"
                    value="1"
                    displayValue="1e lijn (VIL A)"/>
-            <value concept="peri22-dataelement-20590"
-                   label="Tijdstip start actieve fase"
-                   value=""
-                   displayValue="-"/>
             <value concept="peri22-dataelement-20560"
                    label="Hulp Baring"
                    value="236966000"
@@ -93,15 +90,10 @@
             <value concept="peri22-dataelement-20670"
                    label="Maternale sterfte"
                    value="FALSE"/>
-            <value concept="peri22-dataelement-20616" label="Bijstimulatie" value=""/>
          </values>
       </section>
       <section type="kind" id="7">
          <values repeat="1">
-            <value concept="peri22-dataelement-40010"
-                   repeat="1"
-                   label="BSN Kind"
-                   value=""/>
             <value concept="peri22-dataelement-40050"
                    repeat="1"
                    label="Geboortedatum"
@@ -114,11 +106,6 @@
                    repeat="1"
                    label="Overleden"
                    value="TRUE"/>
-            <value concept="peri22-dataelement-40300"
-                   repeat="1"
-                   label="Datum Overleden"
-                   value=""
-                   displayValue="-"/>
             <value concept="peri22-dataelement-40290"
                    repeat="1"
                    label="Fase perinatale sterfte"
@@ -141,10 +128,6 @@
                    label="Interventies"
                    value="32189006"
                    displayValue="Pubiotomy (procedure)"/>
-            <value concept="peri22-dataelement-40071"
-                   repeat="1"
-                   label="Apgar 5 min"
-                   value=""/>
          </values>
       </section>
       <section type="kraambed" id="8">

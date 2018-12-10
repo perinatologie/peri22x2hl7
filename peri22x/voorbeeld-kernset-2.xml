@@ -14,6 +14,7 @@
         </section>
         <section type="intake" id="2" createStamp="2016-01-05" effectStamp="2016-01-05">
             <values>
+                <value concept="peri22x-dossiernummer" value="22"/>
                 <value concept="peri22-dataelement-20010" label="Graviditeit" value="3"/>
                 <value concept="peri22-dataelement-20290" label="Start datum dossier" value="2016-01-05"/>
                 <value concept="peri22-dataelement-20340" label="Datum eind dossier" value="2016-08-10"/>

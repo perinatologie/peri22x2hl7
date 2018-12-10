@@ -54,19 +54,6 @@
                                 conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80623"/>
       <definitieve_a_terme_datum value="2013-01-12"
                                  conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82337"/>
-      <diagnose conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82314">
-         <gynaecologische_aandoening code="129103003"
-                                     codeSystem="2.16.840.1.113883.6.96"
-                                     displayName="Endometriosis (disorder)"
-                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82317"/>
-         <bloedverliesq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82318"/>
-         <cervixinsufficientieq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82320"/>
-         <infectie code="301775005"
-                   codeSystem="2.16.840.1.113883.6.96"
-                   displayName="Infection of uterus (disorder)"
-                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82321"/>
-         <hyperemesis_gravidarumq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82322"/>
-      </diagnose>
       <eerdere_bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.18">
          <vorige_uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.19">
             <rangnummer_kind value="1"/>
@@ -129,6 +116,7 @@
       </eerdere_bevalling>
    </obstetrische_anamnese_gegroepeerd_per_voorgaande_zwangerschap>
    <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
+      <dossiernummer value="33"/>
       <graviditeit value="3" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
       <voornemens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80671">
          <voorgenomen_plaats_baring_tijdens_zwangerschap_type_locatie code="169813005"
@@ -213,7 +201,6 @@
       <rangnummer_kind value="1"/>
       <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
          <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
-            <identificaties_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40007"/>
             <geboortedatum value="2018-03-06T00:00:00"
                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
          </demografische_gegevens>
