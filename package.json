@@ -1,0 +1,22 @@
+{
+  "name": "peri22x2hl7",
+  "version": "1.0.0",
+  "description": "Conversie van peri22x format naar ADA, wat weer naar HL7 geconverteerd wordt met de Nictiz converters.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perinatologie/peri22x2hl7.git"
+  },
+  "author": "perinatologie.nl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perinatologie/peri22x2hl7/issues"
+  },
+  "homepage": "https://github.com/perinatologie/peri22x2hl7#readme",
+  "dependencies": {
+    "@nictiz/Geboortezorg": "git+https://github.com/perinatologie/Geboortezorg.git#semver:^2.2",
+    "@nictiz/peri20-xml": "git+https://github.com/perinatologie/peri20-xml.git#semver:^2.2"
+  }
+}
