@@ -50,7 +50,7 @@
             <!-- Temp fix voor Onatal probleem -->
             <xsl:when test="@value='T'"/>
             <!-- Temp fix voor BMA probleem -->
-            <xsl:when test="@concept='peri22-dataelement-82160' and ./ancestor::section/@type='intake'"/>
+            <xsl:when test="count(//@concept='peri22-dataelement-82160') > 1 and ./ancestor::section/@type='intake'"/>
             <xsl:otherwise>
                 <xsl:copy-of select="."/>
             </xsl:otherwise>

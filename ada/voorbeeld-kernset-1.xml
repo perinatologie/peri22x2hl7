@@ -52,6 +52,8 @@
       <dossiernummer value="11"/>
       <graviditeit value="3" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
       <pariteit_voor_deze_zwangerschap value="2" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20150"/>
+      <definitieve_a_terme_datum value="2016-08-03"
+                                 conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82160"/>
       <voornemens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80671">
          <voorgenomen_plaats_baring_tijdens_zwangerschap_type_locatie code="169813005"
                                                                       codeSystem="2.16.840.1.113883.6.96"
@@ -160,10 +162,6 @@
    <postnatale_fase conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.16">
       <diagnose_postpartum conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82297">
          <pathologie_vrouwq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82208"/>
-         <pathologie_vrouw code="385494008"
-                           codeSystem="2.16.840.1.113883.6.96"
-                           displayName="Hematoma (disorder)"
-                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82209"/>
       </diagnose_postpartum>
       <kindspecifieke_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.161">
          <rangnummer_kind value="1"/>
