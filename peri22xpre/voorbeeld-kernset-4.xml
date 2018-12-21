@@ -19,7 +19,7 @@
                createStamp="2016-01-05"
                effectStamp="2016-01-05">
          <values>
-            <value concept="peri22x-dossiernummer" value="44"/>
+            <value concept="peri22-dataelement-20280" value="44"/>
             <value concept="peri22-dataelement-20010" label="Graviditeit" value="3"/>
             <value concept="peri22-dataelement-20290"
                    label="Start datum dossier"

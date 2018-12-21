@@ -158,8 +158,8 @@
             <xsl:element name="{$concept/@shortName}">
                 <xsl:attribute name="conceptId" select="$concept/@id"/>
                 <xsl:if test="$concept/@shortName='zwangerschap'">
-                    <xsl:if test="$items//value[@concept='peri22x-dossiernummer']">
-                        <dossiernummer value="{$items//value[@concept='peri22x-dossiernummer']/@value}"/>
+                    <xsl:if test="$items//value[@concept='peri22-dataelement-20280']">
+                        <dossiernummer value="{$items//value[@concept='peri22-dataelement-20280']/@value}"/>
                     </xsl:if>
                 </xsl:if> 
                 <xsl:if test="@repeat">
