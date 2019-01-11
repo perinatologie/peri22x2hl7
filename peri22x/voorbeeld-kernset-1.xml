@@ -14,7 +14,8 @@
         </section>
         <section type="intake" id="2" createStamp="2016-01-05" effectStamp="2016-01-05">
             <values>
-                <value concept="peri22-dataelement-20280" value="11"/>
+                <value concept="peri22x-dossiernummer" value="11"/>
+                <!--<value concept="peri22-dataelement-20280" value="11"/>-->
                 <value concept="peri22-dataelement-20010" label="Graviditeit" value="3"/>
                 <value concept="peri22-dataelement-20150" label="Pariteit" value="2"/>
                 <value concept="peri22-dataelement-82160" label="Definitieve a terme datum" value="2016-08-03"/>
@@ -58,7 +59,6 @@
         <section type="zwangerschap" id="13" createStamp="2016-07-01" effectStamp="2016-08-15">
             <values>
                 <value concept="peri22-dataelement-82208" label="Pathologie vrouw?" value="TRUE"/>
-                <value concept="peri22-dataelement-82209" label="Pathologie vrouw" value="385494008"/>
                 <value concept="peri22-dataelement-80625" label="Wijze einde zwangerschap" value="1"/>
             </values>
         </section>

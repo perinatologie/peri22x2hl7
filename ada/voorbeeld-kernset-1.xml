@@ -49,7 +49,6 @@
       <vrouwelijke_genitale_verminkingq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80675"/>
    </vrouw>
    <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
-      <dossiernummer value="11"/>
       <graviditeit value="3" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
       <pariteit_voor_deze_zwangerschap value="2" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20150"/>
       <definitieve_a_terme_datum value="2016-08-03"
