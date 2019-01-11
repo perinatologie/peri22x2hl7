@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/perinatologie/peri22x2hl7#readme",
   "dependencies": {
-    "@nictiz/Geboortezorg": "git+https://github.com/perinatologie/Geboortezorg.git#semver:^2.2",
+    "@nictiz/Geboortezorg": "git+https://github.com/perinatologie/Geboortezorg.git#semver:^1.0",
     "@nictiz/peri20-xml": "git+https://github.com/perinatologie/peri20-xml.git#semver:^2.2"
   }
 }
