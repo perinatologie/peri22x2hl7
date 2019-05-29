@@ -113,6 +113,19 @@
                    label="Apgar 5 min"
                    value="7"
                    repeat="1"/>
+            <value concept="peri22-dataelement-40290"
+                   label="Fase perinatale sterfte"
+                   value="237361005"
+                   displayValue="Antepartum fetal death (event)"
+                   repeat="1"/>
+            <value concept="peri22-dataelement-40300"
+                   label="Datum/tijd vaststelling perinatale sterfte"
+                   value="2018-03-06T12:00:00"
+                   repeat="1"/>
+            <value concept="peri22-dataelement-40280"
+                   label="perinatale sterfte?"
+                   value="TRUE"
+                   repeat="1"/>
          </values>
          <values repeat="2">
             <value concept="peri22-dataelement-40050"

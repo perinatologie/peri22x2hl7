@@ -291,6 +291,12 @@
                     <overige_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="{$concept/@id}"/>
                 </xsl:if>
             </xsl:when>
+            <!-- Als geen perinatale_sterfteq = 'true' maar wel fase_perinatale_sterfte en niet of Datum/tijd vaststelling perinatale sterfte dan q genereren -->
+            <xsl:when test="$concept/@id='2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40280'">
+                <xsl:if test="not($items/descendant-or-self::value[@concept='peri22-dataelement-40280']) and ($items/descendant-or-self::value[@concept='peri22-dataelement-40290'] or $items/descendant-or-self::value[@concept='peri22-dataelement-40300'])">
+                    <perinatale_sterfteq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40280"/>
+                </xsl:if>
+            </xsl:when>
         </xsl:choose>
         
         <xsl:for-each select="$values">

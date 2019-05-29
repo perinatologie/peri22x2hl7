@@ -59,6 +59,9 @@
                 <value concept="peri22-dataelement-40120" label="Chromosomale afwijkingen" value="41040004" repeat="2"/>
                 <value concept="peri22-dataelement-82334" label="Overige problematiek" value="FALSE" repeat="2"/>
                 <value concept="peri22-dataelement-40071" label="Apgar 5 min" value="8" repeat="2"/>
+                <value concept="peri22-dataelement-40290" label="Fase perinatale sterfte" value="237361005" displayValue="Antepartum fetal death (event)" repeat="1" />
+                <value concept="peri22-dataelement-40300" label="Datum/tijd vaststelling perinatale sterfte" value="2018-03-06T12:00:00" repeat="1" />
+                <value concept="peri22-dataelement-40280" label="perinatale sterfte?" value="TRUE" repeat="1" />
             </values>
         </section>
         <section type="kraambed" id="8">

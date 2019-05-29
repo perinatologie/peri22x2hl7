@@ -5,8 +5,8 @@
                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="urn:hl7-org:v3 file:/C:/SVN/AORTA/trunk/XML/schemas_codeGen/REPC_IN004014NL.xsd">
-   <id extension="20190529170818900000004" root="1.2.3.999"/>
-   <creationTime value="20190529170818"/>
+   <id extension="20190529175436900000004" root="1.2.3.999"/>
+   <creationTime value="20190529175436"/>
    <versionCode code="NICTIZEd2005-Okt"/>
    <interactionId root="2.16.840.1.113883.1.6" extension="REPC_IN004014NL"/>
    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
@@ -240,6 +240,8 @@
                                           displayName="Kind"/>
                                     <relationshipHolder classCode="PSN" determinerCode="INSTANCE">
                                        <birthTime value="20180306000000"/>
+                                       <deceasedInd value="true"/>
+                                       <deceasedTime value="20180306120000"/>
                                     </relationshipHolder>
                                  </personalRelationship>
                               </subject>
@@ -307,6 +309,17 @@
                                        </product>
                                     </product>
                                  </supply>
+                              </outboundRelationship>
+                              <outboundRelationship typeCode="COMP">
+                                 <observation classCode="OBS" moodCode="EVN">
+                                    <code code="FasePerinataleSterfte"
+                                          codeSystem="2.16.840.1.113883.2.4.4.13"
+                                          displayName="Fase perinatale sterfte"/>
+                                    <value xsi:type="CE"
+                                           code="237361005"
+                                           codeSystem="2.16.840.1.113883.6.96"
+                                           displayName="Antepartum fetal death (event)"/>
+                                 </observation>
                               </outboundRelationship>
                            </procedure>
                         </component>
