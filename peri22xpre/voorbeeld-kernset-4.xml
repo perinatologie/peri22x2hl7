@@ -31,9 +31,6 @@
                    label="Eindverantwoordelijk in welke periode?"
                    value="2"/>
             <value concept="peri22-dataelement-20212" label="Lengte" value="171"/>
-            <value concept="peri22-dataelement-80675"
-                   label="Besnijdenis"
-                   value="FALSE"/>
             <value concept="peri22-dataelement-20305"
                    label="Concl. Risicostatus"
                    value="1"
@@ -41,6 +38,12 @@
             <value concept="peri22-dataelement-82102"
                    label="Drugsgebruik"
                    value="TRUE"/>
+            <value concept="peri22-dataelement-80675"
+                   label="vrouwelijke genitale verminking"
+                   value="TRUE"/>
+            <value concept="peri22-dataelement-80676"
+                   label="type vrouwelijke genitale verminking"
+                   value="130631000119108"/>
          </values>
       </section>
       <section type="consult"

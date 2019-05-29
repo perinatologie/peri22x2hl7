@@ -35,7 +35,11 @@
       <lengte_gemeten value="171"
                       conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20212"
                       unit="cm"/>
-      <vrouwelijke_genitale_verminkingq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80675"/>
+      <vrouwelijke_genitale_verminkingq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80675"/>
+      <type_vrouwelijke_genitale_verminking code="130631000119108"
+                                            codeSystem="2.16.840.1.113883.6.96"
+                                            displayName="Female genital mutilation type 1 (disorder)"
+                                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80676"/>
    </vrouw>
    <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
       <dossiernummer value="44"/>
