@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource type="hub/dossier">
+   <sections>
+      <section type="client" id="1">
+         <values>
+            <value concept="peri22-dataelement-10031"
+                   label="Lokale persoonsidentificatie"
+                   value="1314151"/>
+            <value concept="peri22x-vrouw-volledige_achternaam"
+                   label="Volledige achternaam"
+                   value="Minimaal"/>
+         </values>
+      </section>
+      <section type="intake" id="2">
+         <values>
+            <value concept="peri22-dataelement-10023"
+                   label="Zorginstelling LVR-ID"
+                   value="0998"/>
+            <value concept="peri22-dataelement-20010" label="Graviditeit" value="1"/>
+            <value concept="peri22-dataelement-20030"
+                   label="A terme datum"
+                   value="2018-08-26"/>
+            <value concept="peri22-dataelement-82160"
+                   label="Definitieve à terme datum"
+                   value="2018-08-26"/>
+         </values>
+      </section>
+      <section type="algemeneAnamnese" id="3">
+         <values>
+            <value concept="peri22-dataelement-82211"
+                   label="Gynaecologische aandoening?"
+                   value="false"/>
+         </values>
+      </section>
+      <section type="zwangerschap" id="4" uuid="9">
+         <value concept="peri22-dataelement-20280" value="9"/>
+         <values/>
+      </section>
+      <section type="baring" id="5">
+         <values>
+            <value concept="peri22-dataelement-20505"
+                   label="Aantal geboren kinderen"
+                   value="0"/>
+            <value concept="peri22-dataelement-20550"
+                   label="Wijze waarop de baring begon"
+                   value="NI"
+                   displayValue="geen informatie"/>
+            <value concept="peri22-dataelement-20570"
+                   label="Indicatie interventie begin baring"
+                   value="NI"
+                   displayValue="geen informatie"/>
+            <value concept="peri22-dataelement-20630"
+                   label="Geboorte placenta"
+                   value="NI"
+                   displayValue="geen informatie"/>
+            <value concept="peri22-dataelement-80673"
+                   label="Conditie perineum postpartum"
+                   value="NI"
+                   displayValue="Geen informatie"/>
+         </values>
+         <values repeat="2">
+            <value concept="peri22-dataelement-82090"
+                   label="Pijnbestrijding?"
+                   repeat="2"
+                   value="false"/>
+         </values>
+      </section>
+   </sections>
+</resource>

@@ -5,8 +5,8 @@
                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="urn:hl7-org:v3 file:/C:/SVN/AORTA/trunk/XML/schemas_codeGen/REPC_IN004014NL.xsd">
-   <id extension="20191125133233900000004" root="1.2.3.999"/>
-   <creationTime value="20191125133233"/>
+   <id extension="20191125133236392548480" root="1.2.3.999"/>
+   <creationTime value="20191125133236"/>
    <versionCode code="NICTIZEd2005-Okt"/>
    <interactionId root="2.16.840.1.113883.1.6" extension="REPC_IN004014NL"/>
    <profileId root="2.16.840.1.113883.2.4.3.11.1" extension="810"/>
@@ -90,64 +90,34 @@
             <subject2 typeCode="SUBJ" contextConductionInd="false">
                <CareProvisionEvent classCode="PCPR" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.2.4.6.10.90.73"/>
-                  <id root="2.16.840.1.113883.2.4.3.46.10.5.1.1234" extension="22"/>
+                  <id root="2.16.840.1.113883.2.4.3.46.10.5.1.NaN" extension=""/>
                   <effectiveTime>
                      <low value="20160105000000"/>
                      <high value="20160810000000"/>
                   </effectiveTime>
                   <subject typeCode="SBJ">
                      <patient classCode="PAT">
-                        <id extension="900000004" root="2.16.840.1.113883.2.4.6.3"/>
+                        <id extension="392548480" root="2.16.840.1.113883.2.4.6.3"/>
                         <addr>
-                           <postalCode>6708AA</postalCode>
+                           <postalCode nullFlavor="NI"/>
                         </addr>
                         <patientPerson classCode="PSN" determinerCode="INSTANCE">
                            <birthTime value="19740403"/>
                            <deceasedInd value="false"/>
-                           <ethnicGroupCode code="12"
-                                            codeSystem="2.16.840.1.113883.2.4.4.13.28"
-                                            displayName="Kaukasisch"/>
                         </patientPerson>
                      </patient>
                   </subject>
                   <verifier typeCode="LA">
                      <assignedPerson classCode="ASSIGNED">
                         <representedOrganization classCode="ORG" determinerCode="INSTANCE">
-                           <id root="2.16.840.1.113883.2.4.3.22.96.6" extension="1234"/>
+                           <id root="2.16.840.1.113883.2.4.3.22.96.6" extension=""/>
                         </representedOrganization>
                      </assignedPerson>
                   </verifier>
                   <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
                      <observation classCode="OBS" moodCode="EVN">
                         <code code="Rpp" codeSystem="2.16.840.1.113883.2.4.4.13"/>
-                        <value xsi:type="CE"
-                               code="4"
-                               codeSystem="2.16.840.1.113883.2.4.3.22.1.2.20"
-                               displayName="uitdrijving"/>
-                     </observation>
-                  </pertinentInformation3>
-                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
-                     <observation classCode="OBS" moodCode="EVN">
-                        <code code="RiskStat" codeSystem="2.16.840.1.113883.2.4.4.13"/>
-                        <value xsi:type="CE"
-                               code="1"
-                               codeSystem="2.16.840.1.113883.2.4.4.13.26"
-                               displayName="1e lijn (VIL A)"/>
-                     </observation>
-                  </pertinentInformation3>
-                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
-                     <observation classCode="OBS" moodCode="EVN">
-                        <code code="3137-7"
-                              codeSystem="2.16.840.1.113883.6.1"
-                              displayName="Body height"/>
-                        <value xsi:type="PQ" value="171" unit="cm"/>
-                     </observation>
-                  </pertinentInformation3>
-                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
-                     <observation classCode="OBS" moodCode="EVN" negationInd="true">
-                        <code code="95041000119101"
-                              codeSystem="2.16.840.1.113883.6.96"
-                              displayName="Vrouwelijke genitale verminking"/>
+                        <value xsi:type="CE" nullFlavor="NI"/>
                      </observation>
                   </pertinentInformation3>
                   <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
@@ -169,9 +139,9 @@
                                     codeSystem="2.16.840.1.113883.2.4.3.22.1.3"
                                     displayName="Voorgenomen plaats baring tijdens zwangerschap"/>
                               <value xsi:type="CE"
-                                     code="169813005"
-                                     codeSystem="2.16.840.1.113883.6.96"
-                                     displayName="Home birth (finding)"/>
+                                     code="23"
+                                     codeSystem="2.16.840.1.113883.2.4.3.22.1.8.7"
+                                     displayName="Geboortecentrum"/>
                            </observation>
                         </component>
                      </organizer>
@@ -188,7 +158,7 @@
                               <code code="445872007"
                                     codeSystem="2.16.840.1.113883.6.96"
                                     displayName="Zwangerschapsduur"/>
-                              <value xsi:type="PQ" unit="d" value="240"/>
+                              <value xsi:type="PQ" unit="d" value="36+2"/>
                            </observation>
                         </outboundRelationship>
                         <outboundRelationship typeCode="COMP">
@@ -200,29 +170,6 @@
                                      code="289431008"
                                      codeSystem="2.16.840.1.113883.6.96"
                                      displayName="Fetal movements present (finding)"/>
-                           </observation>
-                        </outboundRelationship>
-                        <outboundRelationship typeCode="COMP">
-                           <observation classCode="OBS" moodCode="EVN">
-                              <code code="3141-9"
-                                    codeSystem="2.16.840.1.113883.6.1"
-                                    displayName="Gewicht (gemeten)"/>
-                              <value xsi:type="PQ" value="78" unit="kg"/>
-                           </observation>
-                        </outboundRelationship>
-                     </procedure>
-                  </pertinentInformation3>
-                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
-                     <procedure classCode="PROC" moodCode="EVN">
-                        <id nullFlavor="NI"/>
-                        <code code="18114009"
-                              codeSystem="2.16.840.1.113883.6.96"
-                              displayName="Prenatale controle"/>
-                        <effectiveTime nullFlavor="NI"/>
-                        <outboundRelationship typeCode="COMP">
-                           <observation classCode="OBS" moodCode="EVN">
-                              <code code="Drugsgebruik" codeSystem="2.16.840.1.113883.2.4.4.13"/>
-                              <value xsi:type="BL" value="true"/>
                            </observation>
                         </outboundRelationship>
                      </procedure>
@@ -243,41 +190,109 @@
                                      displayName="1e lijn (VIL A)"/>
                            </observation>
                         </component>
-                        <component typeCode="COMP" contextConductionInd="true">
-                           <observation classCode="OBS" moodCode="EVN">
-                              <code code="Medic3stage" codeSystem="2.16.840.1.113883.2.4.4.13"/>
-                              <value xsi:type="BL" value="false"/>
-                           </observation>
+                        <component typeCode="COMP" contextConductionInd="false">
+                           <procedure classCode="PROC" moodCode="EVN">
+                              <id nullFlavor="NI"/>
+                              <code code="Baring" codeSystem="2.16.840.1.113883.2.4.3.22.1.3"/>
+                              <outboundRelationship typeCode="COMP">
+                                 <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                    <id nullFlavor="NI"/>
+                                    <code code="278414003"
+                                          codeSystem="2.16.840.1.113883.6.96"
+                                          displayName="Pijnbestrijding"/>
+                                    <methodCode code="231249005"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="Local anesthetic intrathecal block (procedure)"/>
+                                    <outboundRelationship typeCode="COMP">
+                                       <observation classCode="OBS" moodCode="EVN">
+                                          <code code="PijnbestrPeriode"
+                                                codeSystem="2.16.840.1.113883.2.4.4.13"
+                                                displayName="Pijnbestrijding periode"/>
+                                          <value xsi:type="CE"
+                                                 code="Uitdr"
+                                                 codeSystem="2.16.840.1.113883.2.4.4.13.60"
+                                                 displayName="tijdens uitdrijving"/>
+                                       </observation>
+                                    </outboundRelationship>
+                                 </procedure>
+                              </outboundRelationship>
+                              <outboundRelationship typeCode="COMP">
+                                 <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                    <id nullFlavor="NI"/>
+                                    <code code="278414003"
+                                          codeSystem="2.16.840.1.113883.6.96"
+                                          displayName="Pijnbestrijding"/>
+                                    <methodCode code="50697003"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="General anesthesia (procedure)"/>
+                                    <outboundRelationship typeCode="COMP">
+                                       <observation classCode="OBS" moodCode="EVN">
+                                          <code code="PijnbestrPeriode"
+                                                codeSystem="2.16.840.1.113883.2.4.4.13"
+                                                displayName="Pijnbestrijding periode"/>
+                                          <value xsi:type="CE"
+                                                 code="Sectio"
+                                                 codeSystem="2.16.840.1.113883.2.4.4.13.60"
+                                                 displayName="tijdens sectio"/>
+                                       </observation>
+                                    </outboundRelationship>
+                                 </procedure>
+                              </outboundRelationship>
+                              <outboundRelationship typeCode="COMP">
+                                 <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8339-4" codeSystem="2.16.840.1.113883.6.1"/>
+                                    <value xsi:type="PQ" nullFlavor="NI"/>
+                                 </observation>
+                              </outboundRelationship>
+                              <outboundRelationship typeCode="COMP">
+                                 <observation classCode="OBS" moodCode="EVN" nullFlavor="NI">
+                                    <code code="ProblematiekKind"
+                                          codeSystem="2.16.840.1.113883.2.4.4.13"
+                                          displayName="Problematiek kind"/>
+                                 </observation>
+                              </outboundRelationship>
+                           </procedure>
                         </component>
-                        <component typeCode="COMP" contextConductionInd="true">
-                           <observation classCode="OBS" moodCode="EVN">
-                              <code code="AfterBirthMethod"
-                                    codeSystem="2.16.840.1.113883.2.4.4.13"
-                                    displayName="Geboorte placenta"/>
-                              <value xsi:type="CE"
-                                     code="0"
-                                     codeSystem="2.16.840.1.113883.2.4.4.13.19"
-                                     displayName="Spontaan"/>
-                           </observation>
-                        </component>
-                        <component typeCode="COMP" contextConductionInd="true">
-                           <observation classCode="OBS" moodCode="EVN">
-                              <code code="364332008"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Hoeveelheid bloedverlies"/>
-                              <value xsi:type="PQ" value="75" unit="ml"/>
-                           </observation>
-                        </component>
-                        <component typeCode="COMP" contextConductionInd="true">
-                           <observation classCode="OBS" moodCode="EVN">
-                              <code code="364297003"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Conditie perineum postpartum"/>
-                              <value xsi:type="CE"
-                                     code="289854007"
-                                     codeSystem="2.16.840.1.113883.6.96"
-                                     displayName="Perineum intact  (finding)"/>
-                           </observation>
+                        <component typeCode="COMP" contextConductionInd="false">
+                           <procedure classCode="PROC" moodCode="EVN">
+                              <id nullFlavor="NI"/>
+                              <code code="Baring" codeSystem="2.16.840.1.113883.2.4.3.22.1.3"/>
+                              <outboundRelationship typeCode="COMP">
+                                 <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+                                    <id nullFlavor="NI"/>
+                                    <code code="278414003"
+                                          codeSystem="2.16.840.1.113883.6.96"
+                                          displayName="Pijnbestrijding"/>
+                                    <methodCode code="50697003"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="General anesthesia (procedure)"/>
+                                    <outboundRelationship typeCode="COMP">
+                                       <observation classCode="OBS" moodCode="EVN">
+                                          <code code="PijnbestrPeriode"
+                                                codeSystem="2.16.840.1.113883.2.4.4.13"
+                                                displayName="Pijnbestrijding periode"/>
+                                          <value xsi:type="CE"
+                                                 code="Sectio"
+                                                 codeSystem="2.16.840.1.113883.2.4.4.13.60"
+                                                 displayName="tijdens sectio"/>
+                                       </observation>
+                                    </outboundRelationship>
+                                 </procedure>
+                              </outboundRelationship>
+                              <outboundRelationship typeCode="COMP">
+                                 <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8339-4" codeSystem="2.16.840.1.113883.6.1"/>
+                                    <value xsi:type="PQ" nullFlavor="NI"/>
+                                 </observation>
+                              </outboundRelationship>
+                              <outboundRelationship typeCode="COMP">
+                                 <observation classCode="OBS" moodCode="EVN" nullFlavor="NI">
+                                    <code code="ProblematiekKind"
+                                          codeSystem="2.16.840.1.113883.2.4.4.13"
+                                          displayName="Problematiek kind"/>
+                                 </observation>
+                              </outboundRelationship>
+                           </procedure>
                         </component>
                         <component typeCode="COMP" contextConductionInd="false">
                            <procedure classCode="PROC" moodCode="EVN">
@@ -289,88 +304,26 @@
                                           codeSystem="2.16.840.1.113883.5.111"
                                           displayName="Kind"/>
                                     <relationshipHolder classCode="PSN" determinerCode="INSTANCE">
-                                       <birthTime value="20180101000000"/>
-                                       <deceasedInd value="true"/>
+                                       <id extension="123456789" root="2.16.840.1.113883.2.4.6.3"/>
+                                       <id extension="987654321" root="2.16.840.1.113883.2.4.6.3"/>
                                     </relationshipHolder>
                                  </personalRelationship>
                               </subject>
                               <outboundRelationship typeCode="COMP">
                                  <observation classCode="OBS" moodCode="EVN">
-                                    <code code="Interv"
-                                          codeSystem="2.16.840.1.113883.2.4.3.22.1.1"
-                                          displayName="Overige interventies"/>
-                                    <value xsi:type="CE"
-                                           code="32189006"
-                                           codeSystem="2.16.840.1.113883.6.96"
-                                           displayName="Pubiotomy (procedure)"/>
-                                 </observation>
-                              </outboundRelationship>
-                              <outboundRelationship typeCode="COMP">
-                                 <observation classCode="OBS" moodCode="EVN">
                                     <code code="8339-4" codeSystem="2.16.840.1.113883.6.1"/>
-                                    <value xsi:type="PQ" unit="g" value="3500"/>
+                                    <value xsi:type="PQ" nullFlavor="NI"/>
                                  </observation>
                               </outboundRelationship>
                               <outboundRelationship typeCode="COMP">
-                                 <observation classCode="OBS" moodCode="EVN" negationInd="true">
-                                    <code code="443341004"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Congenitale afwijking"/>
-                                 </observation>
-                              </outboundRelationship>
-                              <outboundRelationship typeCode="COMP">
-                                 <observation classCode="OBS" moodCode="EVN" negationInd="true">
-                                    <code code="74345006"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Chromosomale afwijking"/>
-                                 </observation>
-                              </outboundRelationship>
-                              <outboundRelationship typeCode="COMP">
-                                 <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                                 <observation classCode="OBS" moodCode="EVN" nullFlavor="NI">
                                     <code code="ProblematiekKind"
                                           codeSystem="2.16.840.1.113883.2.4.4.13"
                                           displayName="Problematiek kind"/>
                                  </observation>
                               </outboundRelationship>
-                              <!--Item: 70010 - Voeding kind-->
-                              <outboundRelationship typeCode="COMP" contextConductionInd="true">
-                                 <supply classCode="DIET" moodCode="EVN">
-                                    <id nullFlavor="NI"/>
-                                    <code code="230126006"
-                                          codeSystem="2.16.840.1.113883.6.96"
-                                          displayName="Voeding kind"/>
-                                    <effectiveTime nullFlavor="NI"/>
-                                    <product typeCode="PRD">
-                                       <product classCode="ACCESS">
-                                          <playingMaterial classCode="MAT" determinerCode="KIND">
-                                             <code code="1"
-                                                   codeSystem="2.16.840.1.113883.2.4.3.22.1.4.8"
-                                                   displayName="Borstvoeding"/>
-                                          </playingMaterial>
-                                       </product>
-                                    </product>
-                                 </supply>
-                              </outboundRelationship>
-                              <outboundRelationship typeCode="COMP">
-                                 <observation classCode="OBS" moodCode="EVN">
-                                    <code code="FasePerinataleSterfte"
-                                          codeSystem="2.16.840.1.113883.2.4.4.13"
-                                          displayName="Fase perinatale sterfte"/>
-                                    <value xsi:type="CE"
-                                           code="237361005"
-                                           codeSystem="2.16.840.1.113883.6.96"
-                                           displayName="Antepartum fetal death (event)"/>
-                                 </observation>
-                              </outboundRelationship>
                            </procedure>
                         </component>
-                     </organizer>
-                  </pertinentInformation3>
-                  <pertinentInformation3 typeCode="PERT" contextConductionInd="true">
-                     <organizer classCode="CONTAINER" moodCode="EVN">
-                        <code code="133906008"
-                              codeSystem="2.16.840.1.113883.6.96"
-                              displayName="Postpartum care (regime/therapy)"/>
                      </organizer>
                   </pertinentInformation3>
                </CareProvisionEvent>

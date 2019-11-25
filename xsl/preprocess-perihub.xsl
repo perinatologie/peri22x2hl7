@@ -19,7 +19,6 @@
     </xsl:template>
 
     <xsl:template match="section">
-        <xsl:variable name="repeats" select="distinct-values(.//@repeat/string())"/>
         <xsl:variable name="section" select="."/>
         <!-- Kopieer de section -->
         <section>
@@ -27,20 +26,46 @@
             <xsl:if test="@type='zwangerschap' and @uuid">
                 <value concept='peri22-dataelement-20280' value='{@uuid}'/>
             </xsl:if>
-            <!-- Eerst de values die niet herhalend zijn -->
-            <xsl:if test="$section//value[not(@repeat)]">
-                <values>
-                    <xsl:apply-templates select="$section//value[not(@repeat)]"/>
-                </values>
-            </xsl:if>
-            <!-- Dan de values die wel herhalend zijn, met een repeat nummer op values element -->
-            <xsl:for-each select="$repeats">
-                <xsl:variable name="this-repeat" select="."/>
-                <values repeat="{$this-repeat}">
-                    <xsl:apply-templates select="$section//value[@repeat=$this-repeat]"/>
-                </values>
-            </xsl:for-each>
+            <xsl:call-template name="doRepeats">
+                <xsl:with-param name="section" select="$section"/>
+            </xsl:call-template>
         </section>
+    </xsl:template>
+    
+    <xsl:template name="doRepeats">
+        <xsl:param name="section"/>
+        <xsl:variable name="repeats" select="distinct-values(.//@repeat/string())"/>
+        <!-- Eerst de values die niet herhalend zijn -->
+        <xsl:if test="$section//value[not(@repeat)]">
+            <values>
+                <xsl:call-template name="doGroups">
+                    <xsl:with-param name="values" select="$section//value[not(@repeat)]"/>
+                </xsl:call-template>
+            </values>
+        </xsl:if>
+        <!-- Dan de values die wel herhalend zijn, met een repeat nummer op values element -->
+        <xsl:for-each select="$repeats">
+            <xsl:variable name="this-repeat" select="."/>
+            <values repeat="{$this-repeat}">
+                <xsl:call-template name="doGroups">
+                    <xsl:with-param name="values" select="$section//value[@repeat=$this-repeat]"/>
+                </xsl:call-template>
+            </values>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template name="doGroups">
+        <xsl:param name="values"/>
+        <xsl:variable name="groups" select="distinct-values($values//@group/string())"/>
+        <!-- Eerst de values die niet herhalend zijn -->
+        <xsl:apply-templates select="$values[not(@group)]"/>
+        <!-- Dan de values die wel herhalend zijn, met een group op values element -->
+        <xsl:for-each select="$groups">
+            <xsl:variable name="this-group" select="."/>
+            <values group="{$this-group}">
+                <xsl:apply-templates select="$values[@group=$this-group]"/>
+            </values>
+        </xsl:for-each>
     </xsl:template>
     
     <xsl:template match="value">

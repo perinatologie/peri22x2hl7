@@ -81,6 +81,34 @@
                         </xsl:call-template>
                     </xsl:if>
                 </xsl:when>
+                <xsl:when test="@shortName = 'pijnbestrijding'">
+                    <xsl:for-each select="$items//values[@group]">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/>
+                        </xsl:call-template>
+                    </xsl:for-each>
+                    <xsl:if test="not($items//values[@group])">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/>
+                        </xsl:call-template>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:when test="@shortName = 'vaginale_kunstverlossing_groep'">
+                    <xsl:for-each select="$items//values[@group]">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/>
+                        </xsl:call-template>
+                    </xsl:for-each>
+                    <xsl:if test="not($items//values[@group])">
+                        <xsl:call-template name="conceptGroup">
+                            <xsl:with-param name="items" select="."/>
+                            <xsl:with-param name="concept" select="$concept"/>
+                        </xsl:call-template>
+                    </xsl:if>
+                </xsl:when>
                 <xsl:when test="@shortName = 'uitkomst_per_kind'">
                     <xsl:for-each select="$items//section[(@type = 'kind' or @type = 'baring')]//values[@repeat]">
                         <xsl:call-template name="conceptGroup">
