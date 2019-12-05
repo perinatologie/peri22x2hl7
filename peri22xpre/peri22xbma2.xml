@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource type="hub/dossier">
+   <sections>
+      <section id="1" type="client">
+         <values>
+            <value concept="peri22-dataelement-10030"
+                   label="Burgerservicenummer"
+                   value="213499046"/>
+            <value concept="peri22-dataelement-10031"
+                   label="Lokale persoonsidentificatie"
+                   value="33290110"/>
+            <value concept="peri22-dataelement-10040"
+                   label="Geboortedatum"
+                   value="1993-08-23"/>
+            <value concept="peri22-dataelement-10304" label="Postcode" value="1361CG"/>
+            <value concept="peri22-dataelement-10400"
+                   displayValue="Kaukasisch"
+                   label="Etniciteit"
+                   value="12"/>
+            <value concept="peri22-dataelement-82359" label="Initialen" value="IWM"/>
+            <value concept="peri22-dataelement-10042" label="Voornamen" value="Iwm"/>
+            <value concept="peri22x-vrouw-volledige_achternaam"
+                   label="Volledige achternaam"
+                   value="van Gulik"/>
+         </values>
+      </section>
+      <section id="2" type="verwijzing">
+         <values>
+            <value concept="peri22-dataelement-20362"
+                   label="Datum van overdracht"
+                   value="2019-08-29"/>
+         </values>
+      </section>
+      <section id="3" type="intake">
+         <values>
+            <value concept="peri22-dataelement-20280"
+                   label="Zorgverlening identificatie"
+                   value="69018"/>
+            <value concept="peri22-dataelement-20290"
+                   label="Datum start zorgverantwoordelijkheid"
+                   value="2019-03-07"/>
+            <value concept="peri22-dataelement-20340"
+                   label="Datum einde zorgverantwoordelijkheid"
+                   value="2019-09-02"/>
+            <value concept="peri22-dataelement-20311"
+                   label="Overname van zorginstelling (echelon)"
+                   value="1e lijn"/>
+            <value concept="peri22-dataelement-20320"
+                   label="Overname van zorginstelling (id)"
+                   value="1852"/>
+            <value concept="peri22-dataelement-20355"
+                   displayValue="zwangerschap vervolg"
+                   label="Eindverantwoordelijk in welke perinatale periode?"
+                   value="2"/>
+            <value concept="peri22-dataelement-20355"
+                   displayValue="start baring/ontsluiting"
+                   label="Eindverantwoordelijk in welke perinatale periode?"
+                   value="3"/>
+            <value concept="peri22-dataelement-20355"
+                   displayValue="uitdrijving"
+                   label="Eindverantwoordelijk in welke perinatale periode?"
+                   value="4"/>
+            <value concept="peri22-dataelement-20355"
+                   displayValue="nageboortetijdperk"
+                   label="Eindverantwoordelijk in welke perinatale periode?"
+                   value="5"/>
+            <value concept="peri22-dataelement-20355"
+                   displayValue="1e 24 uur postpartum"
+                   label="Eindverantwoordelijk in welke perinatale periode?"
+                   value="6"/>
+            <value concept="peri22-dataelement-20331"
+                   displayValue="anders"
+                   label="Reden van overname (lijst PRN)"
+                   value="OTH"/>
+            <value concept="peri22-dataelement-10023"
+                   label="Zorginstelling LVR-ID"
+                   value="0284"/>
+            <value concept="peri22-dataelement-20212"
+                   label="Lengte (gemeten)"
+                   value="148"/>
+            <value concept="peri22-dataelement-20010" label="Graviditeit" value="1"/>
+            <value concept="peri22-dataelement-20030"
+                   label="A terme datum"
+                   value="2019-09-26"/>
+            <value concept="peri22-dataelement-80669" label="Zeker?" value="true"/>
+            <value concept="peri22-dataelement-10810"
+                   displayValue="Blood group A (finding)"
+                   label="Bloedgroep vrouw"
+                   value="112144000"/>
+            <value concept="peri22-dataelement-10811"
+                   displayValue="Rh D Positief"
+                   label="Rhesus D Factor vrouw"
+                   value="165747007"/>
+         </values>
+      </section>
+      <section id="4" type="algemeneAnamnese">
+         <values>
+            <value concept="peri22-dataelement-82020"
+                   label="Onder behandeling (geweest)?"
+                   value="true"/>
+            <value concept="peri22-dataelement-82211"
+                   label="Gynaecologische aandoening?"
+                   value="false"/>
+         </values>
+      </section>
+      <section id="5" type="zwangerschap" uuid="69018">
+         <value concept="peri22-dataelement-20280" value="69018"/>
+         <values>
+            <value concept="peri22-dataelement-20080"
+                   label="Subfertiliteitsbehandeling?"
+                   value="false"/>
+            <value concept="peri22-dataelement-82160"
+                   label="Definitieve à terme datum"
+                   value="2019-09-26"/>
+            <value concept="peri22-dataelement-80834"
+                   label="Bloeddruk diastolisch"
+                   value="125"/>
+            <value concept="peri22-dataelement-20220"
+                   label="Hoogste diastolische tensie"
+                   value="125"/>
+            <value concept="peri22-dataelement-80625"
+                   displayValue="Partus"
+                   label="Wijze einde zwangerschap"
+                   value="1"/>
+         </values>
+      </section>
+      <section id="6" type="consult">
+         <values>
+            <value concept="peri22-dataelement-80836"
+                   displayValue="+"
+                   label="Proteïne in urine o.b.v. strips"
+                   value="POS"/>
+         </values>
+      </section>
+      <section id="7" type="onderzoek">
+         <values>
+            <value concept="peri22-dataelement-80952"
+                   displayValue="Blood group A (finding)"
+                   label="Bloedgroep vrouw"
+                   value="112144000"/>
+            <value concept="peri22-dataelement-80953"
+                   displayValue="Rh D Positief"
+                   label="Rhesus D Factor vrouw"
+                   value="165747007"/>
+         </values>
+      </section>
+      <section id="8" type="baring">
+         <values>
+            <value concept="peri22-dataelement-20670"
+                   label="Maternale sterfte?"
+                   value="false"/>
+            <value concept="peri22-dataelement-20500"
+                   label="Partusnummer"
+                   value="191433"/>
+            <value concept="peri22-dataelement-20505"
+                   label="Aantal geboren kinderen"
+                   value="1"/>
+            <value concept="peri22-dataelement-20550"
+                   displayValue="interventie om baring op gang te brengen"
+                   label="Wijze waarop de baring begon"
+                   value="3"/>
+            <value concept="peri22-dataelement-20560"
+                   displayValue="Induction of labour by artificial rupture of membranes (procedure)"
+                   label="Interventie begin baring"
+                   value="408818004"/>
+            <value concept="peri22-dataelement-20560"
+                   displayValue="Oxytocin induction of labour (procedure)"
+                   label="Interventie begin baring"
+                   value="177135005"/>
+            <value concept="peri22-dataelement-20570"
+                   displayValue="acuut levensbedreigend"
+                   label="Indicatie interventie begin baring"
+                   value="1"/>
+            <value concept="peri22-dataelement-20616"
+                   label="Bijstimulatie toegediend?"
+                   value="false"/>
+            <value concept="peri22-dataelement-20620"
+                   label="Medicatie nageboortetijdperk?"
+                   value="true"/>
+            <value concept="peri22-dataelement-20626"
+                   displayValue="Oxytocin"
+                   label="Soort medicatie nageboortetijdperk"
+                   value="H01BB02"/>
+            <value concept="peri22-dataelement-20630"
+                   displayValue="placentaverwijdering bij SC"
+                   label="Geboorte placenta"
+                   value="4"/>
+            <value concept="peri22-dataelement-20640"
+                   label="Hoeveelheid bloedverlies"
+                   value="300"/>
+            <value concept="peri22-dataelement-80673"
+                   displayValue="Perineum intact  (finding)"
+                   label="Conditie perineum postpartum"
+                   value="289854007"/>
+         </values>
+      </section>
+      <section id="9" type="kind">
+         <values repeat="1">
+            <value concept="peri22-dataelement-40003"
+                   displayValue="Hospital (environment)"
+                   label="Werkelijke plaats baring (type locatie)"
+                   repeat="1"
+                   value="22232009"/>
+            <value concept="peri22-dataelement-40005"
+                   label="Ziekenhuisnummer (LVR-id)"
+                   repeat="1"
+                   value="0284"/>
+            <value concept="peri22-dataelement-80619"
+                   label="Tijdstip breken vliezen"
+                   repeat="1"
+                   value="2019-08-30T07:47:00"/>
+            <value concept="peri22-dataelement-30050"
+                   label="Episiotomie?"
+                   repeat="1"
+                   value="false"/>
+            <value concept="peri22-dataelement-82090"
+                   label="Pijnbestrijding?"
+                   repeat="1"
+                   value="true"/>
+            <value concept="peri22-dataelement-80626"
+                   displayValue="Delivery by emergency cesarean section (finding)"
+                   label="Type partus"
+                   repeat="1"
+                   value="200149009"/>
+            <value concept="peri22-dataelement-40140"
+                   displayValue="Vertex presentation (finding)"
+                   label="Ligging bij geboorte"
+                   repeat="1"
+                   value="70028003"/>
+            <value concept="peri22-dataelement-40150"
+                   displayValue="gynaecoloog"
+                   label="Rol aanpakker kind"
+                   repeat="1"
+                   value="01.046"/>
+            <value concept="peri22-dataelement-40160"
+                   label="Identificatie aanpakker kind"
+                   repeat="1"
+                   value="03037371"/>
+            <value concept="peri22-dataelement-40170"
+                   displayValue="gynaecoloog"
+                   label="Rol supervisor"
+                   repeat="1"
+                   value="01.046"/>
+            <value concept="peri22-dataelement-40180"
+                   label="Identificatie supervisor"
+                   repeat="1"
+                   value="03037371"/>
+            <value concept="peri22-dataelement-40230"
+                   displayValue="Failure to progress in second stage of labor (finding)"
+                   label="Indicatie sectio caesarea"
+                   repeat="1"
+                   value="249166003"/>
+            <value concept="peri22-dataelement-82052"
+                   label="Roepnaam"
+                   repeat="1"
+                   value="Novi"/>
+            <value concept="peri22-dataelement-40041"
+                   displayValue="Vrouwelijk"
+                   label="Geslacht (medische observatie)"
+                   repeat="1"
+                   value="2"/>
+            <value concept="peri22-dataelement-40050"
+                   label="Geboortedatum"
+                   repeat="1"
+                   value="2019-08-30T19:59:00"/>
+            <value concept="peri22-dataelement-40025"
+                   label="Rangnummer kind"
+                   repeat="1"
+                   value="1"/>
+            <value concept="peri22-dataelement-40280"
+                   label="Perinatale sterfte?"
+                   repeat="1"
+                   value="false"/>
+            <value concept="peri22-dataelement-40071"
+                   label="Apgarscore na 5 min."
+                   repeat="1"
+                   value="10"/>
+            <value concept="peri22-dataelement-40060"
+                   label="Geboortegewicht"
+                   repeat="1"
+                   value="2270"/>
+            <value concept="peri22-dataelement-82119"
+                   label="Kinderarts betrokken?"
+                   repeat="1"
+                   value="true"/>
+            <value concept="peri22-dataelement-82121"
+                   displayValue="consultatie"
+                   label="Type betrokkenheid"
+                   repeat="1"
+                   value="1"/>
+            <group group="1">
+               <value concept="peri22-dataelement-82097"
+                      displayValue="tijdens ontsluitingsperiode &gt; 3 cm"
+                      group="1"
+                      label="Periode"
+                      repeat="1"
+                      value="OntMt3"/>
+               <value concept="peri22-dataelement-82092"
+                      displayValue="Epidural anesthesia (procedure)"
+                      group="1"
+                      label="Methode"
+                      repeat="1"
+                      value="18946005"/>
+            </group>
+            <group group="2">
+               <value concept="peri22-dataelement-82097"
+                      displayValue="tijdens sectio"
+                      group="2"
+                      label="Periode"
+                      repeat="1"
+                      value="Sectio"/>
+               <value concept="peri22-dataelement-82092"
+                      displayValue="Local anesthetic intrathecal block (procedure)"
+                      group="2"
+                      label="Methode"
+                      repeat="1"
+                      value="231249005"/>
+            </group>
+         </values>
+      </section>
+      <section id="10" type="kraambed">
+         <values>
+            <value concept="peri22-dataelement-82208"
+                   label="Pathologie vrouw?"
+                   value="false"/>
+         </values>
+      </section>
+      <section id="11" type="echo">
+         <values>
+            <value concept="peri22-dataelement-50020"
+                   label="Datum onderzoek"
+                   value="2019-02-12"/>
+            <value concept="peri22-dataelement-50021"
+                   label="Zwangerschapsduur op datum onderzoek"
+                   value="54"/>
+         </values>
+         <values repeat="1">
+            <value concept="peri22-dataelement-60020"
+                   label="CRL"
+                   repeat="1"
+                   value="11.9"/>
+         </values>
+      </section>
+      <section id="12" type="echo">
+         <values>
+            <value concept="peri22-dataelement-50020"
+                   label="Datum onderzoek"
+                   value="2019-03-07"/>
+            <value concept="peri22-dataelement-50021"
+                   label="Zwangerschapsduur op datum onderzoek"
+                   value="77"/>
+         </values>
+         <values repeat="1">
+            <value concept="peri22-dataelement-60020"
+                   label="CRL"
+                   repeat="1"
+                   value="43"/>
+         </values>
+      </section>
+   </sections>
+</resource>

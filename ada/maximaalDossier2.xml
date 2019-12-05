@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kernset_aanleverbericht>
+    <zorgverlening conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.4">
+        <datum_start_zorgverantwoordelijkheid value="2018-07-14T00:00:00" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20290"/>
+        <zorgverzoekdetails conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.41">
+            <overname_van_zorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.411">
+                <overname_van_zorginstelling_id value="1212" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20320"/>
+            </overname_van_zorginstelling>
+            <redenen_van_overname conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20325">
+                <reden_van_overname_lijst_prn code="4470" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.1" displayName="Intrauteriene vruchtdood" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20331"/>
+            </redenen_van_overname>
+        </zorgverzoekdetails>
+    </zorgverlening>
+    <zorgverlenerzorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.1">
+        <zorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10020">
+            <zorginstelling_lvrid value="1234" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10023"/>
+        </zorginstelling>
+    </zorgverlenerzorginstelling>
+    <vrouw conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.2">
+        <burgerservicenummer value="123456789" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10030"/>
+        <lokale_persoonsidentificatie value="1234561" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10031"/>
+        <geboortedatum value="1998-10-17" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10040"/>
+        <adres conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10300">
+            <postcode value="1234AB" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10304"/>
+        </adres>
+        <etniciteit code="12" codeSystem="2.16.840.1.113883.2.4.4.13.28" displayName="Kaukasisch" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10400"/>
+        <anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80811">
+            <algemene_anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80904">
+                <autoimmuun_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80905"/>
+                <autoimmuun_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82220"/>
+                <cardiovasculaire_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82216"/>
+                <cardiovasculaire_aandoening code="128599005" codeSystem="2.16.840.1.113883.6.96" displayName="Structural disorder of heart (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80906"/>
+                <cardiovasculaire_aandoening code="38341003" codeSystem="2.16.840.1.113883.6.96" displayName="Hypertensive disorder, systemic arterial (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80906"/>
+                <cardiovasculaire_aandoening code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="Overig" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80906"/>
+                <urogenitale_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80907"/>
+                <urogenitale_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82267"/>
+                <diabetes_mellitusq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80910"/>
+                <neurologische_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82218"/>
+                <neurologische_aandoening code="84757009" codeSystem="2.16.840.1.113883.6.96" displayName="Epilepsy (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80912"/>
+                <mdl_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80914"/>
+                <mdl_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82219"/>
+                <longaandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80916"/>
+                <longaandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82266"/>
+                <gynaecologische_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82211"/>
+                <gynaecologische_aandoening code="37849005" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital uterine anomaly (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80917"/>
+                <gynaecologische_aandoening code="95315005" codeSystem="2.16.840.1.113883.6.96" displayName="Uterine leiomyoma (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80917"/>
+                <gynaecologische_aandoening code="129103003" codeSystem="2.16.840.1.113883.6.96" displayName="Endometriosis (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80917"/>
+                <gynaecologische_aandoening code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="Overig" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80917"/>
+                <orthopedische_afwijkingq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82213"/>
+                <orthopedische_afwijking code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80918"/>
+                <stollingsprobleemq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80940"/>
+                <type_stollingsprobleem code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80817"/>
+                <psychiatrieq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82159"/>
+                <overige_aandoeningq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82212"/>
+                <overige_aandoening code="NI" codeSystem="2.16.840.1.113883.5.1008" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80919"/>
+            </algemene_anamnese>
+        </anamnese>
+        <lengte_gemeten value="165" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20212" unit="cm"/>
+    </vrouw>
+    <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
+        <dossiernummer value="1"/>
+        <graviditeit value="4" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
+        <pariteit_voor_deze_zwangerschap value="2" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20150"/>
+        <definitieve_a_terme_datum value="2018-10-12" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82160"/>
+        <voornemens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80671">
+            <voorgenomen_plaats_baring_tijdens_zwangerschap_type_locatie code="169813005" codeSystem="2.16.840.1.113883.6.96" displayName="Home birth (finding)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20261"/>
+        </voornemens>
+        <prenatale_controle conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80732">
+            <datum_controle nullFlavor="UNK" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80737"/>
+            <rookgedrag code="4" codeSystem="2.16.840.1.113883.2.4.4.13.58" displayName="meer dan 20 per dag" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80810"/>
+            <drugsgebruikq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82102"/>
+        </prenatale_controle>
+        <diagnose conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82268">
+            <bloedverliesq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82270"/>
+            <infectie code="45816000" codeSystem="2.16.840.1.113883.6.96" displayName="Pyelonephritis (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82273"/>
+            <hyperemesis_gravidarumq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82274"/>
+            <hypertensieve_aandoening code="15938005" codeSystem="2.16.840.1.113883.6.96" displayName="Eclampsia (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82275"/>
+            <diabetes_gravidarum_met_insulineq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82277"/>
+            <abruptio_placentaeq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82289"/>
+        </diagnose>
+        <intrauteriene_behandeling code="265633004" codeSystem="2.16.840.1.113883.6.96" displayName="Selective destruction of fetus (procedure)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82230"/>
+        <maternale_sterfteq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20670"/>
+        <wijze_einde_zwangerschap code="1" codeSystem="2.16.840.1.113883.2.4.4.13.46" displayName="Partus" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80625"/>
+    </zwangerschap>
+    <bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.6">
+        <partusnummer value="201801" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20500"/>
+        <aantal_geboren_kinderen value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20505"/>
+        <wijze_waarop_de_baring_begon code="3" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.46" displayName="interventie om baring op gang te brengen" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20550"/>
+        <interventies_begin_baring_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20555">
+            <interventie_begin_baring code="177135005" codeSystem="2.16.840.1.113883.6.96" displayName="Oxytocin induction of labour (procedure)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20560"/>
+            <indicatie_interventie_begin_baring code="10" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.7" displayName="gevaar moeder" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20570"/>
+        </interventies_begin_baring_groep>
+        <interventies_begin_baring_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20555">
+            <interventie_begin_baring code="177136006" codeSystem="2.16.840.1.113883.6.96" displayName="Prostaglandin induction of labour (procedure)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20560"/>
+            <indicatie_interventie_begin_baring code="10" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.7" displayName="gevaar moeder" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20570"/>
+        </interventies_begin_baring_groep>
+        <bijstimulatie_toegediendq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20616"/>
+        <medicatie_nageboortetijdperk_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20619">
+            <medicatie_nageboortetijdperkq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20620"/>
+            <soort_medicatie_nageboortetijdperk code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="Overig" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20626"/>
+            <soort_medicatie_nageboortetijdperk code="H01BB02" codeSystem="2.16.840.1.113883.6.73" displayName="Oxytocin" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20626"/>
+        </medicatie_nageboortetijdperk_groep>
+        <placenta conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80612">
+            <geboorte_placenta code="4" codeSystem="2.16.840.1.113883.2.4.4.13.19" displayName="Placentaverwijdering bij SC" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20630"/>
+        </placenta>
+        <hoeveelheid_bloedverlies value="987" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20640" unit="ml"/>
+        <conditie_perineum_postpartum code="199930000" codeSystem="2.16.840.1.113883.6.96" displayName="Third degree perineal tear during delivery - delivered  (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80673"/>
+    </bevalling>
+    <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+        <rangnummer_kind value="1"/>
+        <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+            <werkelijke_plaats_baring_type_locatie code="22232009" codeSystem="2.16.840.1.113883.6.96" displayName="Hospital (environment)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40003"/>
+            <ziekenhuis_baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82114">
+                <ziekenhuisnummer_lvrid value="1234" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40005"/>
+            </ziekenhuis_baring>
+            <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
+                <geslacht_medische_observatie code="1" codeSystem="2.16.840.1.113883.2.4.4.13.21" displayName="Mannelijk" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40041"/>
+                <geboortedatum value="2018-10-11T09:00:00" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
+                <rangnummer_kind value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40025"/>
+                <perinatale_sterfte_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40279">
+                    <perinatale_sterfteq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40280"/>
+                    <fase_perinatale_sterfte code="237361005" codeSystem="2.16.840.1.113883.6.96" displayName="Antepartum fetal death (event)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40290"/>
+                </perinatale_sterfte_groep>
+            </demografische_gegevens>
+            <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71">
+                <tijdstip_breken_vliezen value="2018-10-11T07:00:00" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80619"/>
+                <kleur_en_consistentie_vruchtwater code="2" codeSystem="2.16.840.1.113883.2.4.4.13.18" displayName="meconium" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20610"/>
+                <tijdstip_actief_meepersen value="2018-10-11T08:00:00" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.30030"/>
+                <episiotomieq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.30050"/>
+                <locatie_episiotomie code="1" codeSystem="2.16.840.1.113883.2.4.3.22.1.3.60" displayName="mediolaterale episiotomie" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.30055"/>
+                <pijnbestrijdingq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82090"/>
+                <pijnbestrijding conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82091">
+                    <methode conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82093">
+                        <methode code="50697003" codeSystem="2.16.840.1.113883.6.96" displayName="General anesthesia (procedure)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82092"/>
+                    </methode>
+                    <periode code="Sectio" codeSystem="2.16.840.1.113883.2.4.4.13.60" displayName="tijdens sectio" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82097"/>
+                </pijnbestrijding>
+            </kindspecifieke_maternale_gegevens>
+            <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72">
+                <type_partus code="200149009" codeSystem="2.16.840.1.113883.6.96" displayName="Delivery by emergency cesarean section (finding)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80626"/>
+                <apgarscore_na_5_min value="8" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40071"/>
+                <ligging_bij_geboorte code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="Overig" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40140"/>
+                <aanpakker_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40149">
+                    <rol_aanpakker_kind code="01.046" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="gynaecoloog" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40150"/>
+                </aanpakker_kind_groep>
+                <supervisor_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40169">
+                    <rol_supervisor code="01.046" codeSystem="2.16.840.1.113883.2.4.15.111" displayName="gynaecoloog" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40170"/>
+                </supervisor_groep>
+                <vaginale_kunstverlossing_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40189">
+                    <vaginale_kunstverlossing code="302383004" codeSystem="2.16.840.1.113883.6.96" displayName="Forceps delivery (procedure)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40190"/>
+                    <succes_vaginale_kunstverlossingq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40200"/>
+                </vaginale_kunstverlossing_groep>
+                <sectio_caesarea_group conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40219">
+                    <indicatie_sectio_caesarea code="444433005:246090004=130955003" codeSystem="2.16.840.1.113883.6.96" displayName="Suspected fetal distress (situation) " conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40230"/>
+                    <indicatie_sectio_caesarea code="249166003" codeSystem="2.16.840.1.113883.6.96" displayName="Failure to progress in second stage of labor (finding)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40230"/>
+                </sectio_caesarea_group>
+                <overige_interventies code="237008007" codeSystem="2.16.840.1.113883.6.96" displayName="Maneuvers for delivery in shoulder dystocia (procedure)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40240"/>
+                <lichamelijk_onderzoek_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80766">
+                    <geboortegewicht value="3500" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40060" unit="gram"/>
+                </lichamelijk_onderzoek_kind>
+                <congenitale_afwijkingenq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40080"/>
+                <congenitale_afwijkingen_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40081">
+                    <specificatie_congenitale_afwijking_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40082">
+                        <specificatie_congenitale_afwijking code="609417004" codeSystem="2.16.840.1.113883.6.96" displayName="Fetal anencephaly (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="431265009" codeSystem="2.16.840.1.113883.6.96" displayName="Fetal microcephaly (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="76916001" codeSystem="2.16.840.1.113883.6.96" displayName="Spina bifida occulta (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="88425004" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital anomaly of nervous system (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="47032000" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital hydrocephalus (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="414667000" codeSystem="2.16.840.1.113883.6.96" displayName="Meningomyelocele (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="55999004" codeSystem="2.16.840.1.113883.6.96" displayName="Encephalocele (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="09" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijkingen zenuwstelsel" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="61142002" codeSystem="2.16.840.1.113883.6.96" displayName="Microphthalmos (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="11" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijkingen ogen" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="8380000" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital anomaly of ear (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="94702005" codeSystem="2.16.840.1.113883.6.96" displayName="Multiple congenital cardiac defects (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="204470001" codeSystem="2.16.840.1.113883.6.96" displayName="Single umbilical artery (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="22" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijking hart en bloedvaten" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="204508009" codeSystem="2.16.840.1.113883.6.96" displayName="Choanal atresia (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="38" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijking tractus respiratorius" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="87979003" codeSystem="2.16.840.1.113883.6.96" displayName="Cleft palate (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="69771008" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital anomaly of esophagus (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="204712000" codeSystem="2.16.840.1.113883.6.96" displayName="Anal atresia (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="17190001" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital diaphragmatic hernia (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="30" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijking tractus digestivus" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="416010008" codeSystem="2.16.840.1.113883.6.96" displayName="Hypospadias (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="69" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijking tractus urogenitalis" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="398943008" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital pigmented melanocytic nevus of skin (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="93471006" codeSystem="2.16.840.1.113883.6.96" displayName="Hemangioma of skin (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="74" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale huidafwijking" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="367506006" codeSystem="2.16.840.1.113883.6.96" displayName="Polydactyly (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="373413006" codeSystem="2.16.840.1.113883.6.96" displayName="Syndactyly (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="K" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijkingen" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="36172001" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital subluxation of hip (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="302297009" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital deformity of foot (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="96" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijking extremiteiten" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="73573004" codeSystem="2.16.840.1.113883.6.96" displayName="Congenital anomaly of musculoskeletal system (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="98" codeSystem="2.16.840.1.113883.2.4.4.13.8" displayName="overige congenitale afwijking skelet en spierstelsel" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                        <specificatie_congenitale_afwijking code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="overig" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40090"/>
+                    </specificatie_congenitale_afwijking_groep>
+                    <chromosomale_afwijkingenq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40110"/>
+                    <specificatie_chromosomale_afwijking_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40111">
+                        <specificatie_chromosomale_afwijking code="41040004" codeSystem="2.16.840.1.113883.6.96" displayName="Complete trisomy 21 syndrome (disorder)" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40120"/>
+                        <specificatie_chromosomale_afwijking code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="Overige chromosomale afwijkingen" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40120"/>
+                    </specificatie_chromosomale_afwijking_groep>
+                </congenitale_afwijkingen_groep>
+                <kinderarts_betrokkenq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82119"/>
+                <betrokkenheid_kinderarts conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82120">
+                    <type_betrokkenheid code="2" codeSystem="2.16.840.1.113883.2.4.4.13.17" displayName="overdracht" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82121"/>
+                </betrokkenheid_kinderarts>
+            </kindspecifieke_uitkomstgegevens>
+        </baring>
+    </uitkomst_per_kind>
+    <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+        <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+            <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71"/>
+        </baring>
+    </uitkomst_per_kind>
+    <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+        <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+            <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72"/>
+        </baring>
+    </uitkomst_per_kind>
+</kernset_aanleverbericht>
