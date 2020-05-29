@@ -116,3 +116,12 @@ Of vanuit Linux/Mac OS command-line:
     saxon -t -s:report/voorbeeld-kernset-1.xml -xsl:node_modules/\@nictiz\peri20-xml/XML/schematron_svrl/svrl2html.xsl -o:report/voorbeeld-kernset-1.html
 
 Het is met Saxon niet mogelijk wildcards te gebruiken in de output, dus moet per file een input en output filename opgegeven worden.
+
+
+## XProc 3 Pipeline
+
+Het bestand `pipeline.xpl` is een [xproc 3](https://xproc.org/) pipeline die kan worden gebruikt icm [MorganaXProc-III](https://www.xml-project.com/morganaxproc-iii/)
+
+    morgana pipeline.xpl -input:source=peri22x/minimaalDossier-geen-pijnbestrijding.xml
+
+De output is een HTML weergave van het HL7v3 Kernset bericht.
