@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kernset_aanleverbericht>
+   <zorgverlening conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.4">
+      <datum_start_zorgverantwoordelijkheid value="2019-03-07T00:00:00"
+                                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20290"/>
+      <datum_einde_zorgverantwoordelijkheid value="2019-09-02T00:00:00"
+                                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20340"/>
+      <eindverantwoordelijk_in_welke_perinatale_periodeq code="2"
+                                                         codeSystem="2.16.840.1.113883.2.4.3.22.1.2.20"
+                                                         displayName="zwangerschap vervolg"
+                                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20355"/>
+      <eindverantwoordelijk_in_welke_perinatale_periodeq code="3"
+                                                         codeSystem="2.16.840.1.113883.2.4.3.22.1.2.20"
+                                                         displayName="start baring/ontsluiting"
+                                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20355"/>
+      <eindverantwoordelijk_in_welke_perinatale_periodeq code="4"
+                                                         codeSystem="2.16.840.1.113883.2.4.3.22.1.2.20"
+                                                         displayName="uitdrijving"
+                                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20355"/>
+      <eindverantwoordelijk_in_welke_perinatale_periodeq code="5"
+                                                         codeSystem="2.16.840.1.113883.2.4.3.22.1.2.20"
+                                                         displayName="nageboortetijdperk"
+                                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20355"/>
+      <eindverantwoordelijk_in_welke_perinatale_periodeq code="6"
+                                                         codeSystem="2.16.840.1.113883.2.4.3.22.1.2.20"
+                                                         displayName="1e 24 uur postpartum"
+                                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20355"/>
+      <zorgverzoekdetails conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.41">
+         <overname_van_zorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.411">
+            <overname_van_zorginstelling_id value="1852" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20320"/>
+         </overname_van_zorginstelling>
+         <redenen_van_overname conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20325">
+            <reden_van_overname_lijst_prn code="OTH"
+                                          codeSystem="2.16.840.1.113883.5.1008"
+                                          displayName="anders"
+                                          conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20331"/>
+         </redenen_van_overname>
+      </zorgverzoekdetails>
+      <overdrachtdetails conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.42">
+         <datum_van_overdracht value="2019-08-29T00:00:00"
+                               conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20362"/>
+      </overdrachtdetails>
+   </zorgverlening>
+   <zorgverlenerzorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.1">
+      <zorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10020">
+         <zorginstelling_lvrid value="0284" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10023"/>
+      </zorginstelling>
+   </zorgverlenerzorginstelling>
+   <vrouw conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.2">
+      <burgerservicenummer value="213499046"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10030"/>
+      <lokale_persoonsidentificatie value="33290110"
+                                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10031"/>
+      <geboortedatum value="1993-08-23"
+                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10040"/>
+      <adres conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10300">
+         <postcode value="1361CG"
+                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10304"/>
+      </adres>
+      <etniciteit code="12"
+                  codeSystem="2.16.840.1.113883.2.4.4.13.28"
+                  displayName="Kaukasisch"
+                  conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10400"/>
+      <anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80811">
+         <onder_behandeling_geweestq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82020"/>
+         <algemene_anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80904">
+            <gynaecologische_aandoeningq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82211"/>
+         </algemene_anamnese>
+      </anamnese>
+      <lengte_gemeten value="148"
+                      conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20212"
+                      unit="cm"/>
+   </vrouw>
+   <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
+      <dossiernummer value="69018 69018"/>
+      <graviditeit value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
+      <definitieve_a_terme_datum value="2019-09-26"
+                                 conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82160"/>
+      <maternale_sterfteq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20670"/>
+      <wijze_einde_zwangerschap code="1"
+                                codeSystem="2.16.840.1.113883.2.4.4.13.46"
+                                displayName="Partus"
+                                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80625"/>
+   </zwangerschap>
+   <bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.6">
+      <partusnummer value="191433"
+                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20500"/>
+      <aantal_geboren_kinderen value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20505"/>
+      <wijze_waarop_de_baring_begon code="3"
+                                    codeSystem="2.16.840.1.113883.2.4.3.22.1.2.46"
+                                    displayName="interventie om baring op gang te brengen"
+                                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20550"/>
+      <interventies_begin_baring_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20555">
+         <interventie_begin_baring code="408818004"
+                                   codeSystem="2.16.840.1.113883.6.96"
+                                   displayName="Induction of labour by artificial rupture of membranes (procedure)"
+                                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20560"/>
+         <indicatie_interventie_begin_baring code="1"
+                                             codeSystem="2.16.840.1.113883.2.4.3.22.1.2.7"
+                                             displayName="acuut levensbedreigend"
+                                             conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20570"/>
+      </interventies_begin_baring_groep>
+      <interventies_begin_baring_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20555">
+         <interventie_begin_baring code="177135005"
+                                   codeSystem="2.16.840.1.113883.6.96"
+                                   displayName="Oxytocin induction of labour (procedure)"
+                                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20560"/>
+         <indicatie_interventie_begin_baring code="1"
+                                             codeSystem="2.16.840.1.113883.2.4.3.22.1.2.7"
+                                             displayName="acuut levensbedreigend"
+                                             conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20570"/>
+      </interventies_begin_baring_groep>
+      <bijstimulatie_toegediendq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20616"/>
+      <medicatie_nageboortetijdperk_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20619">
+         <medicatie_nageboortetijdperkq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20620"/>
+         <soort_medicatie_nageboortetijdperk code="H01BB02"
+                                             codeSystem="2.16.840.1.113883.6.73"
+                                             displayName="Oxytocin"
+                                             conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20626"/>
+      </medicatie_nageboortetijdperk_groep>
+      <placenta conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80612">
+         <geboorte_placenta code="4"
+                            codeSystem="2.16.840.1.113883.2.4.4.13.19"
+                            displayName="Placentaverwijdering bij SC"
+                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20630"/>
+      </placenta>
+      <hoeveelheid_bloedverlies value="300"
+                                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20640"
+                                unit="ml"/>
+      <conditie_perineum_postpartum code="289854007"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    displayName="Perineum intact  (finding)"
+                                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80673"/>
+   </bevalling>
+   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <rangnummer_kind value="1"/>
+      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+         <werkelijke_plaats_baring_type_locatie code="22232009"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="Hospital (environment)"
+                                                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40003"/>
+         <ziekenhuis_baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82114">
+            <ziekenhuisnummer_lvrid value="0284" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40005"/>
+         </ziekenhuis_baring>
+         <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
+            <geslacht_medische_observatie code="2"
+                                          codeSystem="2.16.840.1.113883.2.4.4.13.21"
+                                          displayName="Vrouwelijk"
+                                          conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40041"/>
+            <geboortedatum value="2019-08-30T19:59:00"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
+            <rangnummer_kind value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40025"/>
+            <perinatale_sterfte_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40279">
+               <perinatale_sterfteq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40280"/>
+            </perinatale_sterfte_groep>
+         </demografische_gegevens>
+         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71">
+            <tijdstip_breken_vliezen value="2019-08-30T07:47:00"
+                                     conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80619"/>
+            <episiotomieq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.30050"/>
+            <pijnbestrijdingq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82090"/>
+            <pijnbestrijding conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82091">
+               <methode conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82093">
+                  <methode code="18946005"
+                           codeSystem="2.16.840.1.113883.6.96"
+                           displayName="Epidural anesthesia (procedure)"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82092"/>
+               </methode>
+               <periode code="OntMt3"
+                        codeSystem="2.16.840.1.113883.2.4.4.13.60"
+                        displayName="tijdens ontsluitingsperiode &gt; 3 cm"
+                        conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82097"/>
+            </pijnbestrijding>
+            <pijnbestrijding conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82091">
+               <methode conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82093">
+                  <methode code="231249005"
+                           codeSystem="2.16.840.1.113883.6.96"
+                           displayName="Local anesthetic intrathecal block (procedure)"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82092"/>
+               </methode>
+               <periode code="Sectio"
+                        codeSystem="2.16.840.1.113883.2.4.4.13.60"
+                        displayName="tijdens sectio"
+                        conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82097"/>
+            </pijnbestrijding>
+         </kindspecifieke_maternale_gegevens>
+         <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72">
+            <type_partus code="200149009"
+                         codeSystem="2.16.840.1.113883.6.96"
+                         displayName="Delivery by emergency cesarean section (finding)"
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80626"/>
+            <apgarscore_na_5_min value="10" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40071"/>
+            <ligging_bij_geboorte code="70028003"
+                                  codeSystem="2.16.840.1.113883.6.96"
+                                  displayName="Vertex presentation (finding)"
+                                  conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40140"/>
+            <aanpakker_kind_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40149">
+               <rol_aanpakker_kind code="01.046"
+                                   codeSystem="2.16.840.1.113883.2.4.15.111"
+                                   displayName="gynaecoloog"
+                                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40150"/>
+            </aanpakker_kind_groep>
+            <supervisor_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40169">
+               <rol_supervisor code="01.046"
+                               codeSystem="2.16.840.1.113883.2.4.15.111"
+                               displayName="gynaecoloog"
+                               conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40170"/>
+            </supervisor_groep>
+            <sectio_caesarea_group conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40219">
+               <indicatie_sectio_caesarea code="249166003"
+                                          codeSystem="2.16.840.1.113883.6.96"
+                                          displayName="Failure to progress in second stage of labor (finding)"
+                                          conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40230"/>
+            </sectio_caesarea_group>
+            <lichamelijk_onderzoek_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80766">
+               <geboortegewicht value="2270"
+                                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40060"
+                                unit="gram"/>
+            </lichamelijk_onderzoek_kind>
+            <kinderarts_betrokkenq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82119"/>
+            <betrokkenheid_kinderarts conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82120">
+               <type_betrokkenheid code="1"
+                                   codeSystem="2.16.840.1.113883.2.4.4.13.17"
+                                   displayName="consultatie"
+                                   conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82121"/>
+            </betrokkenheid_kinderarts>
+         </kindspecifieke_uitkomstgegevens>
+      </baring>
+   </uitkomst_per_kind>
+   <postnatale_fase conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.16">
+      <diagnose_postpartum conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82297">
+         <pathologie_vrouwq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82208"/>
+      </diagnose_postpartum>
+   </postnatale_fase>
+</kernset_aanleverbericht>

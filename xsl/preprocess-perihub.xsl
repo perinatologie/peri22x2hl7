@@ -62,9 +62,9 @@
         <!-- Dan de values die wel herhalend zijn, met een group op values element -->
         <xsl:for-each select="$groups">
             <xsl:variable name="this-group" select="."/>
-            <values group="{$this-group}">
+            <group group="{$this-group}">
                 <xsl:apply-templates select="$values[@group=$this-group]"/>
-            </values>
+            </group>
         </xsl:for-each>
     </xsl:template>
     

@@ -111,29 +111,4 @@
          </kindspecifieke_uitkomstgegevens>
       </baring>
    </uitkomst_per_kind>
-   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
-      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
-         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71"/>
-      </baring>
-   </uitkomst_per_kind>
-   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
-      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
-         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71"/>
-      </baring>
-   </uitkomst_per_kind>
-   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
-      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
-         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71"/>
-      </baring>
-   </uitkomst_per_kind>
-   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
-      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
-         <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72"/>
-      </baring>
-   </uitkomst_per_kind>
-   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
-      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
-         <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72"/>
-      </baring>
-   </uitkomst_per_kind>
 </kernset_aanleverbericht>

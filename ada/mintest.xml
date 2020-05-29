@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kernset_aanleverbericht>
+   <zorgverlening conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.4">
+      <datum_start_zorgverantwoordelijkheid value="2018-07-14T00:00:00"
+                                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20290"/>
+   </zorgverlening>
+   <zorgverlenerzorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.1">
+      <zorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10020">
+         <zorginstelling_lvrid nullFlavor="UNK"
+                               conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10023"/>
+      </zorginstelling>
+   </zorgverlenerzorginstelling>
+   <vrouw conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.2">
+      <burgerservicenummer value="123456789"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10030"/>
+   </vrouw>
+   <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
+      <dossiernummer value="1"/>
+      <definitieve_a_terme_datum value="2018-10-12"
+                                 conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82160"/>
+   </zwangerschap>
+   <bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.6">
+      <partusnummer value="201801"
+                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20500"/>
+      <aantal_geboren_kinderen value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20505"/>
+   </bevalling>
+   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <rangnummer_kind value="1"/>
+      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+         <werkelijke_plaats_baring_type_locatie code="22232009"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="Hospital (environment)"
+                                                conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40003"/>
+         <demografische_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40006">
+            <geboortedatum value="2018-10-11T09:00:00"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40050"/>
+            <rangnummer_kind value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40025"/>
+         </demografische_gegevens>
+         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71">
+            <episiotomieq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.30050"/>
+            <pijnbestrijdingq value="true" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82090"/>
+            <pijnbestrijding conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82091">
+               <methode conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82093">
+                  <methode code="50697003"
+                           codeSystem="2.16.840.1.113883.6.96"
+                           displayName="General anesthesia (procedure)"
+                           conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82092"/>
+               </methode>
+               <periode code="Sectio"
+                        codeSystem="2.16.840.1.113883.2.4.4.13.60"
+                        displayName="tijdens sectio"
+                        conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82097"/>
+            </pijnbestrijding>
+         </kindspecifieke_maternale_gegevens>
+         <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72">
+            <type_partus code="200149009"
+                         codeSystem="2.16.840.1.113883.6.96"
+                         displayName="Delivery by emergency cesarean section (finding)"
+                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80626"/>
+            <vaginale_kunstverlossing_groep conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40189">
+               <vaginale_kunstverlossing code="302383004"
+                                         codeSystem="2.16.840.1.113883.6.96"
+                                         displayName="Forceps delivery (procedure)"
+                                         conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40190"/>
+               <succes_vaginale_kunstverlossingq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40200"/>
+            </vaginale_kunstverlossing_groep>
+         </kindspecifieke_uitkomstgegevens>
+      </baring>
+   </uitkomst_per_kind>
+   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71"/>
+      </baring>
+   </uitkomst_per_kind>
+   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+         <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72"/>
+      </baring>
+   </uitkomst_per_kind>
+</kernset_aanleverbericht>

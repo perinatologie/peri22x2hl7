@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource type="hub/dossier">
+    <sections>
+        <section type="client" id="1">
+            <values>
+                <value concept="peri22-dataelement-10030" label="Burgerservicenummer" value="123456789"/>
+                <value concept="peri22-dataelement-10031" label="Lokale persoonsidentificatie" value="1234561"/>
+                <value concept="peri22-dataelement-10040" label="Geboortedatum" value="1998-10-17"/>
+                <value concept="peri22-dataelement-10304" label="Postcode" value="1234AB"/>
+                <value concept="peri22-dataelement-10400" label="Etniciteit" value="12" displayValue="Kaukasisch"/>
+                <value concept="peri22-dataelement-82359" label="Initialen" value="A."/>
+                <value concept="peri22-dataelement-10042" label="Voornamen" value="Miep"/>
+                <value concept="peri22x-vrouw-volledige_achternaam" label="Volledige achternaam" value="van Minimum-tot Maximaal"/>
+            </values>
+        </section>
+        <section type="verwijzing" id="2">
+            <values>
+                <value concept="peri22-dataelement-20070" label="LVR1 administratienummer" value="133131"/>
+            </values>
+        </section>
+        <section type="intake" id="3">
+            <values>
+                <value concept="peri22-dataelement-20290" label="Datum start zorgverantwoordelijkheid" value="2018-07-14"/>
+                <value concept="peri22-dataelement-20311" label="Overname van zorginstelling (echelon)" value="1e lijn"/>
+                <value concept="peri22-dataelement-20320" label="Overname van zorginstelling (id)" value="1212"/>
+                <value concept="peri22-dataelement-82164" label="Perinatale periode van overname" value="5" displayValue="tijdens ontsluiting"/>
+                <value concept="peri22-dataelement-20331" label="Reden van overname (lijst PRN)" value="4470" displayValue="Intrauteriene vruchtdood"/>
+                <value concept="peri22-dataelement-10023" label="Zorginstelling LVR-ID" value="1234"/>
+                <value concept="peri22-dataelement-20212" label="Lengte (gemeten)" value="165"/>
+                <value concept="peri22-dataelement-20010" label="Graviditeit" value="4"/>
+                <value concept="peri22-dataelement-20153" label="Pariteit" value="2"/>
+                <value concept="peri22-dataelement-20150" label="Pariteit (vóór deze zwangerschap)" value="2"/>
+                <value concept="peri22-dataelement-80678" label="Fetal Loss" value="1"/>
+                <value concept="peri22-dataelement-20030" label="A terme datum" value="2018-10-12"/>
+                <value concept="peri22-dataelement-80669" label="Zeker?" value="true"/>
+                <value concept="peri22-dataelement-10810" label="Bloedgroep vrouw" value="165743006" displayValue="Blood group AB (finding)"/>
+                <value concept="peri22-dataelement-10811" label="Rhesus D Factor vrouw" value="165747007" displayValue="Rh D Positief"/>
+                <value concept="peri22-dataelement-20261" label="Voorgenomen plaats baring tijdens zwangerschap (type locatie)" value="169813005" displayValue="Home birth (finding)"/>
+            </values>
+        </section>
+        <section type="algemeneAnamnese" id="4">
+            <values>
+                <value concept="peri22-dataelement-80905" label="Auto-immuun aandoening?" value="true"/>
+                <value concept="peri22-dataelement-82216" label="Cardiovasculaire aandoening?" value="true"/>
+                <value concept="peri22-dataelement-80906" label="Cardiovasculaire aandoening" value="128599005" displayValue="Structural disorder of heart (disorder)"/>
+                <value concept="peri22-dataelement-80906" label="Cardiovasculaire aandoening" value="38341003" displayValue="Hypertensive disorder, systemic arterial (disorder)"/>
+                <value concept="peri22-dataelement-80906" label="Cardiovasculaire aandoening" value="OTH" displayValue="Overig"/>
+                <value concept="peri22-dataelement-80907" label="Urogenitale aandoening?" value="true"/>
+                <value concept="peri22-dataelement-80910" label="Diabetes mellitus?" value="true"/>
+                <value concept="peri22-dataelement-82218" label="Neurologische aandoening?" value="true"/>
+                <value concept="peri22-dataelement-80912" label="Neurologische aandoening" value="84757009" displayValue="Epilepsy (disorder)"/>
+                <value concept="peri22-dataelement-80914" label="MDL aandoening?" value="true"/>
+                <value concept="peri22-dataelement-80916" label="Longaandoening?" value="true"/>
+                <value concept="peri22-dataelement-82211" label="Gynaecologische aandoening?" value="true"/>
+                <value concept="peri22-dataelement-80917" label="Gynaecologische aandoening" value="37849005" displayValue="Congenital uterine anomaly (disorder)"/>
+                <value concept="peri22-dataelement-80917" label="Gynaecologische aandoening" value="95315005" displayValue="Uterine leiomyoma (disorder)"/>
+                <value concept="peri22-dataelement-80917" label="Gynaecologische aandoening" value="129103003" displayValue="Endometriosis (disorder)"/>
+                <value concept="peri22-dataelement-80917" label="Gynaecologische aandoening" value="OTH" displayValue="Overig"/>
+                <value concept="peri22-dataelement-82213" label="Orthopedische afwijking?" value="true"/>
+                <value concept="peri22-dataelement-80940" label="Stollingsprobleem?" value="true"/>
+                <value concept="peri22-dataelement-82159" label="Psychiatrie?" value="true"/>
+                <value concept="peri22-dataelement-82212" label="Overige aandoening?" value="true"/>
+            </values>
+        </section>
+        <section type="zwangerschap" id="5" uuid="1">
+            <value concept="peri22-dataelement-20280" value="1"/>
+            <values>
+                <value concept="peri22-dataelement-20095" label="Geassisteerde conceptie" value="425901007" displayValue="IVF - In vitro fertilisation with intracytoplasmic sperm injection (ICSI)"/>
+                <value concept="peri22-dataelement-20091" label="Ovulatie-inductie toegepast?" value="true"/>
+                <value concept="peri22-dataelement-20080" label="Subfertiliteitsbehandeling?" value="true"/>
+                <value concept="peri22-dataelement-82160" label="Definitieve à terme datum" value="2018-10-12"/>
+                <value concept="peri22-dataelement-80834" label="Bloeddruk diastolisch" value="100"/>
+                <value concept="peri22-dataelement-20220" label="Hoogste diastolische tensie" value="100"/>
+                <value concept="peri22-dataelement-82230" label="Intra-uteriene behandeling" value="265633004" displayValue="Selective destruction of fetus (procedure)"/>
+                <value concept="peri22-dataelement-80625" label="Wijze einde zwangerschap" value="1" displayValue="Partus"/>
+            </values>
+        </section>
+        <section type="diagnose" id="6">
+            <values>
+                <value concept="peri22-dataelement-82270" label="Bloedverlies?" value="true"/>
+                <value concept="peri22-dataelement-82273" label="Infectie" value="45816000" displayValue="Pyelonephritis (disorder)"/>
+                <value concept="peri22-dataelement-82274" label="Hyperemesis gravidarum?" value="true"/>
+                <value concept="peri22-dataelement-82275" label="Hypertensieve aandoening" value="15938005" displayValue="Eclampsia (disorder)"/>
+                <value concept="peri22-dataelement-82277" label="Diabetes gravidarum met insuline?" value="true"/>
+                <value concept="peri22-dataelement-82289" label="Abruptio placentae?" value="true"/>
+            </values>
+        </section>
+        <section type="consult" id="7">
+            <values>
+                <value concept="peri22-dataelement-80810" label="Rookgedrag" value="4" displayValue="meer dan 20 per dag"/>
+                <value concept="peri22-dataelement-82102" label="Drugsgebruik?" value="true"/>
+                <value concept="peri22-dataelement-80836" label="Proteïne in urine o.b.v. strips" value="POS" displayValue="+"/>
+                <value concept="peri22-dataelement-20243" label="Proteïne in urine" value="350"/>
+            </values>
+        </section>
+        <section type="onderzoek" id="8">
+            <values>
+                <value concept="peri22-dataelement-80952" label="Bloedgroep vrouw" value="165743006" displayValue="Blood group AB (finding)"/>
+                <value concept="peri22-dataelement-80953" label="Rhesus D Factor vrouw" value="165747007" displayValue="Rh D Positief"/>
+            </values>
+        </section>
+        <section type="baring" id="9">
+            <values>
+                <value concept="peri22-dataelement-20670" label="Maternale sterfte?" value="false"/>
+                <value concept="peri22-dataelement-20500" label="Partusnummer" value="201801"/>
+                <value concept="peri22-dataelement-20505" label="Aantal geboren kinderen" value="1"/>
+                <value concept="peri22-dataelement-20550" label="Wijze waarop de baring begon" value="3" displayValue="interventie om baring op gang te brengen"/>
+                <value concept="peri22-dataelement-20560" label="Interventie begin baring" value="177135005" displayValue="Oxytocin induction of labour (procedure)"/>
+                <value concept="peri22-dataelement-20560" label="Interventie begin baring" value="177136006" displayValue="Prostaglandin induction of labour (procedure)"/>
+                <value concept="peri22-dataelement-20570" label="Indicatie interventie begin baring" value="10" displayValue="gevaar moeder"/>
+                <value concept="peri22-dataelement-20616" label="Bijstimulatie toegediend?" value="true"/>
+                <value concept="peri22-dataelement-20620" label="Medicatie nageboortetijdperk?" value="true"/>
+                <value concept="peri22-dataelement-20626" label="Soort medicatie nageboortetijdperk" value="OTH" displayValue="Overig"/>
+                <value concept="peri22-dataelement-20626" label="Soort medicatie nageboortetijdperk" value="H01BB02" displayValue="Oxytocin"/>
+                <value concept="peri22-dataelement-20630" label="Geboorte placenta" value="4" displayValue="placentaverwijdering bij SC"/>
+                <value concept="peri22-dataelement-20640" label="Hoeveelheid bloedverlies" value="987"/>
+                <value concept="peri22-dataelement-80673" label="Conditie perineum postpartum" value="199930000" displayValue="Third degree perineal tear during delivery - delivered  (disorder)"/>
+            </values>
+        </section>
+        <section type="kind" id="10">
+            <values repeat="1">
+                <value concept="peri22-dataelement-40003" label="Werkelijke plaats baring (type locatie)" value="22232009" displayValue="Hospital (environment)" repeat="1"/>
+                <value concept="peri22-dataelement-40005" label="Ziekenhuisnummer (LVR-id)" value="1234" repeat="1"/>
+                <value concept="peri22-dataelement-80619" label="Tijdstip breken vliezen" value="2018-10-11T07:00:00" repeat="1"/>
+                <value concept="peri22-dataelement-20610" label="Kleur en consistentie vruchtwater" value="2" displayValue="meconium" repeat="1"/>
+                <value concept="peri22-dataelement-30030" label="Tijdstip actief meepersen" value="2018-10-11T08:00:00" repeat="1"/>
+                <value concept="peri22-dataelement-30050" label="Episiotomie?" value="true" repeat="1"/>
+                <value concept="peri22-dataelement-30055" label="Locatie episiotomie" value="1" displayValue="mediolaterale episiotomie" repeat="1"/>
+                <value concept="peri22-dataelement-82090" label="Pijnbestrijding?" value="true" repeat="1"/>
+                <value concept="peri22-dataelement-80626" label="Type partus" value="200149009" displayValue="Delivery by emergency cesarean section (finding)" repeat="1"/>
+                <value concept="peri22-dataelement-40140" label="Ligging bij geboorte" value="OTH" displayValue="Overig" repeat="1"/>
+                <value concept="peri22-dataelement-40150" label="Rol aanpakker kind" value="01.046" displayValue="gynaecoloog" repeat="1"/>
+                <value concept="peri22-dataelement-40160" label="Identificatie aanpakker kind" value="32324" repeat="1"/>
+                <value concept="peri22-dataelement-40170" label="Rol supervisor" value="01.046" displayValue="gynaecoloog" repeat="1"/>
+                <value concept="peri22-dataelement-40180" label="Identificatie supervisor" value="32324" repeat="1"/>
+                <value concept="peri22-dataelement-40230" label="Indicatie sectio caesarea" value="444433005:246090004=130955003" displayValue="Suspected fetal distress (situation) " repeat="1"/>
+                <value concept="peri22-dataelement-40230" label="Indicatie sectio caesarea" value="249166003" displayValue="Failure to progress in second stage of labor (finding)" repeat="1"/>
+                <value concept="peri22-dataelement-82052" label="Roepnaam" value="Jan" repeat="1"/>
+                <value concept="peri22-dataelement-40041" label="Geslacht (medische observatie)" value="1" displayValue="Mannelijk" repeat="1"/>
+                <value concept="peri22-dataelement-40050" label="Geboortedatum" value="2018-10-11T09:00:00" repeat="1"/>
+                <value concept="peri22-dataelement-40025" label="Rangnummer kind" value="1" repeat="1"/>
+                <value concept="peri22-dataelement-40280" label="Perinatale sterfte?" value="true" repeat="1"/>
+                <value concept="peri22-dataelement-40290" label="Fase perinatale sterfte" value="237361005" displayValue="Antepartum fetal death (event)" repeat="1"/>
+                <value concept="peri22-dataelement-40071" label="Apgarscore na 5 min." value="8" repeat="1"/>
+                <value concept="peri22-dataelement-40240" label="Overige interventies" value="237008007" displayValue="Maneuvers for delivery in shoulder dystocia (procedure)" repeat="1"/>
+                <value concept="peri22-dataelement-40060" label="Geboortegewicht" value="3500" repeat="1"/>
+                <value concept="peri22-dataelement-40080" label="Congenitale afwijkingen?" value="true" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="609417004" displayValue="Fetal anencephaly (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="431265009" displayValue="Fetal microcephaly (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="76916001" displayValue="Spina bifida occulta (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="88425004" displayValue="Congenital anomaly of nervous system (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="47032000" displayValue="Congenital hydrocephalus (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="414667000" displayValue="Meningomyelocele (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="55999004" displayValue="Encephalocele (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="09" displayValue="overige congenitale afwijkingen zenuwstelsel" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="61142002" displayValue="Microphthalmos (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="11" displayValue="overige congenitale afwijkingen ogen" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="8380000" displayValue="Congenital anomaly of ear (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="94702005" displayValue="Multiple congenital cardiac defects (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="204470001" displayValue="Single umbilical artery (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="22" displayValue="overige congenitale afwijking hart en bloedvaten" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="204508009" displayValue="Choanal atresia (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="38" displayValue="overige congenitale afwijking tractus respiratorius" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="87979003" displayValue="Cleft palate (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="69771008" displayValue="Congenital anomaly of esophagus (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="204712000" displayValue="Anal atresia (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="17190001" displayValue="Congenital diaphragmatic hernia (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="30" displayValue="overige congenitale afwijking tractus digestivus" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="416010008" displayValue="Hypospadias (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="69" displayValue="overige congenitale afwijking tractus urogenitalis" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="398943008" displayValue="Congenital pigmented melanocytic nevus of skin (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="93471006" displayValue="Hemangioma of skin (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="74" displayValue="overige congenitale huidafwijking" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="367506006" displayValue="Polydactyly (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="373413006" displayValue="Syndactyly (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="K" displayValue="overige congenitale afwijkingen" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="36172001" displayValue="Congenital subluxation of hip (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="302297009" displayValue="Congenital deformity of foot (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="96" displayValue="overige congenitale afwijking extremiteiten" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="73573004" displayValue="Congenital anomaly of musculoskeletal system (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="98" displayValue="overige congenitale afwijking skelet en spierstelsel" repeat="1"/>
+                <value concept="peri22-dataelement-40090" label="Specificatie congenitale afwijking" value="OTH" displayValue="overig" repeat="1"/>
+                <value concept="peri22-dataelement-40110" label="Chromosomale afwijkingen?" value="true" repeat="1"/>
+                <value concept="peri22-dataelement-40120" label="Specificatie chromosomale afwijking" value="41040004" displayValue="Complete trisomy 21 syndrome (disorder)" repeat="1"/>
+                <value concept="peri22-dataelement-40120" label="Specificatie chromosomale afwijking" value="OTH" displayValue="Overige chromosomale afwijkingen" repeat="1"/>
+                <value concept="peri22-dataelement-82119" label="Kinderarts betrokken?" value="true" repeat="1"/>
+                <value concept="peri22-dataelement-82121" label="Type betrokkenheid" value="2" displayValue="overdracht" repeat="1"/>
+                <values group="1">
+                    <value concept="peri22-dataelement-82097" label="Periode" value="Sectio" displayValue="tijdens sectio" repeat="1" group="1"/>
+                    <value concept="peri22-dataelement-82092" label="Methode" value="50697003" displayValue="General anesthesia (procedure)" repeat="1" group="1"/>
+                </values>
+                <values group="3">
+                    <value concept="peri22-dataelement-40190" label="Vaginale kunstverlossing" value="302383004" displayValue="Forceps delivery (procedure)" repeat="1" group="3"/>
+                    <value concept="peri22-dataelement-40200" label="Succes vaginale kunstverlossing?" value="false" repeat="1" group="3"/>
+                </values>
+            </values>
+        </section>
+        <section type="echo" id="11">
+            <values>
+                <value concept="peri22-dataelement-50020" label="Datum onderzoek" value="2018-07-04"/>
+                <value concept="peri22-dataelement-50021" label="Zwangerschapsduur op datum onderzoek" value="180"/>
+            </values>
+            <values repeat="1">
+                <value concept="peri22-dataelement-60080" label="AC" value="10.1" repeat="1"/>
+                <value concept="peri22-dataelement-60060" label="HC" value="14.1" repeat="1"/>
+                <value concept="peri22-dataelement-60030" label="BPD" value="12.1" repeat="1"/>
+                <value concept="peri22-dataelement-60100" label="FL" value="13.1" repeat="1"/>
+                <value concept="peri22-dataelement-60020" label="CRL" value="11.1" repeat="1"/>
+            </values>
+        </section>
+    </sections>
+</resource>

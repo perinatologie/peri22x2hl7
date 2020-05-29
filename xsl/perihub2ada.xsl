@@ -82,13 +82,13 @@
                     </xsl:if>
                 </xsl:when>
                 <xsl:when test="@shortName = 'pijnbestrijding'">
-                    <xsl:for-each select="$items//values[@group]">
+                    <xsl:for-each select="$items//group">
                         <xsl:call-template name="conceptGroup">
                             <xsl:with-param name="items" select="."/>
                             <xsl:with-param name="concept" select="$concept"/>
                         </xsl:call-template>
                     </xsl:for-each>
-                    <xsl:if test="not($items//values[@group])">
+                    <xsl:if test="not($items//group)">
                         <xsl:call-template name="conceptGroup">
                             <xsl:with-param name="items" select="."/>
                             <xsl:with-param name="concept" select="$concept"/>
@@ -96,13 +96,13 @@
                     </xsl:if>
                 </xsl:when>
                 <xsl:when test="@shortName = 'vaginale_kunstverlossing_groep'">
-                    <xsl:for-each select="$items//values[@group]">
+                    <xsl:for-each select="$items//group">
                         <xsl:call-template name="conceptGroup">
                             <xsl:with-param name="items" select="."/>
                             <xsl:with-param name="concept" select="$concept"/>
                         </xsl:call-template>
                     </xsl:for-each>
-                    <xsl:if test="not($items//values[@group])">
+                    <xsl:if test="not($items//group)">
                         <xsl:call-template name="conceptGroup">
                             <xsl:with-param name="items" select="."/>
                             <xsl:with-param name="concept" select="$concept"/>
@@ -118,7 +118,7 @@
                     </xsl:for-each>
                     <!-- peri22x baring heeft gegevens van PWD bevalling en PWD uitkomst_per_kind,
                         dus altijd de non-repeating gegevens oppakken -->
-                    <xsl:for-each select="$items//section[@type = 'kind']//values[not(@repeat)]">
+                    <xsl:for-each select="$items//section[(@type = 'kind' or @type = 'baring')]//values[not(@repeat)]">
                         <xsl:call-template name="conceptGroup">
                             <xsl:with-param name="items" select="."/>
                             <xsl:with-param name="concept" select="$concept"/>

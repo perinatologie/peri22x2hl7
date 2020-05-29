@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource type="hub/dossier">
+   <sections>
+      <section type="kind" id="10">
+         <values repeat="1">
+            <value concept="peri22-dataelement-82090"
+                   label="Pijnbestrijding?"
+                   value="true"
+                   repeat="1"/>
+            <values group="1">
+               <value concept="peri22-dataelement-82097"
+                      label="Periode"
+                      value="Sectio"
+                      displayValue="tijdens sectio"
+                      repeat="1"
+                      group="1"/>
+               <value concept="peri22-dataelement-82092"
+                      label="Methode"
+                      value="50697003"
+                      displayValue="General anesthesia (procedure)"
+                      repeat="1"
+                      group="1"/>
+            </values>
+            <values group="3">
+               <value concept="peri22-dataelement-40190"
+                      label="Vaginale kunstverlossing"
+                      value="302383004"
+                      displayValue="Forceps delivery (procedure)"
+                      repeat="1"
+                      group="3"/>
+               <value concept="peri22-dataelement-40200"
+                      label="Succes vaginale kunstverlossing?"
+                      value="false"
+                      repeat="1"
+                      group="3"/>
+            </values>
+         </values>
+      </section>
+   </sections>
+</resource>

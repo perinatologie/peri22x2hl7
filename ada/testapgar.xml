@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kernset_aanleverbericht>
+   <zorgverlening conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.4"/>
+   <zorgverlenerzorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.1">
+      <zorginstelling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10020">
+         <zorginstelling_lvrid value="0998" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10023"/>
+      </zorginstelling>
+   </zorgverlenerzorginstelling>
+   <vrouw conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.2">
+      <lokale_persoonsidentificatie value="1314151"
+                                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.10031"/>
+      <anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80811">
+         <algemene_anamnese conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80904">
+            <gynaecologische_aandoeningq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82211"/>
+         </algemene_anamnese>
+      </anamnese>
+   </vrouw>
+   <zwangerschap conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.3">
+      <dossiernummer value="9"/>
+      <graviditeit value="1" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20010"/>
+      <definitieve_a_terme_datum value="2018-08-26"
+                                 conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82160"/>
+   </zwangerschap>
+   <bevalling conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.6">
+      <aantal_geboren_kinderen value="0" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20505"/>
+      <wijze_waarop_de_baring_begon code="NI"
+                                    codeSystem="2.16.840.1.113883.5.1008"
+                                    displayName="geen informatie"
+                                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20550"/>
+      <placenta conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80612">
+         <geboorte_placenta code="NI"
+                            codeSystem="2.16.840.1.113883.5.1008"
+                            displayName="Geen informatie"
+                            conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.20630"/>
+      </placenta>
+      <conditie_perineum_postpartum code="NI"
+                                    codeSystem="2.16.840.1.113883.5.1008"
+                                    displayName="Geen informatie"
+                                    conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.80673"/>
+   </bevalling>
+   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <rangnummer_kind value="2"/>
+      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+         <kindspecifieke_maternale_gegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.71">
+            <pijnbestrijdingq value="false" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.82090"/>
+         </kindspecifieke_maternale_gegevens>
+      </baring>
+   </uitkomst_per_kind>
+   <uitkomst_per_kind conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.7">
+      <rangnummer_kind value="1"/>
+      <baring conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40002">
+         <kindspecifieke_uitkomstgegevens conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.72">
+            <apgarscore_na_5_min value="10" conceptId="2.16.840.1.113883.2.4.3.11.60.90.77.2.5.40071"/>
+         </kindspecifieke_uitkomstgegevens>
+      </baring>
+   </uitkomst_per_kind>
+</kernset_aanleverbericht>

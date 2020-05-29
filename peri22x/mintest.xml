@@ -1,0 +1,39 @@
+﻿<resource type="hub/dossier">
+  <sections>
+    <section type="client" id="1">
+      <values>
+        <value concept="peri22-dataelement-10030" label="Burgerservicenummer" value="123456789" />
+      </values>
+    </section>
+    <section type="intake" id="3">
+      <values>
+        <value concept="peri22-dataelement-20290" label="Datum start zorgverantwoordelijkheid" value="2018-07-14" />
+      </values>
+    </section>
+    <section type="zwangerschap" id="5" uuid="1">
+      <values>
+        <value concept="peri22-dataelement-82160" label="Definitieve à terme datum" value="2018-10-12" />
+      </values>
+    </section>
+    <section type="baring" id="9">
+      <values>
+        <value concept="peri22-dataelement-20500" label="Partusnummer" value="201801" />
+        <value concept="peri22-dataelement-20505" label="Aantal geboren kinderen" value="1" />
+      </values>
+    </section>
+    <section type="kind" id="10">
+      <values>
+          <value concept="peri22-dataelement-40003" label="Werkelijke plaats baring (type locatie)" value="22232009" displayValue="Hospital (environment)" repeat="1" />
+          <value concept="peri22-dataelement-30050" label="Episiotomie?" value="true" repeat="1" />
+          <value concept="peri22-dataelement-82090" label="Pijnbestrijding?" value="true" repeat="1" />
+          <value concept="peri22-dataelement-82097" label="Periode" value="Sectio" displayValue="tijdens sectio" repeat="1" group="1" />
+          <value concept="peri22-dataelement-82092" label="Methode" value="50697003" displayValue="General anesthesia (procedure)" repeat="1" group="1" />
+          <value concept="peri22-dataelement-40190" label="Vaginale kunstverlossing" value="302383004" displayValue="Forceps delivery (procedure)" repeat="1" group="3" />
+          <value concept="peri22-dataelement-40200" label="Succes vaginale kunstverlossing?" value="false" repeat="1" group="3" />
+          <value concept="peri22-dataelement-80626" label="Type partus" value="200149009" displayValue="Delivery by emergency cesarean section (finding)" repeat="1" />
+        <value concept="peri22-dataelement-40050" label="Geboortedatum" value="2018-10-11T09:00:00" repeat="1" />
+        <value concept="peri22-dataelement-40025" label="Rangnummer kind" value="1" repeat="1" />
+      </values>
+    </section>
+  </sections>
+</resource>
