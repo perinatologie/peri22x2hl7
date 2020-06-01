@@ -29,19 +29,26 @@
 		<p:with-input port="stylesheet" href="node_modules/@nictiz/Geboortezorg/Publicaties/20180320/peri/2_2/kernset_aanleverbericht/wrapper/kernset_aanleverbericht_wrapper.xsl"/>
 	</p:xslt>
 
+	<p:validate-with-schematron name="validate-kernset" report-format="xvrl">
+		<p:with-input port="schema" href="node_modules/@nictiz/peri20-xml/XML/schematron/peri20-albprn-ks-22.sch" />
+	</p:validate-with-schematron>
+	
+	
+	<p:store name="save-kernset-svrl" href="tmp/kernset.svrl">
+		<p:with-input port="source">
+			<p:pipe step="validate-kernset" port="report" />
+		</p:with-input>
+	</p:store>
+
+
+	<!--
 	<p:store name="save-kernset" href="tmp/kernset.xml"/>
 
 	<p:xslt name="kernset2html">
 		<p:with-input port="stylesheet" href="xsl/hl72html.xsl"/>
 	</p:xslt>
-
-	<!-- 
-	Schemavalidation not yet working
-	
-	<p:validate-with-schematron name="validate-kernset">
-		<p:with-input port="schema" href="node_modules/@nictiz/peri20-xml/XML/schematron/peri20-albprn-ks-22.sch" />
-	</p:validate-with-schematron>
-	<p:store name="save-kernset-svrl" href="tmp/kernset.svrl"/>
 	-->
+
+
 
 </p:declare-step>
